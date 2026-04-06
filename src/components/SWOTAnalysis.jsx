@@ -9,7 +9,7 @@ export default function SWOTAnalysis() {
     };
 
     return (
-        <section id="swot" className="py-32 bg-secondary-bg relative overflow-hidden">
+        <section id="swot" className="py-32 bg-secondary-bg relative overflow-hidden scroll-mt-32">
             <div className="absolute top-[20%] right-0 w-[500px] h-[500px] bg-accent/5 rounded-full blur-[100px] pointer-events-none"></div>
             
             <div className="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">

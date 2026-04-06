@@ -14,7 +14,7 @@ export default function ESGImpact() {
     };
 
     return (
-        <section id="esg" className="py-32 bg-primary-bg relative">
+        <section id="esg" className="py-32 bg-primary-bg relative scroll-mt-32">
             <div className="max-w-7xl mx-auto px-6 lg:px-12">
                 <div className="text-center mb-20 max-w-3xl mx-auto">
                     <motion.h2

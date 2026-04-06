@@ -14,7 +14,7 @@ export default function Problem() {
     };
 
     return (
-        <section id="problem" className="py-24 md:py-32 bg-secondary-bg relative overflow-hidden">
+        <section id="problem" className="py-24 md:py-32 bg-secondary-bg relative overflow-hidden scroll-mt-32">
             <div className="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
 
                 <motion.div

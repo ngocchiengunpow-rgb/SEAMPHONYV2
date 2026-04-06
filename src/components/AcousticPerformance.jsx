@@ -31,7 +31,7 @@ export default function AcousticPerformance() {
     ];
 
     return (
-        <section id="acoustic" className="py-24 bg-primary-bg relative">
+        <section id="acoustic" className="py-24 bg-primary-bg relative scroll-mt-32">
             <div className="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
 
                 <div className="text-center mb-16 max-w-3xl mx-auto">

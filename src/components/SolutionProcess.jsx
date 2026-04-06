@@ -46,7 +46,7 @@ export default function SolutionProcess() {
     const pathLength = useTransform(scrollYProgress, [0, 1], [0, 1]);
 
     return (
-        <section id="solution" className="py-32 bg-primary-bg text-text-main relative">
+        <section id="solution" className="py-32 bg-primary-bg text-text-main relative scroll-mt-32">
             <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
                 <div className="text-center mb-24 max-w-4xl mx-auto">

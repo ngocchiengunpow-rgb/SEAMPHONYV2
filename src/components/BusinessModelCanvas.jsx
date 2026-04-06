@@ -9,7 +9,7 @@ export default function BusinessModelCanvas() {
     };
 
     return (
-        <section id="canvas" className="py-32 bg-primary-bg relative overflow-hidden">
+        <section id="canvas" className="py-32 bg-primary-bg relative overflow-hidden scroll-mt-32">
             {/* Background Decorations */}
             <div className="absolute top-[10%] left-[5%] w-72 h-72 bg-primary-cta/10 rounded-full blur-[100px] pointer-events-none"></div>
             <div className="absolute bottom-[10%] right-[5%] w-96 h-96 bg-accent/10 rounded-full blur-[120px] pointer-events-none"></div>

@@ -38,7 +38,7 @@ export default function MarketCompetition() {
     ];
 
     return (
-        <section id="market" className="py-32 bg-secondary-bg relative">
+        <section id="market" className="py-32 bg-secondary-bg relative scroll-mt-32">
             <div className="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
 
                 <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center mb-24">
