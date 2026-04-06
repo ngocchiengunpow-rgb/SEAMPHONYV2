@@ -66,13 +66,16 @@ export default function Hero() {
 
                     <motion.div
                         custom={3} initial="hidden" animate="visible" variants={fadeUp}
-                        className="flex flex-col sm:flex-row gap-6 mb-14"
+                        className="flex flex-wrap justify-center gap-4 md:gap-6 mb-14"
                     >
                         <a href="#the-ask" className="px-8 py-4 bg-primary-cta text-white font-heading font-bold text-lg rounded-full hover:bg-[#d94a08] transition-all duration-300 shadow-lg hover:shadow-primary-cta/40 hover:-translate-y-1">
                             Liên Hệ Hợp Tác
                         </a>
-                        <a href="#hero" className="px-8 py-4 bg-transparent border-2 border-primary-cta text-primary-cta font-heading font-bold text-lg rounded-full hover:bg-primary-cta hover:text-white transition-all duration-300 shadow-lg hover:shadow-primary-cta/40 hover:-translate-y-1">
+                        <a href="#hero" className="px-6 py-4 bg-transparent border-2 border-primary-cta text-primary-cta font-heading font-bold text-base md:text-lg rounded-full hover:bg-primary-cta hover:text-white transition-all duration-300 shadow-lg hover:shadow-primary-cta/40 hover:-translate-y-1">
                             Tải Hồ Sơ Dự Án
+                        </a>
+                        <a href="/PitchDeck_SEAMPHONY.pdf" download className="px-6 py-4 bg-transparent border-2 border-accent text-accent font-heading font-bold text-base md:text-lg rounded-full hover:bg-accent hover:text-white transition-all duration-300 shadow-lg hover:shadow-accent/40 hover:-translate-y-1">
+                            Tải PitchDeck
                         </a>
                     </motion.div>
 
@@ -94,15 +97,12 @@ export default function Hero() {
                             </blockquote>
                         </div>
 
-                        {/* Product Video Showcase */}
-                        <div className="relative group perspective-1000">
-                            <div className="absolute inset-0 bg-gradient-to-tr from-primary-cta/20 to-accent/20 rounded-[2rem] blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
+                        {/* Product Visual Showcase */}
+                        <div className="relative group perspective-1000 lg:ml-10">
+                            <div className="absolute inset-0 bg-gradient-to-tr from-primary-cta/20 to-accent/20 rounded-[2rem] blur-3xl transform group-hover:scale-105 transition-transform duration-700"></div>
                             
-                            <div className="absolute top-4 -right-4 bg-primary-cta text-white font-bold px-4 py-2 rounded-lg shadow-xl z-20 transform rotate-6 border border-white/20 text-sm">
-                                85% Khách hàng F&B sẵn sàng dùng thử!
-                            </div>
-
-                            <div className="relative aspect-video w-full bg-black rounded-[2rem] border-4 border-white/10 shadow-2xl overflow-hidden transform transition-all duration-700 hover:rotate-yd-12 hover:scale-[1.02]">
+                            {/* Main Video Card */}
+                            <div className="relative aspect-video w-full bg-black rounded-[2.5rem] border-4 border-white/10 shadow-2xl overflow-hidden transform transition-all duration-700 hover:rotate-yd-6 hover:scale-[1.01] z-10">
                                 <iframe
                                     className="w-full h-full opacity-90 group-hover:opacity-100 transition-opacity pointer-events-none group-hover:pointer-events-auto"
                                     src="https://www.youtube.com/embed/NjwceX8d06U?autoplay=1&mute=1&loop=1&playlist=NjwceX8d06U&controls=1&rel=0&modestbranding=1"
@@ -113,6 +113,22 @@ export default function Hero() {
                                     allowFullScreen
                                 ></iframe>
                             </div>
+
+                            {/* Staggered Product Image Card */}
+                            <motion.div 
+                                initial={{ opacity: 0, x: 40, y: 40 }}
+                                animate={{ opacity: 1, x: 0, y: 0 }}
+                                transition={{ delay: 1, duration: 1, ease: "easeOut" }}
+                                className="absolute -bottom-8 -right-8 md:-bottom-12 md:-right-12 w-1/2 lg:w-3/5 aspect-[4/3] bg-secondary-bg rounded-3xl border-8 border-white/40 shadow-2xl overflow-hidden z-20 group/img transform hover:scale-110 transition-all duration-500 cursor-pointer"
+                            >
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10"></div>
+                                <img src="/product-sample.png" alt="Seamphony Product Sample" className="w-full h-full object-cover transform group-hover/img:scale-110 transition-transform duration-700" />
+                                
+                                {/* Badge relocated to Product Image */}
+                                <div className="absolute top-4 right-4 bg-primary-cta text-white font-bold px-4 py-2 rounded-xl shadow-xl z-30 transform -rotate-3 border border-white/20 text-[10px] md:text-xs">
+                                    85% Khách hàng F&B sẵn sàng dùng thử!
+                                </div>
+                            </motion.div>
                         </div>
                     </motion.div>
 
