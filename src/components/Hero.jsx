@@ -145,8 +145,8 @@ export default function Hero() {
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10"></div>
                                 <img src="/product-sample.png" alt="Seamphony Product Sample" className="w-full h-full object-cover transform group-hover/img:scale-105 transition-transform duration-700" />
                                 
-                                {/* Refined Badge */}
-                                <div className="absolute top-4 right-4 bg-primary-cta text-white font-bold px-4 py-2 rounded-xl shadow-xl z-30 transform -rotate-2 border border-white/20 text-[10px] md:text-xs">
+                                {/* Refined Badge - Rotated Corner Ribbon Style */}
+                                <div className="absolute top-6 -right-8 bg-primary-cta text-white font-black px-12 py-2 shadow-2xl z-30 transform rotate-12 border-y border-white/20 text-[10px] md:text-xs tracking-tight">
                                     85% Khách hàng F&B chọn dùng!
                                 </div>
                             </motion.div>
