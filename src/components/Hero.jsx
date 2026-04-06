@@ -98,55 +98,56 @@ export default function Hero() {
                             </blockquote>
                         </div>
 
-                        {/* Product Visual Showcase */}
-                        <div className="relative group perspective-1000 lg:ml-10">
-                            <div className="absolute inset-0 bg-gradient-to-tr from-primary-cta/20 to-accent/20 rounded-[2rem] blur-3xl transform group-hover:scale-105 transition-transform duration-700"></div>
-                            
-                            {/* Main Video Card */}
-                            <div className="relative aspect-video w-full bg-black rounded-[2.5rem] border-4 border-white/10 shadow-2xl overflow-hidden transform transition-all duration-700 hover:rotate-yd-2 hover:scale-[1.01] z-10 group/vid">
-                                {!isPlaying ? (
-                                    <div 
-                                        className="absolute inset-0 flex items-center justify-center cursor-pointer bg-neutral-900/40 backdrop-blur-[2px] z-20 group/play"
-                                        onClick={() => setIsPlaying(true)}
-                                    >
-                                        {/* Play CTA Button */}
-                                        <div className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center rounded-full bg-primary-cta/90 text-white shadow-[0_0_50px_-10px_rgba(234,88,12,0.6)] group-hover/play:scale-110 group-hover/play:bg-primary-cta transition-all duration-500 border-4 border-white/20">
-                                            <Play size={40} className="fill-current ml-1" />
-                                        </div>
-                                        {/* Click to Play Hint */}
-                                        <div className="absolute bottom-10 left-0 right-0 text-center text-white/80 font-heading font-bold text-sm tracking-widest uppercase opacity-0 group-hover/play:opacity-100 transition-opacity duration-500">
-                                            Click to Play Intro
-                                        </div>
-                                    </div>
-                                ) : (
-                                    <iframe
-                                        className="w-full h-full"
-                                        src="https://www.youtube.com/embed/NjwceX8d06U?autoplay=1&controls=1&rel=0&modestbranding=1"
-                                        title="SEAMPHONY Introduction Video"
-                                        frameBorder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                        referrerPolicy="strict-origin-when-cross-origin"
-                                        allowFullScreen
-                                    ></iframe>
-                                )}
+                        {/* Product Visual Showcase - Stacked Vertical Layout */}
+                        <div className="flex flex-col gap-8 lg:ml-10 w-full max-w-2xl">
+                            <div className="relative group perspective-1000">
+                                <div className="absolute inset-0 bg-gradient-to-tr from-primary-cta/20 to-accent/20 rounded-[2rem] blur-3xl transform group-hover:scale-105 transition-transform duration-700"></div>
                                 
-                                {/* Placeholder Gradient (if not playing) */}
-                                {!isPlaying && <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80 pointer-events-none"></div>}
+                                {/* Main Video Card */}
+                                <div className="relative aspect-video w-full bg-black rounded-[2.5rem] border-4 border-white/10 shadow-2xl overflow-hidden transform transition-all duration-700 hover:rotate-yd-2 hover:scale-[1.01] z-10 group/vid">
+                                    {!isPlaying ? (
+                                        <div 
+                                            className="absolute inset-0 flex items-center justify-center cursor-pointer bg-neutral-900/40 backdrop-blur-[2px] z-20 group/play"
+                                            onClick={() => setIsPlaying(true)}
+                                        >
+                                            {/* Play CTA Button */}
+                                            <div className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center rounded-full bg-primary-cta/90 text-white shadow-[0_0_50px_-10px_rgba(234,88,12,0.6)] group-hover/play:scale-110 group-hover/play:bg-primary-cta transition-all duration-500 border-4 border-white/20">
+                                                <Play size={40} className="fill-current ml-1" />
+                                            </div>
+                                            {/* Click to Play Hint */}
+                                            <div className="absolute bottom-10 left-0 right-0 text-center text-white/80 font-heading font-bold text-sm tracking-widest uppercase opacity-0 group-hover/play:opacity-100 transition-opacity duration-500">
+                                                Click to Play Intro
+                                            </div>
+                                        </div>
+                                    ) : (
+                                        <iframe
+                                            className="w-full h-full"
+                                            src="https://www.youtube.com/embed/NjwceX8d06U?autoplay=1&controls=1&rel=0&modestbranding=1"
+                                            title="SEAMPHONY Introduction Video"
+                                            frameBorder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerPolicy="strict-origin-when-cross-origin"
+                                            allowFullScreen
+                                        ></iframe>
+                                    )}
+                                    
+                                    {!isPlaying && <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80 pointer-events-none"></div>}
+                                </div>
                             </div>
 
-                            {/* Staggered Product Image Card (Adjusted Position & Size) */}
+                            {/* Product Image Card - Positioned Below Video */}
                             <motion.div 
-                                initial={{ opacity: 0, x: 60, y: 60 }}
-                                animate={{ opacity: 1, x: 0, y: 0 }}
-                                transition={{ delay: 1, duration: 1.2, ease: "easeOut" }}
-                                className="absolute -bottom-12 -right-8 md:-bottom-20 md:-right-16 w-[45%] lg:w-[48%] aspect-[4/3] bg-secondary-bg rounded-3xl border-8 border-white/50 shadow-2xl overflow-hidden z-20 group/img transform hover:scale-105 transition-all duration-500 cursor-pointer"
+                                initial={{ opacity: 0, y: 30 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ delay: 0.8, duration: 1 }}
+                                className="relative w-full aspect-[16/9] md:aspect-[21/9] bg-secondary-bg rounded-[2rem] border-4 border-white/30 shadow-xl overflow-hidden group/img transform hover:scale-[1.02] transition-all duration-500 cursor-pointer"
                             >
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10"></div>
-                                <img src="/product-sample.png" alt="Seamphony Product Sample" className="w-full h-full object-cover transform group-hover/img:scale-110 transition-transform duration-700" />
+                                <img src="/product-sample.png" alt="Seamphony Product Sample" className="w-full h-full object-cover transform group-hover/img:scale-105 transition-transform duration-700" />
                                 
-                                {/* Refined & Smaller Badge */}
-                                <div className="absolute top-3 right-3 bg-primary-cta text-white font-bold px-3 py-1.5 rounded-lg shadow-xl z-30 transform -rotate-3 border border-white/20 text-[8px] md:text-[10px] leading-tight max-w-[100px] text-center">
-                                    85% Khách hàng <br/> F&B chọn dùng!
+                                {/* Refined Badge */}
+                                <div className="absolute top-4 right-4 bg-primary-cta text-white font-bold px-4 py-2 rounded-xl shadow-xl z-30 transform -rotate-2 border border-white/20 text-[10px] md:text-xs">
+                                    85% Khách hàng F&B chọn dùng!
                                 </div>
                             </motion.div>
                         </div>
