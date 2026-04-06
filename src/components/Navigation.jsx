@@ -8,7 +8,7 @@ const navLinks = [
     { name: 'Công nghệ', href: '#solution' },
     { name: 'Mô hình', href: '#canvas' },
     { name: 'SWOT', href: '#swot' },
-    { name: 'Lợi thế', href: '#market' },
+    { name: 'Khác biệt', href: '#market' },
     { name: 'Tài chính', href: '#financial' },
     { name: 'Thành tựu', href: '#achievements' },
     { name: 'ESG', href: '#esg' },
