@@ -1,17 +1,8 @@
-import React, { useState, useRef } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
-import { ChevronDown, Leaf, Volume2, VolumeX } from 'lucide-react';
+import { ChevronDown, Leaf } from 'lucide-react';
 
 export default function Hero() {
-    const videoRef = useRef(null);
-    const [isMuted, setIsMuted] = useState(true);
-
-    const toggleMute = () => {
-        if (videoRef.current) {
-            videoRef.current.muted = !videoRef.current.muted;
-            setIsMuted(videoRef.current.muted);
-        }
-    };
 
     const fadeUp = {
         hidden: { opacity: 0, y: 40 },
@@ -111,31 +102,16 @@ export default function Hero() {
                                 85% Khách hàng F&B sẵn sàng dùng thử!
                             </div>
 
-                            <div className="relative aspect-[4/3] bg-black rounded-[2rem] border-4 border-white/10 shadow-2xl overflow-hidden transform transition-all duration-700 hover:rotate-yd-12 hover:scale-[1.02] cursor-pointer" onClick={toggleMute}>
-                                <video
-                                    ref={videoRef}
-                                    className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
-                                    autoPlay
-                                    muted
-                                    loop
-                                    playsInline
-                                >
-                                    <source src="/SEAMPHONY.mp4" type="video/mp4" />
-                                    Your browser does not support the video tag.
-                                </video>
-                                
-                                {/* Video Controls Overlay */}
-                                <div className="absolute bottom-6 right-6 z-30">
-                                    <button
-                                        onClick={(e) => { e.stopPropagation(); toggleMute(); }}
-                                        className="w-12 h-12 flex items-center justify-center rounded-full bg-black/40 backdrop-blur-md border border-white/20 text-white hover:bg-primary-cta/80 transition-all duration-300"
-                                    >
-                                        {isMuted ? <VolumeX size={20} /> : <Volume2 size={20} />}
-                                    </button>
-                                </div>
-
-                                {/* Dynamic Gradient Overlay */}
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 pointer-events-none"></div>
+                            <div className="relative aspect-video w-full bg-black rounded-[2rem] border-4 border-white/10 shadow-2xl overflow-hidden transform transition-all duration-700 hover:rotate-yd-12 hover:scale-[1.02]">
+                                <iframe
+                                    className="w-full h-full opacity-90 group-hover:opacity-100 transition-opacity pointer-events-none group-hover:pointer-events-auto"
+                                    src="https://www.youtube.com/embed/NjwceX8d06U?autoplay=1&mute=1&loop=1&playlist=NjwceX8d06U&controls=1&rel=0&modestbranding=1"
+                                    title="SEAMPHONY Introduction Video"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerPolicy="strict-origin-when-cross-origin"
+                                    allowFullScreen
+                                ></iframe>
                             </div>
                         </div>
                     </motion.div>
