@@ -140,7 +140,7 @@ export default function Hero() {
                                 initial={{ opacity: 0, y: 30 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ delay: 0.8, duration: 1 }}
-                                className="relative w-full aspect-[16/9] md:aspect-[21/9] bg-secondary-bg rounded-[2rem] border-4 border-white/30 shadow-xl overflow-hidden group/img transform hover:scale-[1.02] transition-all duration-500 cursor-pointer"
+                                className="relative w-full aspect-[4/3] max-w-lg mx-auto bg-secondary-bg rounded-[2rem] border-4 border-white/30 shadow-xl overflow-hidden group/img transform hover:scale-[1.02] transition-all duration-500 cursor-pointer"
                             >
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10"></div>
                                 <img src="/product-sample.png" alt="Seamphony Product Sample" className="w-full h-full object-cover transform group-hover/img:scale-105 transition-transform duration-700" />

@@ -21,7 +21,7 @@ export default function CoreFeatures() {
         {
             icon: <Droplets size={32} />,
             title: "Kháng Nước",
-            text: 'Bề mặt được phủ màng Nano Chitosen sinh học tạo "hiệu ứng lá sen", khóa ẩm tuyệt đối.',
+            text: 'Bề mặt được phủ màng Nano Chitosan sinh học tạo "hiệu ứng lá sen", khóa ẩm tuyệt đối.',
             metric: "Nano Chitosan",
             subtext: "Chống nồm ẩm, nấm mốc."
         },

@@ -31,7 +31,7 @@ const steps = [
     {
         icon: Zap,
         title: "5. Ép Nhiệt & Phủ Nano",
-        desc: "Ép nhiệt áp suất cao. Phủ màng sinh học Nano Chitosen kỵ nước. Khóa ẩm chống nồm mà vẫn giữ rỗng 100%.",
+        desc: "Ép nhiệt áp suất cao. Phủ màng sinh học Nano Chitosan kỵ nước. Khóa ẩm chống nồm mà vẫn giữ rỗng 100%.",
         color: "bg-primary-cta/10 text-primary-cta border-primary-cta/20"
     }
 ];

@@ -9,7 +9,7 @@ const faqs = [
     },
     {
         q: "Khí hậu miền Bắc rất nồm ẩm, ván có bị mốc và trương nở không?",
-        a: "KHÔNG. Ở bước cuối cùng, bề mặt ván được phun phủ một lớp màng nano sinh học siêu mỏng Nano Chitosen. Lớp màng này tạo ra 'hiệu ứng lá sen' kỵ nước, giúp khóa ẩm tuyệt đối mà không làm bít tắc các lỗ rỗng tiêu âm bên trong."
+        a: "KHÔNG. Ở bước cuối cùng, bề mặt ván được phun phủ một lớp màng nano sinh học siêu mỏng Nano Chitosan. Lớp màng này tạo ra 'hiệu ứng lá sen' kỵ nước, giúp khóa ẩm tuyệt đối mà không làm bít tắc các lỗ rỗng tiêu âm bên trong."
     },
     {
         q: "Nguồn nguyên liệu rác thải liệu có ổn định để sản xuất lâu dài?",
