@@ -72,10 +72,22 @@ export default function Hero() {
                         <a href="#the-ask" className="px-8 py-4 bg-primary-cta text-white font-heading font-bold text-lg rounded-full hover:bg-[#d94a08] transition-all duration-300 shadow-lg hover:shadow-primary-cta/40 hover:-translate-y-1">
                             Liên Hệ Hợp Tác
                         </a>
-                        <a href="#hero" className="px-6 py-4 bg-transparent border-2 border-primary-cta text-primary-cta font-heading font-bold text-base md:text-lg rounded-full hover:bg-primary-cta hover:text-white transition-all duration-300 shadow-lg hover:shadow-primary-cta/40 hover:-translate-y-1">
+                        <a 
+                            href="./HoSoDuAn_SEAMPHONY.pdf" 
+                            download="[IS11] HO SO DU AN_SEAMPHONY.pdf" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="px-6 py-4 bg-transparent border-2 border-primary-cta text-primary-cta font-heading font-bold text-base md:text-lg rounded-full hover:bg-primary-cta hover:text-white transition-all duration-300 shadow-lg hover:shadow-primary-cta/40 hover:-translate-y-1"
+                        >
                             Tải Hồ Sơ Dự Án
                         </a>
-                        <a href="/PitchDeck_SEAMPHONY.pdf" download className="px-6 py-4 bg-transparent border-2 border-accent text-accent font-heading font-bold text-base md:text-lg rounded-full hover:bg-accent hover:text-white transition-all duration-300 shadow-lg hover:shadow-accent/40 hover:-translate-y-1">
+                        <a 
+                            href="./PitchDeck_SEAMPHONY.pdf" 
+                            download="PitchDeck_SEAMPHONY.pdf" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="px-6 py-4 bg-transparent border-2 border-accent text-accent font-heading font-bold text-base md:text-lg rounded-full hover:bg-accent hover:text-white transition-all duration-300 shadow-lg hover:shadow-accent/40 hover:-translate-y-1"
+                        >
                             Tải PitchDeck
                         </a>
                     </motion.div>
