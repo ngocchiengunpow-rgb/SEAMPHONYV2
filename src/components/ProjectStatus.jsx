@@ -22,13 +22,13 @@ export default function ProjectStatus() {
                         initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
                         className="text-4xl md:text-5xl font-heading font-extrabold text-text-main mb-6"
                     >
-                        Trạng thái hiện tại & <span className="text-primary-cta">Bước tiếp theo</span>
+                        Trạng thái hiện tại & Bước tiếp theo <span className="text-primary-cta">của Seamphony</span>
                     </motion.h2>
                     <motion.p
                         initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.1 }}
                         className="text-lg text-text-muted font-body"
                     >
-                        Minh bạch về tiến độ dự án để chào đón các nhà đầu tư và đối tác tiên phong.
+                        Seamphony đang đi từ ý tưởng đến xưởng pilot bằng những bước cụ thể, có thể kiểm chứng.
                     </motion.p>
                 </div>
 
@@ -39,28 +39,28 @@ export default function ProjectStatus() {
                     >
                         <div className="absolute top-0 right-0 w-32 h-32 bg-accent/5 rounded-full blur-[40px]"></div>
                         <h3 className="text-2xl font-heading font-bold mb-6 flex items-center gap-3 text-text-main relative z-10">
-                            <Flag className="text-accent" /> Hiện tại chúng tôi đã có:
+                            <Flag className="text-accent" /> Hiện tại chúng tôi đang ở đâu?
                         </h3>
                         <ul className="space-y-4 text-text-muted font-body relative z-10">
                             <li className="flex items-start gap-3">
                                 <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center shrink-0 mt-0.5"><div className="w-2 h-2 rounded-full bg-accent"></div></div>
-                                <span>Hoàn thành nghiên cứu sản phẩm mẫu (MVP).</span>
+                                <span>Hoàn thiện ý tưởng và mô hình kinh doanh dựa trên bài toán vải vụn dệt may – không gian dịch vụ ồn ào tại Hải Phòng – Quảng Ninh.</span>
                             </li>
                             <li className="flex items-start gap-3">
                                 <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center shrink-0 mt-0.5"><div className="w-2 h-2 rounded-full bg-accent"></div></div>
-                                <span>Hoàn thiện báo cáo mô hình kinh doanh chi tiết.</span>
+                                <span>Nghiên cứu thành công sản phẩm MVP panel tiêu âm từ vải vụn theo quy trình nonwoven – ép nhiệt.</span>
                             </li>
                             <li className="flex items-start gap-3">
                                 <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center shrink-0 mt-0.5"><div className="w-2 h-2 rounded-full bg-accent"></div></div>
-                                <span>Tiến hành khảo sát trực tiếp 10 quán café trên địa bàn.</span>
+                                <span>Khảo sát 10 quán café, nhận phản hồi tích cực và sẵn sàng thử nghiệm nếu dự án đi vào vận hành.</span>
                             </li>
                             <li className="flex items-start gap-3">
                                 <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center shrink-0 mt-0.5"><div className="w-2 h-2 rounded-full bg-accent"></div></div>
-                                <span>Vận hành phiên bản đầu tiên của website giới thiệu.</span>
+                                <span>Xây dựng website giới thiệu dự án và bộ tài liệu nền tảng cho thi tuyển, gọi vốn và tìm kiếm đối tác.</span>
                             </li>
                             <li className="flex items-start gap-3 p-3 bg-white rounded-xl border border-border/50">
                                 <span className="text-primary-cta mt-1 shrink-0 font-bold">👉</span>
-                                <span className="font-semibold text-text-main">Mục tiêu hiện tại: Tìm kiếm đối tác pilot và huy động nguồn vốn Pre-seed.</span>
+                                <span className="font-semibold text-text-main">Chưa thành lập pháp nhân, đang trong giai đoạn hoàn thiện hồ sơ và chuẩn bị cho xưởng pilot.</span>
                             </li>
                         </ul>
                     </motion.div>
@@ -71,28 +71,37 @@ export default function ProjectStatus() {
                     >
                         <div className="absolute top-0 right-0 w-32 h-32 bg-primary-cta/5 rounded-full blur-[40px]"></div>
                         <h3 className="text-2xl font-heading font-bold mb-6 flex items-center gap-3 text-text-main relative z-10">
-                            <PlayCircle className="text-primary-cta" /> Bước tiếp theo (12 tháng tới):
+                            <PlayCircle className="text-primary-cta" /> Trong 12 tháng tới chúng tôi sẽ làm gì?
                         </h3>
                         <ul className="space-y-5 text-text-muted font-body relative z-10">
                             <li className="flex items-start gap-4 p-4 bg-secondary-bg rounded-xl border border-border/50">
                                 <div className="font-heading font-black text-2xl text-border mt-0.5">01</div>
                                 <div>
-                                    <h4 className="font-bold text-text-main mb-1">Xây dựng xưởng Pilot</h4>
-                                    <p className="text-sm">Đầu tư máy móc cơ bản (cắt, băm, ép nhiệt) tại Hải Phòng để tiêu chuẩn hóa thông số sản xuất.</p>
+                                    <p className="text-sm">Thiết lập xưởng pilot 150–200 m² tại Hải Phòng, đạt sản lượng ban đầu 100–150 m² panel/tháng.</p>
                                 </div>
                             </li>
                             <li className="flex items-start gap-4 p-4 bg-secondary-bg rounded-xl border border-border/50">
                                 <div className="font-heading font-black text-2xl text-border mt-0.5">02</div>
                                 <div>
-                                    <h4 className="font-bold text-text-main mb-1">Kiểm định độc lập</h4>
-                                    <p className="text-sm">Gửi mẫu đến phòng lab uy tín để có chứng nhận chính thức về hệ số tiêu âm NRC và khả năng chống cháy.</p>
+                                    <p className="text-sm">Ký kết 2–3 thỏa thuận thu gom vải vụn tiền tiêu dùng với xưởng may/HTX tại Hải Phòng – Quảng Ninh.</p>
                                 </div>
                             </li>
                             <li className="flex items-start gap-4 p-4 bg-secondary-bg rounded-xl border border-border/50">
                                 <div className="font-heading font-black text-2xl text-border mt-0.5">03</div>
                                 <div>
-                                    <h4 className="font-bold text-text-main mb-1">Thi công 3-5 công trình Demo</h4>
-                                    <p className="text-sm">Lắp đặt thử nghiệm tại các không gian F&B, homestay để đo lường hiệu quả giảm ồn thực tế và thu thập phản hồi.</p>
+                                    <p className="text-sm">Triển khai 3–5 công trình demo (café, homestay, văn phòng), đo mức ồn trước – sau và thu thập phản hồi người dùng.</p>
+                                </div>
+                            </li>
+                            <li className="flex items-start gap-4 p-4 bg-secondary-bg rounded-xl border border-border/50">
+                                <div className="font-heading font-black text-2xl text-border mt-0.5">04</div>
+                                <div>
+                                    <p className="text-sm">Hợp tác với phòng thí nghiệm/đơn vị chuyên môn để đo hệ số hấp thụ âm theo chuẩn ISO, hoàn thiện hồ sơ kỹ thuật sản phẩm.</p>
+                                </div>
+                            </li>
+                            <li className="flex items-start gap-4 p-4 bg-secondary-bg rounded-xl border border-border/50">
+                                <div className="font-heading font-black text-2xl text-border mt-0.5">05</div>
+                                <div>
+                                    <p className="text-sm">Chuẩn bị cho giai đoạn mở rộng sản lượng lên 300 m²/tháng và tiếp cận nguồn vốn pre‑seed/ươm tạo.</p>
                                 </div>
                             </li>
                         </ul>
