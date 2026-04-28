@@ -45,8 +45,9 @@ export default function BusinessModelCanvas() {
                             </div>
                             <ul className="text-sm text-text-muted space-y-2 font-body">
                                 <li className="flex gap-2"><span>•</span> Bán panel theo m² / tấm chuẩn.</li>
-                                <li className="flex gap-2"><span>•</span> Gói khảo sát + thiết kế + thi công.</li>
-                                <li className="flex gap-2"><span>•</span> Bộ panel DIY cho khách lẻ.</li>
+                                <li className="flex gap-2"><span>•</span> Bán panel theo m² / tấm chuẩn.</li>
+                                <li className="flex gap-2"><span>•</span> Gói thiết kế + cung cấp + lắp đặt.</li>
+                                <li className="flex gap-2"><span>•</span> Bộ panel DIY và sản phẩm phụ (bảng tiêu âm, vách ngăn).</li>
                             </ul>
                         </div>
                     </motion.div>

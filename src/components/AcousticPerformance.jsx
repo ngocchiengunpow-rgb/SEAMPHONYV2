@@ -99,7 +99,7 @@ export default function AcousticPerformance() {
                         <span className="text-primary-cta">Seamphony: <span className="text-text-main">NRC 0.60-0.90</span></span>
                     </p>
                     <p className="mt-6 text-sm text-text-muted/80 italic max-w-3xl mx-auto">
-                        * Các giá trị NRC là mục tiêu thiết kế dựa trên tổng hợp kết quả từ các nghiên cứu quốc tế về panel vải vụn, sẽ được kiểm chứng tại phòng thí nghiệm độc lập trong giai đoạn pilot.
+                        * Các giá trị NRC là mục tiêu thiết kế tham chiếu từ các nghiên cứu quốc tế về panel vải vụn; sẽ được kiểm chứng tại phòng thí nghiệm trong giai đoạn pilot.
                     </p>
                 </motion.div>
 

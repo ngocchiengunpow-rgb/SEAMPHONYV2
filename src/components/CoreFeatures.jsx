@@ -35,7 +35,7 @@ export default function CoreFeatures() {
         {
             icon: <Hammer size={32} />,
             title: "Báo Cáo ESG",
-            text: "Mỗi m² panel giải cứu ~0.6kg vải vụn. Cấp Chứng nhận Không gian Tuần hoàn cho công trình.",
+            text: "Mỗi m² panel giải cứu ~0.6kg vải vụn. Cấp Chứng nhận Không gian Tuần hoàn – ghi nhận số m² panel, kg vải tái chế, CO₂ tránh phát thải.",
             metric: "Số liệu minh bạch",
             subtext: "Tài sản truyền thông ESG."
         },

@@ -37,7 +37,7 @@ const steps = [
     {
         icon: Zap,
         title: "6. Kiểm định & Demo",
-        desc: "Đo hệ số hấp thụ âm bằng ống trở kháng. Lắp đặt công trình demo thực tế để đo mức ồn trước-sau.",
+        desc: "Đo hệ số hấp thụ âm bằng ống trở kháng. Mục tiêu: đo hệ số hấp thụ âm theo chuẩn ISO 10534-2 tại phòng thí nghiệm độc lập. Lắp đặt công trình demo thực tế để đo mức ồn trước-sau.",
         color: "bg-text-muted/10 text-text-muted border-text-muted/20"
     }
 ];

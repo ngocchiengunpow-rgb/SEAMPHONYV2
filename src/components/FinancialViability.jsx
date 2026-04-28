@@ -32,8 +32,22 @@ export default function FinancialViability() {
                         className="bg-white p-8 lg:p-10 rounded-3xl border border-border/50 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
                     >
                         <h3 className="text-2xl font-heading font-bold mb-6 flex items-center gap-3 text-text-main">
-                            <Wallet className="text-primary-cta" /> Cấu trúc chi phí rõ ràng
+                            <Wallet className="text-primary-cta" /> Cấu trúc chi phí
                         </h3>
+                        <div className="flex gap-4 mb-6 mt-2">
+                            <div className="flex-1 bg-secondary-bg p-4 rounded-xl border border-border/50 text-center">
+                                <span className="block text-xs font-bold text-text-muted uppercase mb-1">CapEx</span>
+                                <span className="text-xl font-black text-text-main">505-660<span className="text-sm font-normal">tr</span></span>
+                            </div>
+                            <div className="flex-1 bg-secondary-bg p-4 rounded-xl border border-border/50 text-center">
+                                <span className="block text-xs font-bold text-text-muted uppercase mb-1">OpEx / tháng</span>
+                                <span className="text-xl font-black text-text-main">90-122<span className="text-sm font-normal">tr</span></span>
+                            </div>
+                            <div className="flex-1 bg-secondary-bg p-4 rounded-xl border border-border/50 text-center">
+                                <span className="block text-xs font-bold text-text-muted uppercase mb-1">Giá vốn</span>
+                                <span className="text-xl font-black text-text-main">302k-409k</span>
+                            </div>
+                        </div>
                         <ul className="space-y-4 text-text-muted font-body">
                             <li className="flex items-start gap-3">
                                 <span className="text-primary-cta mt-1">✓</span>
@@ -57,6 +71,20 @@ export default function FinancialViability() {
                         <h3 className="text-2xl font-heading font-bold mb-6 flex items-center gap-3 text-text-main">
                             <TrendingUp className="text-accent" /> Doanh thu & hoàn vốn
                         </h3>
+                        <div className="flex gap-4 mb-6 mt-2">
+                            <div className="flex-1 bg-secondary-bg p-4 rounded-xl border border-border/50 text-center">
+                                <span className="block text-xs font-bold text-text-muted uppercase mb-1">Giá bán</span>
+                                <span className="text-xl font-black text-text-main">380k-480k</span>
+                            </div>
+                            <div className="flex-1 bg-secondary-bg p-4 rounded-xl border border-border/50 text-center">
+                                <span className="block text-xs font-bold text-text-muted uppercase mb-1">Biên LN Gộp</span>
+                                <span className="text-xl font-black text-text-main">~20%</span>
+                            </div>
+                            <div className="flex-1 bg-secondary-bg p-4 rounded-xl border border-border/50 text-center">
+                                <span className="block text-xs font-bold text-text-muted uppercase mb-1">Hoàn vốn</span>
+                                <span className="text-xl font-black text-text-main">~3 năm</span>
+                            </div>
+                        </div>
                         <ul className="space-y-4 text-text-muted font-body">
                             <li className="flex items-start gap-3">
                                 <span className="text-accent mt-1">✓</span>

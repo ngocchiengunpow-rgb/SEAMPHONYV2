@@ -96,13 +96,8 @@ export default function Hero() {
                     >
                         <div className="space-y-6 text-lg md:text-xl text-text-muted font-body leading-relaxed">
                             <p className="text-2xl md:text-3xl font-heading font-bold text-text-main leading-tight mb-4">
-                                Giải pháp <span className="text-primary-cta">vải không dệt ép nhiệt</span> biến vải vụn thành vật liệu tiêu âm thẩm mỹ.
+                                Giải quyết cùng lúc núi vải vụn ở xưởng may và tiếng ồn trong quán café, homestay, văn phòng.
                             </p>
-                            <ul className="space-y-3 font-body text-base md:text-lg">
-                                <li className="flex items-start gap-3"><span className="text-primary-cta">✓</span> <strong>Bẫy âm thông minh:</strong> Cấu trúc xốp đa lớp từ sợi vải đánh tơi phối trộn liên kết nhiệt.</li>
-                                <li className="flex items-start gap-3"><span className="text-primary-cta">✓</span> <strong>Công nghệ xanh:</strong> Không dùng keo độc hại, kết dính bằng sợi low-melt và phụ gia khoáng an toàn.</li>
-                                <li className="flex items-start gap-3"><span className="text-primary-cta">✓</span> <strong>Thẩm mỹ độc bản:</strong> Mỗi tấm panel có sắc độ và vân vải riêng biệt, lý tưởng cho không gian F&B, Homestay.</li>
-                            </ul>
                             <blockquote className="border-l-4 border-primary-cta pl-6 py-2 mt-8 italic font-medium text-text-main text-2xl">
                                 "Không có thứ gì là rác, chỉ là chúng ta chưa đặt nó đúng chỗ."
                             </blockquote>

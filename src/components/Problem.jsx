@@ -65,7 +65,7 @@ export default function Problem() {
                             <div className="px-8 lg:px-12 flex flex-col grow pb-8 relative z-10">
                                 <h3 className="text-2xl md:text-3xl font-heading font-bold text-text-main mb-6">Khó khăn không gian dịch vụ</h3>
                                 <p className="text-base md:text-lg text-text-muted font-body leading-relaxed grow">
-                                    Mức ồn trong quán cafe, nhà hàng thường đạt <strong className="text-accent text-lg md:text-xl font-bold">~80 dBA</strong>. Mút xốp kim tự tháp: <strong className="text-accent">kém thẩm mỹ, dễ bắt lửa.</strong> Bông khoáng rockwool: rủi ro bụi khoáng. Gỗ tiêu âm: quá đắt đỏ. Khách hàng CẦN vật liệu cách âm đẹp, an toàn và có câu chuyện Xanh.
+                                    Mức ồn trong quán cafe, nhà hàng thường đạt <strong className="text-accent text-lg md:text-xl font-bold">~80 dBA</strong> (so với ngưỡng thoải mái 48–72 dBA). Mút xốp kim tự tháp: <strong className="text-accent">kém thẩm mỹ, dễ bắt lửa.</strong> Bông khoáng rockwool: rủi ro bụi khoáng. Gỗ tiêu âm: quá đắt đỏ. Khách hàng CẦN vật liệu cách âm đẹp, an toàn và có câu chuyện Xanh.
                                 </p>
                             </div>
                         </div>
