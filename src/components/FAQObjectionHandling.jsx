@@ -25,7 +25,7 @@ export default function FAQObjectionHandling() {
     const [openIndex, setOpenIndex] = useState(0);
 
     return (
-        <section className="py-24 bg-secondary-bg relative">
+        <section className="py-16 lg:py-24 bg-secondary-bg relative">
             <div className="max-w-4xl mx-auto px-6 lg:px-12 relative z-10">
 
                 <div className="text-center mb-16">

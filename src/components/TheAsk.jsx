@@ -4,7 +4,7 @@ import { Handshake } from 'lucide-react';
 
 export default function TheAsk() {
     return (
-        <section id="the-ask" className="py-24 bg-primary-bg relative">
+        <section id="the-ask" className="py-16 lg:py-24 bg-primary-bg relative">
             <div className="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
                 <motion.div
                     initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}

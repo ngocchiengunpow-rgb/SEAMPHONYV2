@@ -4,7 +4,7 @@ import { User, Rocket, Lightbulb } from 'lucide-react';
 
 export default function TheTeam() {
     return (
-        <section id="founders" className="py-24 bg-text-main relative overflow-hidden scroll-mt-32">
+        <section id="founders" className="py-16 lg:py-24 bg-text-main relative overflow-hidden scroll-mt-32">
             {/* Sleek architectural dark gradients */}
             <div className="absolute top-0 right-0 w-full h-[1px] bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
             <div className="absolute -top-[20%] -right-[10%] w-[600px] h-[600px] bg-accent/20 rounded-full blur-[120px] pointer-events-none"></div>

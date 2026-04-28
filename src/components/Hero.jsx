@@ -22,8 +22,13 @@ export default function Hero() {
 
     return (
         <section id="hero" className="relative min-h-screen flex items-center justify-center pt-32 pb-20 overflow-hidden bg-primary-bg">
-            {/* Sleek Gradient Background */}
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-50 via-white to-orange-50 opacity-70"></div>
+            {/* Sleek Gradient & Glow Background */}
+            <div className="absolute inset-0 bg-primary-bg overflow-hidden pointer-events-none">
+                <div className="absolute -top-[10%] -right-[5%] w-[500px] h-[500px] lg:w-[800px] lg:h-[800px] bg-primary-cta/10 rounded-full blur-[120px]"></div>
+                <div className="absolute top-[20%] -left-[10%] w-[400px] h-[400px] lg:w-[600px] lg:h-[600px] bg-accent/10 rounded-full blur-[150px]"></div>
+                <div className="absolute bottom-[0%] right-[20%] w-[300px] h-[300px] bg-orange-400/10 rounded-full blur-[100px]"></div>
+                <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-white/40 via-transparent to-white/40 backdrop-blur-[1px]"></div>
+            </div>
 
             <div className="max-w-7xl mx-auto px-6 lg:px-12 relative z-10 w-full">
                 <div className="flex flex-col items-center text-center">

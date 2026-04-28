@@ -4,7 +4,7 @@ import { Send, Phone, Mail, FileText } from 'lucide-react';
 
 export default function ContactForm() {
     return (
-        <section id="contact" className="py-24 bg-white relative">
+        <section id="contact" className="py-16 lg:py-24 bg-white relative">
             <div className="max-w-6xl mx-auto px-6 lg:px-12 flex flex-col lg:flex-row gap-16 items-center">
                 
                 <div className="lg:w-5/12 w-full text-left">

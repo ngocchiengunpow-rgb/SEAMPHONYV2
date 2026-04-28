@@ -77,7 +77,7 @@ export default function CompetitiveMatrix() {
     ];
 
     return (
-        <section id="matrix" className="py-24 bg-secondary-bg relative">
+        <section id="matrix" className="py-16 lg:py-24 bg-secondary-bg relative">
             <div className="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
 
                 <div className="text-center mb-16 max-w-3xl mx-auto">

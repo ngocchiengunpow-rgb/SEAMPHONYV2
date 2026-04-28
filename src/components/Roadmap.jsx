@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export default function Roadmap() {
     return (
-        <section id="roadmap" className="py-24 bg-secondary-bg relative border-t border-border/50">
+        <section id="roadmap" className="py-16 lg:py-24 bg-secondary-bg relative border-t border-border/50">
             <div className="max-w-5xl mx-auto px-6 lg:px-12">
                 <div className="text-center mb-20">
                     <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-text-main mb-6">

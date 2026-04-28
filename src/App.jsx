@@ -23,10 +23,17 @@ import FAQObjectionHandling from './components/FAQObjectionHandling'
 import ContactForm from './components/ContactForm'
 import TeamFooter from './components/TeamFooter'
 import BackToTop from './components/BackToTop'
+import { motion, useScroll } from 'framer-motion'
 
 function App() {
+  const { scrollYProgress } = useScroll();
+
   return (
     <div className="min-h-screen font-body bg-primary-bg selection:bg-primary-cta selection:text-primary-bg">
+      <motion.div
+        className="fixed top-0 left-0 right-0 h-1 bg-primary-cta origin-left z-[100]"
+        style={{ scaleX: scrollYProgress }}
+      />
       <Navigation />
       <FloatingNav />
       <main>
