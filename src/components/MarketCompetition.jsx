@@ -30,12 +30,7 @@ const AnimatedCounter = ({ from = 0, to, duration = 2, suffix = "", prefix = "" 
 };
 
 export default function MarketCompetition() {
-    const nrcData = [
-        { name: "Bê tông / Kính cường lực", nrc: 0.05, desc: "Phản xạ >95% âm thanh, vang", color: "bg-text-muted/20 text-text-muted" },
-        { name: "Ván tự nhiên (MDF)", nrc: 0.23, desc: "Âm dội lại mạnh", color: "bg-text-muted/40 text-text-muted" },
-        { name: "Mút xốp gai rẻ tiền", nrc: 0.90, desc: "Rủi ro cháy nổ, thẩm mỹ kém", color: "bg-text-muted/60 text-text-muted" },
-        { name: "Ván Ép Seamphony", nrc: 0.80, desc: "Cực tốt. Vượt chuẩn BS EN ISO 11925-2", color: "bg-gradient-to-r from-primary-cta to-accent text-white" },
-    ];
+    // Removed unused nrcData
 
     return (
         <section id="market" className="py-32 bg-secondary-bg relative scroll-mt-32">
@@ -55,7 +50,7 @@ export default function MarketCompetition() {
                             initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}
                             className="text-xl text-text-muted font-body mb-16 font-light leading-relaxed"
                         >
-                            Nhu cầu vật liệu cản âm bùng nổ trong không gian mở. Khách hàng khao khát gu kiến trúc Industrial độc bản.
+                            Ngành dệt may khổng lồ thải ra lượng lớn vải vụn cần xử lý. Cùng lúc đó, các không gian dịch vụ F&B, Homestay đang rất cần giải pháp cách âm có câu chuyện Xanh.
                         </motion.p>
 
                         <div className="space-y-12">
@@ -65,9 +60,9 @@ export default function MarketCompetition() {
                                 </div>
                                 <div>
                                     <h4 className="text-5xl font-heading font-black text-text-main flex items-baseline tracking-tight">
-                                        <AnimatedCounter to={1.47} duration={2} suffix=" Tỷ USD" />
+                                        <AnimatedCounter to={44} duration={2} suffix=" Tỷ USD" />
                                     </h4>
-                                    <p className="text-text-muted font-body mt-2 text-lg uppercase tracking-wider font-semibold">Quy mô TT nội thất VN 2024</p>
+                                    <p className="text-text-muted font-body mt-2 text-lg uppercase tracking-wider font-semibold">XK Dệt may VN (2024)</p>
                                 </div>
                             </motion.div>
 
@@ -77,9 +72,9 @@ export default function MarketCompetition() {
                                 </div>
                                 <div>
                                     <h4 className="text-5xl font-heading font-black text-text-main flex items-baseline tracking-tight">
-                                        <AnimatedCounter to={323000} duration={2.5} suffix="+" />
+                                        <AnimatedCounter to={250000} duration={2.5} suffix=" Tấn" />
                                     </h4>
-                                    <p className="text-text-muted font-body mt-2 text-lg uppercase tracking-wider font-semibold">Cửa hàng F&B toàn quốc</p>
+                                    <p className="text-text-muted font-body mt-2 text-lg uppercase tracking-wider font-semibold">Vải vụn thải mỗi năm</p>
                                 </div>
                             </motion.div>
 
@@ -89,9 +84,9 @@ export default function MarketCompetition() {
                                 </div>
                                 <div>
                                     <h4 className="text-5xl font-heading font-black text-text-main flex items-baseline tracking-tight">
-                                        <AnimatedCounter to={230000} duration={2.5} suffix="+" />
+                                        <AnimatedCounter to={300000} duration={2.5} suffix="+" />
                                     </h4>
-                                    <p className="text-text-muted font-body mt-2 text-lg uppercase tracking-wider font-semibold">Công nhân Cảng & Mỏ VN</p>
+                                    <p className="text-text-muted font-body mt-2 text-lg uppercase tracking-wider font-semibold">Quán Cafe & Homestay VN</p>
                                 </div>
                             </motion.div>
                         </div>
@@ -112,15 +107,15 @@ export default function MarketCompetition() {
                         <div className="space-y-6 relative z-10">
                             <div className="bg-primary-cta/10 p-8 rounded-[2rem] border border-primary-cta/20 hover:bg-primary-cta/20 transition-colors">
                                 <h4 className="text-xl font-heading font-bold mb-3 flex items-center gap-3 text-primary-cta">
-                                    <span className="w-3 h-3 rounded-full bg-primary-cta"></span> Văn phòng mở & F&B
+                                    <span className="w-3 h-3 rounded-full bg-primary-cta"></span> Nhà thầu nội thất & Kho VLXD
                                 </h4>
-                                <p className="text-text-main/80 font-body text-base">Cần giải pháp tiêu âm hiệu quả, thẩm mỹ độc bản đồng thời khống chế ngân sách đầu tư nội thất.</p>
+                                <p className="text-text-main/80 font-body text-base">Cần giải pháp tiêu âm hiệu quả, tối ưu chi phí, và có câu chuyện Xanh để thuyết phục chủ đầu tư.</p>
                             </div>
                             <div className="bg-accent/10 p-8 rounded-[2rem] border border-accent/20 hover:bg-accent/20 transition-colors">
                                 <h4 className="text-xl font-heading font-bold mb-3 flex items-center gap-3 text-accent">
-                                    <span className="w-3 h-3 rounded-full bg-accent"></span> Công ty Thiết kế
+                                    <span className="w-3 h-3 rounded-full bg-accent"></span> Chủ F&B, Homestay, Studio
                                 </h4>
-                                <p className="text-text-main/80 font-body text-base">Ưu tiên sử dụng Seamphony để cộng điểm vật liệu tái chế xanh trong hệ thống chứng chỉ LEED / LOTUS.</p>
+                                <p className="text-text-main/80 font-body text-base">Muốn xử lý tiếng ồn để giữ chân khách hàng nhưng cần vật liệu đẹp độc bản và hỗ trợ truyền thông ESG.</p>
                             </div>
                         </div>
                     </motion.div>
@@ -139,8 +134,8 @@ export default function MarketCompetition() {
                                 <CheckCircle2 className="text-primary-cta" />
                             </div>
                             <div>
-                                <h4 className="text-xl font-heading font-bold mb-2">Tiết kiệm 40% chi phí</h4>
-                                <p className="text-text-muted font-body">So với gỗ xẻ rãnh tiêu âm truyền thống. Giá không cạnh tranh đại trà mà đánh đúng phân khúc ngách.</p>
+                                <h4 className="text-xl font-heading font-bold mb-2">Giá trị kép từ ESG</h4>
+                                <p className="text-text-muted font-body">Nhà máy may được miễn/giảm chi phí xử lý rác. Chủ công trình nhận được "Chứng nhận không gian tuần hoàn" làm tài liệu marketing.</p>
                             </div>
                         </div>
                         <div className="bg-primary-bg p-8 rounded-[2rem] border border-border shadow-sm flex items-start gap-5 group hover:border-accent/50 transition-colors">
@@ -148,8 +143,8 @@ export default function MarketCompetition() {
                                 <CheckCircle2 className="text-accent" />
                             </div>
                             <div>
-                                <h4 className="text-xl font-heading font-bold mb-2">Thẩm mỹ thô mộc độc bản</h4>
-                                <p className="text-text-muted font-body">Hòa quyện ngẫu nhiên sợi màu cam/xanh tạo phong cách không tấm nào giống hệt tấm nào.</p>
+                                <h4 className="text-xl font-heading font-bold mb-2">Chuỗi cung ứng địa phương</h4>
+                                <p className="text-text-muted font-body">Tận dụng nguồn vải vụn dồi dào từ Hải Phòng - Quảng Ninh, giảm tối đa chi phí logistic, hỗ trợ kiểm soát chất lượng tại nguồn.</p>
                             </div>
                         </div>
                     </motion.div>

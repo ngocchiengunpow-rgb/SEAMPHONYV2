@@ -43,7 +43,7 @@ export default function ESGImpact() {
                             </div>
                             <h3 className="text-3xl font-heading font-bold text-text-main mb-4 group-hover:text-accent transition-colors">Kinh tế</h3>
                             <p className="text-lg text-text-muted font-body leading-relaxed">
-                                Nguyên liệu đầu vào <strong className="text-text-main">giá 0 đồng</strong>. Cung cấp ván ốp tường tiết kiệm 40% chi phí. Giúp xí nghiệp địa phương xóa bỏ gánh nặng phí xử lý rác thải khổng lồ.
+                                Tận dụng nguồn nguyên liệu <strong className="text-text-main">miễn phí</strong> hoặc giá siêu rẻ. Giúp các nhà máy dệt may tiết kiệm 650 - 1.000 đ/kg phí xử lý rác, tạo ra chuỗi giá trị Win-Win vững chắc.
                             </p>
                         </div>
                     </motion.div>
@@ -56,7 +56,7 @@ export default function ESGImpact() {
                             </div>
                             <h3 className="text-3xl font-heading font-bold text-text-main group-hover:text-white mb-4 transition-colors">Môi trường</h3>
                             <p className="text-lg text-text-muted font-body leading-relaxed group-hover:text-white/90 transition-colors">
-                                Giải cứu bãi chôn lấp. Xóa bỏ khói độc do đốt vải bảo hộ cũ. Giảm áp lực khai thác rừng làm gỗ nhân tạo, trực tiếp đóng góp vào mục tiêu giảm phát thải <strong className="font-bold">Net Zero</strong>.
+                                Trung bình mỗi m² panel <strong className="font-bold">giải cứu ~0.6kg vải vụn</strong>. Ngăn chặn triệt để lượng khí thải độc hại phát sinh từ việc đốt lò hoặc đồng xử lý, đóng góp trực tiếp vào mục tiêu Net Zero.
                             </p>
                         </div>
                     </motion.div>
@@ -69,7 +69,7 @@ export default function ESGImpact() {
                             </div>
                             <h3 className="text-3xl font-heading font-bold text-text-main group-hover:text-white mb-4 transition-colors">Công nghệ</h3>
                             <p className="text-lg text-text-muted font-body leading-relaxed group-hover:text-white/90 transition-colors">
-                                Ép nhiệt cơ học kết hợp keo tinh bột độc quyền. Không yêu cầu dây chuyền nhập khẩu triệu đô. Khả năng <strong className="font-bold">nhân bản quy mô công nghiệp</strong> cực nhanh bằng cụm máy thủy lực nội địa.
+                                Ứng dụng quy trình nonwoven ép nhiệt bằng sợi low-melt, hoàn toàn không chứa Formaldehyde. Dễ dàng <strong className="font-bold">nhân bản quy mô (Scale-up)</strong> cực nhanh bằng cụm máy móc nội địa.
                             </p>
                         </div>
                     </motion.div>
@@ -82,7 +82,7 @@ export default function ESGImpact() {
                             </div>
                             <h3 className="text-3xl font-heading font-bold text-text-main mb-4 group-hover:text-primary-cta transition-colors">Xã hội</h3>
                             <p className="text-lg text-text-muted font-body leading-relaxed">
-                                Tạo sinh kế linh hoạt cho sinh viên và lao động lớn tuổi (thu gom, cắt khuy). Mỗi tấm ván là một câu chuyện nhân văn <strong className="text-primary-cta font-bold">tôn vinh mồ hôi công nhân</strong> cảng biển và thợ mỏ.
+                                Tạo sinh kế linh hoạt (thu gom, phân loại vải) cho nhóm lao động lớn tuổi. Phát hành <strong className="text-primary-cta font-bold">Chứng nhận Không gian Tuần hoàn</strong>, giúp doanh nghiệp F&B lan tỏa tinh thần sống Xanh.
                             </p>
                         </div>
                     </motion.div>

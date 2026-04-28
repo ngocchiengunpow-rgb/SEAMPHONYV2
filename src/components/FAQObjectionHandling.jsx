@@ -4,20 +4,20 @@ import { ChevronDown, MessageCircleQuestion } from 'lucide-react';
 
 const faqs = [
     {
-        q: "Vật liệu làm từ vải bảo hộ có dễ gây cháy nổ không?",
-        a: "KHÔNG. Điểm đột phá của Seamphony là việc tích hợp muối Borat (natri tetraborat) tự nhiên vào hệ keo. Khi gặp nhiệt độ cao, hóa chất này sẽ khử nước, tạo ra một lớp than và màng cách nhiệt ngăn chặn ngọn lửa lan truyền, hướng tới việc vượt qua bài test chống cháy BS EN ISO 11925-2."
+        q: "Vật liệu làm từ vải vụn dệt may có dễ gây cháy nổ không?",
+        a: "KHÔNG. Điểm đột phá của Seamphony là việc phối trộn xơ vải với phụ gia khoáng chống cháy. Khi gặp nhiệt độ cao, phụ gia sẽ tạo ra một lớp màng cách nhiệt ngăn chặn ngọn lửa lan truyền, đảm bảo panel đáp ứng tiêu chuẩn an toàn cháy nổ nội thất."
     },
     {
-        q: "Khí hậu miền Bắc rất nồm ẩm, ván có bị mốc và trương nở không?",
-        a: "KHÔNG. Ở bước cuối cùng, bề mặt ván được phun phủ một lớp màng nano sinh học siêu mỏng Nano Chitosan. Lớp màng này tạo ra 'hiệu ứng lá sen' kỵ nước, giúp khóa ẩm tuyệt đối mà không làm bít tắc các lỗ rỗng tiêu âm bên trong."
+        q: "Khí hậu miền Bắc rất nồm ẩm, panel có bị trương nở hay nấm mốc không?",
+        a: "KHÔNG. Chúng tôi bổ sung thêm các phụ gia chống ẩm trong quá trình trộn xơ, đồng thời lớp vải bọc xuyên âm bên ngoài cũng được xử lý kháng nước. Cấu trúc lõi xốp từ sợi low-melt nung chảy không ngậm nước như gỗ công nghiệp."
     },
     {
-        q: "Nguồn nguyên liệu rác thải liệu có ổn định để sản xuất lâu dài?",
-        a: "RẤT DỒI DÀO. Chỉ riêng khu vực khởi nghiệp của nhóm đã có hơn 150.000 công nhân cảng Hải Phòng và 80.000 thợ mỏ Quảng Ninh. Việc liên kết thu gom tại nguồn giúp các doanh nghiệp tiết kiệm 2-3 triệu đồng/tấn chi phí vứt rác, tạo ra nguồn cung đầu vào chi phí 0 đồng và vô tận cho dự án."
+        q: "Nguồn nguyên liệu rác thải dệt may có ổn định để sản xuất lâu dài?",
+        a: "RẤT DỒI DÀO. Ngành dệt may Việt Nam thải ra khoảng 250.000 tấn rác tiền tiêu dùng mỗi năm. Việc liên kết thu gom tại nguồn giúp các xưởng may tiết kiệm hàng trăm triệu chi phí xử lý rác, đảm bảo nguồn cung đầu vào vô tận cho dự án."
     },
     {
-        q: "Ván ép có phát tán hóa chất độc hại hay vi nhựa ra phòng kín không?",
-        a: "AN TOÀN TUYỆT ĐỐI. Seamphony sử dụng chất kết dính sinh học từ tinh bột este hóa, hoàn toàn KHÔNG chứa Formaldehyde gây ung thư hay các hợp chất hữu cơ bay hơi (VOC) độc hại như các loại ván công nghiệp MDF thông thường."
+        q: "Panel có phát tán hóa chất độc hại hay mùi hôi vào phòng kín không?",
+        a: "AN TOÀN TUYỆT ĐỐI. Công nghệ ép nhiệt (thermal bonding) sử dụng sợi kết dính low-melt hoàn toàn KHÔNG dùng keo Formaldehyde gây ung thư hay các hợp chất hữu cơ bay hơi (VOC) độc hại như các loại ván ép gỗ thông thường."
     }
 ];
 

@@ -39,13 +39,13 @@ export default function BusinessModelCanvas() {
                         <h3 className="text-2xl font-heading font-extrabold text-text-main mb-6">Dòng Doanh Thu</h3>
                         <div className="space-y-4 grow">
                             <div className="p-4 bg-secondary-bg rounded-xl">
-                                <span className="block text-xs font-bold text-text-muted uppercase tracking-widest mb-1">Giá bán lẻ</span>
-                                <span className="text-2xl font-black text-text-main">250.000 <span className="text-sm font-normal">đ/m²</span></span>
+                                <span className="block text-xs font-bold text-text-muted uppercase tracking-widest mb-1">Giá bán dự kiến</span>
+                                <span className="text-2xl font-black text-text-main">380k-480k <span className="text-sm font-normal">đ/m²</span></span>
                             </div>
                             <ul className="text-sm text-text-muted space-y-2 font-body">
-                                <li className="flex gap-2"><span>•</span> Năm 1: 450tr VNĐ</li>
-                                <li className="flex gap-2"><span>•</span> Năm 2: 1.5 tỷ VNĐ</li>
-                                <li className="flex gap-2"><span>•</span> Năm 3: 2.5 - 3 tỷ VNĐ</li>
+                                <li className="flex gap-2"><span>•</span> Bán panel theo m² / tấm chuẩn.</li>
+                                <li className="flex gap-2"><span>•</span> Gói khảo sát + thiết kế + thi công.</li>
+                                <li className="flex gap-2"><span>•</span> Bộ panel DIY cho khách lẻ.</li>
                             </ul>
                         </div>
                     </motion.div>
@@ -57,9 +57,9 @@ export default function BusinessModelCanvas() {
                         </div>
                         <h3 className="text-2xl font-heading font-extrabold text-text-main mb-6">Kênh Tiếp Cận</h3>
                         <ul className="text-base text-text-muted space-y-4 font-body grow">
-                            <li className="flex gap-3"><span className="text-primary-cta font-bold">01.</span> B2B Trực tiếp gửi Catalogue cho KTS</li>
-                            <li className="flex gap-3"><span className="text-primary-cta font-bold">02.</span> Hợp tác ESG tuần hoàn với KCN</li>
-                            <li className="flex gap-3"><span className="text-primary-cta font-bold">03.</span> Website & Triển lãm Nội thất Xanh</li>
+                            <li className="flex gap-3"><span className="text-primary-cta font-bold">01.</span> B2B: Nhà thầu nội thất, kho VLXD</li>
+                            <li className="flex gap-3"><span className="text-primary-cta font-bold">02.</span> Trực tiếp: Chủ quán Cafe, Homestay</li>
+                            <li className="flex gap-3"><span className="text-primary-cta font-bold">03.</span> Online: Website, TikTok, Sàn TMĐT</li>
                         </ul>
                     </motion.div>
 
@@ -70,9 +70,9 @@ export default function BusinessModelCanvas() {
                         </div>
                         <h3 className="text-2xl font-heading font-extrabold text-text-main mb-6">Đối Tác Chiến Lược</h3>
                         <ul className="text-base text-text-muted space-y-4 font-body grow">
-                            <li className="flex gap-3"><span className="text-accent font-bold">✓</span> Hệ sinh thái xưởng cơ khí địa phương</li>
-                            <li className="flex gap-3"><span className="text-accent font-bold">✓</span> Các nhà máy may mặc (Nguồn rác)</li>
-                            <li className="flex gap-3"><span className="text-accent font-bold">✓</span> Hiệp hội thiết kế nội thất</li>
+                            <li className="flex gap-3"><span className="text-accent font-bold">✓</span> Xưởng may, doanh nghiệp dệt may</li>
+                            <li className="flex gap-3"><span className="text-accent font-bold">✓</span> HTX tái chế, đơn vị thu gom vải</li>
+                            <li className="flex gap-3"><span className="text-accent font-bold">✓</span> Nhà cung cấp máy nonwoven</li>
                         </ul>
                     </motion.div>
 
@@ -85,12 +85,12 @@ export default function BusinessModelCanvas() {
                         <h3 className="text-2xl font-heading font-extrabold text-white mb-6 relative z-10">Cấu Trúc Chi Phí</h3>
                         <div className="space-y-4 grow relative z-10">
                             <div className="p-4 bg-white/5 rounded-xl border border-white/10">
-                                <span className="block text-xs font-bold text-white/50 uppercase tracking-widest mb-1">Giá vốn (COGS)</span>
-                                <span className="text-2xl font-black">140.000 <span className="text-sm font-normal">đ/m²</span></span>
+                                <span className="block text-xs font-bold text-white/50 uppercase tracking-widest mb-1">Giá vốn (Mục tiêu)</span>
+                                <span className="text-2xl font-black">~336.000 <span className="text-sm font-normal">đ/m²</span></span>
                             </div>
                             <p className="text-sm text-white/60 leading-relaxed font-body">
-                                <strong>MMTB & R&D:</strong> Chiếm 60% tổng vốn <br />
-                                <strong>Chi phí biến đổi:</strong> Thấp nhờ nguồn vải rác miễn phí.
+                                <strong>CapEx:</strong> Máy cắt, máy ép nhiệt thủy lực (505-660tr).<br />
+                                <strong>OpEx:</strong> Thu gom, điện, nhân sự, phụ gia.
                             </p>
                         </div>
                     </motion.div>

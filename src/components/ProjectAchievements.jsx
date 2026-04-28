@@ -34,7 +34,7 @@ export default function ProjectAchievements() {
                         </div>
                         <h3 className="text-2xl font-heading font-bold mb-4 text-text-main">Nghiên cứu & Phát triển (R&D)</h3>
                         <p className="font-body text-text-muted leading-relaxed">
-                            Đã đúc thành công sản phẩn mẫu (Prototype 1.0) đạt độ cứng cơ học và thẩm mỹ như bản vẽ. Tối ưu hóa thành công tỷ lệ hệ keo tinh bột biến tính, <strong className="text-text-main">loại bỏ hoàn toàn</strong> sự phụ thuộc vào keo hóa học độc hại.
+                            Hoàn thiện mẫu <strong className="text-text-main">Proof of Concept (PoC)</strong> đạt mật độ khối và độ xốp tương đương ván tiêu âm thương mại. Thử nghiệm thành công phương pháp ép nhiệt sợi low-melt, không dùng hóa chất dính độc hại.
                         </p>
                     </motion.div>
 
@@ -45,7 +45,7 @@ export default function ProjectAchievements() {
                         </div>
                         <h3 className="text-2xl font-heading font-bold mb-4 text-text-main">Xác Thực Thị Trường</h3>
                         <p className="font-body text-text-muted leading-relaxed">
-                            Khảo sát sâu với hơn 20 chủ F&B và Coworking tại Hải Phòng. Ghi nhận <strong className="text-accent">85% khách hàng</strong> ấn tượng với phong cách Industrial và sẵn sàng lắp ráp dùng thử ngay khi có chứng nhận an toàn.
+                            Khảo sát sâu với hơn <strong className="text-accent">30 chủ F&B và Coworking</strong>. Ghi nhận 85% khách hàng ấn tượng với tính thẩm mỹ độc bản của ván ép vải vụn và sẵn sàng dùng thử khi có chứng nhận âm học.
                         </p>
                     </motion.div>
 
@@ -56,7 +56,7 @@ export default function ProjectAchievements() {
                         </div>
                         <h3 className="text-2xl font-heading font-bold mb-4 text-text-main">Mạng Lưới Nguyên Liệu</h3>
                         <p className="font-body text-text-muted leading-relaxed">
-                            Đạt được <strong className="text-green-600">thỏa thuận nguyên tắc</strong> từ một số xưởng cơ khí/nhà máy địa phương cung cấp miễn phí lô rác bảo hộ cũ đầu tiên phục vụ chế tạo mẫu thử, chứng minh tính khả thi bước đầu của hệ sinh thái tuần hoàn.
+                            Kết nối thành công với <strong className="text-green-600">2 xưởng cắt may</strong> tại địa phương, sẵn sàng cung cấp nguồn vải vụn (rác tiền tiêu dùng) miễn phí trong suốt giai đoạn R&D và Pilot.
                         </p>
                     </motion.div>
 
@@ -68,7 +68,7 @@ export default function ProjectAchievements() {
                         </div>
                         <h3 className="text-2xl font-heading font-bold mb-4 relative z-10">Thương Hiệu Số</h3>
                         <p className="font-body text-white/70 leading-relaxed relative z-10">
-                            Xây dựng & vận hành thành công kênh Landing Page chính thức. Đã thu hút được <strong className="text-white">hàng trăm lượt truy cập tự nhiên</strong>, lan tỏa mạnh mẽ thông điệp giải cứu rác thải công nghiệp tới nhóm cộng đồng quan tâm môi trường.
+                            Xây dựng & vận hành thành công kênh Landing Page chính thức. Đã thu hút được <strong className="text-white">sự quan tâm của sinh viên kiến trúc</strong>, lan tỏa mạnh mẽ thông điệp giải cứu vải vụn công nghiệp tới nhóm cộng đồng yêu môi trường.
                         </p>
                     </motion.div>
                 </div>

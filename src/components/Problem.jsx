@@ -25,7 +25,7 @@ export default function Problem() {
                     className="text-center mb-20"
                 >
                     <h2 className="text-4xl md:text-6xl font-heading font-extrabold text-text-main mb-6 tracking-tight">Thị trường Bế tắc</h2>
-                    <p className="text-xl text-text-muted font-body max-w-2xl mx-auto">Thiếu giải pháp giao thoa giữa ngành sản xuất quần áo bảo hộ và ngành thiết kế nội thất.</p>
+                    <p className="text-xl text-text-muted font-body max-w-2xl mx-auto">Thiếu giải pháp giao thoa giữa ngành công nghiệp dệt may và nhu cầu nội thất tiêu âm thẩm mỹ.</p>
                 </motion.div>
 
                 <motion.div
@@ -42,11 +42,10 @@ export default function Problem() {
                                 </div>
                             </div>
                             <div className="px-8 lg:px-12 flex flex-col grow pb-8">
-                                <h3 className="text-3xl font-heading font-bold text-text-main mb-6">Nỗi lo từ nhà máy</h3>
+                                <h3 className="text-3xl font-heading font-bold text-text-main mb-6">Nỗi lo từ nhà máy dệt may</h3>
                                 <p className="text-lg text-text-muted font-body leading-relaxed grow">
-                                    Vải bảo hộ cực kỳ dai và khó bị phân hủy sinh học tự nhiên: <strong className="text-primary-cta">chôn thì hỏng đất, đốt thì sinh khí độc.</strong> 
-                                    Ước tính có tới <strong className="text-text-main text-2xl font-black">560–710 tấn</strong> rác bảo hộ thải ra mỗi năm tại HP–QN. 
-                                    Doanh nghiệp phải gồng gánh chi phí xử lý <strong className="text-primary-cta text-xl font-bold">2–3 triệu/tấn</strong> mà rủi ro môi trường vẫn hiện hữu.
+                                    Việt Nam phát sinh khoảng <strong className="text-text-main text-2xl font-black">250.000 tấn</strong> vải vụn tiền tiêu dùng mỗi năm. 
+                                    40% bị đốt lò hoặc đồng xử lý. Doanh nghiệp phải gồng gánh chi phí xử lý <strong className="text-primary-cta text-xl font-bold">650–1.000 đ/kg</strong> (lên tới hàng trăm triệu mỗi năm) chỉ để thoát khỏi vải vụn của chính mình.
                                 </p>
                             </div>
                         </div>
@@ -62,9 +61,9 @@ export default function Problem() {
                                 </div>
                             </div>
                             <div className="px-8 lg:px-12 flex flex-col grow pb-8">
-                                <h3 className="text-3xl font-heading font-bold text-text-main mb-6">Khó khăn về nội thất</h3>
+                                <h3 className="text-3xl font-heading font-bold text-text-main mb-6">Khó khăn không gian dịch vụ</h3>
                                 <p className="text-lg text-text-muted font-body leading-relaxed grow">
-                                    Không gian mở cực kỳ ồn ào. Mút xốp kim tự tháp rẻ tiền: <strong className="text-accent">kém thẩm mỹ, dễ bắt lửa, sinh khói độc.</strong> Trong khi gỗ tiêu âm cao cấp lại có giá thành quá đắt đỏ so với ngân sách của các chuỗi F&B hay văn phòng nhỏ.
+                                    Mức ồn trong quán cafe, nhà hàng thường đạt <strong className="text-accent text-xl font-bold">~80 dBA</strong>. Mút xốp kim tự tháp: <strong className="text-accent">kém thẩm mỹ, dễ bắt lửa.</strong> Bông khoáng rockwool: rủi ro bụi khoáng. Gỗ tiêu âm: quá đắt đỏ. Khách hàng CẦN vật liệu cách âm đẹp, an toàn và có câu chuyện Xanh.
                                 </p>
                             </div>
                         </div>
@@ -95,7 +94,7 @@ export default function Problem() {
                             Thời điểm vàng <div className="h-1 w-16 bg-gradient-to-r from-primary-cta to-transparent rounded-full"></div>
                         </h3>
                         <p className="text-xl md:text-2xl font-body text-white/80 leading-relaxed font-light">
-                            Nhà nước đẩy mạnh luật bảo vệ môi trường, ép doanh nghiệp làm <strong className="text-primary-cta">Kinh tế Tuần hoàn</strong>. Khách hàng Gen Z cực kỳ chuộng gu thô mộc (Industrial) và lối sống Xanh bền vững.
+                            Doanh nghiệp dệt may đang khát khao báo cáo <strong className="text-primary-cta">ESG</strong>. Chủ công trình dịch vụ (F&B, Homestay) ngày càng chú trọng không gian êm ái và lối sống Xanh tuần hoàn.
                         </p>
                     </div>
                 </motion.div>

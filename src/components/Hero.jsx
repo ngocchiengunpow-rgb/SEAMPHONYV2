@@ -32,7 +32,7 @@ export default function Hero() {
                     >
                         <Leaf size={18} className="text-primary-cta" />
                         <span className="text-xs md:text-sm font-bold tracking-widest text-primary-cta uppercase">
-                            CUỘC THI KHỞI NGHIỆP I-STARTUP 2026
+                            BUSINESS VENTURE CHALLENGE 2026
                         </span>
                     </motion.div>
 
@@ -40,29 +40,29 @@ export default function Hero() {
                         custom={1} initial="hidden" animate="visible" variants={fadeUp}
                         className="text-6xl md:text-8xl lg:text-9xl font-heading font-extrabold text-text-main tracking-tighter leading-[1.05] mb-8 max-w-6xl"
                     >
-                        Ván ép cách âm từ <br className="hidden md:block" />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-cta to-accent">đồ bảo hộ cũ.</span>
+                        Panel cách âm từ <br className="hidden md:block" />
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-cta to-accent">vải vụn tái chế.</span>
                     </motion.h1>
 
                     <motion.div
                         custom={2} initial="hidden" animate="visible" variants={fadeUp}
                         className="flex flex-wrap justify-center gap-4 mb-4 text-xs md:text-sm font-semibold text-text-muted uppercase tracking-[0.15em] max-w-4xl"
                     >
-                        <span className="bg-secondary-bg px-3 py-1.5 rounded-md">CÔNG NGHIỆP</span>
-                        <span className="bg-secondary-bg px-3 py-1.5 rounded-md">CÔNG NGHỆ MỚI</span>
-                        <span className="bg-secondary-bg px-3 py-1.5 rounded-md">CÔNG NGHỆ CHẾ TẠO</span>
-                        <span className="bg-secondary-bg px-3 py-1.5 rounded-md border border-primary-cta/30 text-primary-cta">XÂY DỰNG</span>
+                        <span className="bg-secondary-bg px-3 py-1.5 rounded-md">VẬT LIỆU XANH</span>
+                        <span className="bg-secondary-bg px-3 py-1.5 rounded-md">KINH TẾ TUẦN HOÀN</span>
+                        <span className="bg-secondary-bg px-3 py-1.5 rounded-md">NỘI THẤT</span>
+                        <span className="bg-secondary-bg px-3 py-1.5 rounded-md border border-primary-cta/30 text-primary-cta">ESG</span>
                     </motion.div>
 
                     <motion.div
                         custom={2} initial="hidden" animate="visible" variants={fadeUp}
                         className="flex flex-wrap justify-center gap-4 mb-10 text-sm md:text-base font-bold text-text-main"
                     >
-                        <span className="flex items-center gap-2">🔥 Xử lý 560-710 tấn rác/năm</span>
+                        <span className="flex items-center gap-2">🔥 Tái chế 250.000 tấn vải/năm</span>
                         <span className="text-text-muted">•</span>
-                        <span className="flex items-center gap-2">⚡ NRC 0.65 - 0.80</span>
+                        <span className="flex items-center gap-2">⚡ NRC 0.60 - 0.90</span>
                         <span className="text-text-muted">•</span>
-                        <span className="flex items-center gap-2 text-primary-cta">💰 Rẻ hơn 40%</span>
+                        <span className="flex items-center gap-2 text-primary-cta">💰 Báo cáo ESG</span>
                     </motion.div>
 
                     <motion.div
@@ -73,20 +73,16 @@ export default function Hero() {
                             Liên Hệ Hợp Tác
                         </a>
                         <a 
-                            href="./HoSoDuAn_SEAMPHONY.pdf" 
-                            download="[IS11] HO SO DU AN_SEAMPHONY.pdf" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="px-6 py-4 bg-transparent border-2 border-primary-cta text-primary-cta font-heading font-bold text-base md:text-lg rounded-full hover:bg-primary-cta hover:text-white transition-all duration-300 shadow-lg hover:shadow-primary-cta/40 hover:-translate-y-1"
+                            href="#" 
+                            onClick={(e) => e.preventDefault()}
+                            className="px-6 py-4 bg-transparent border-2 border-primary-cta text-primary-cta font-heading font-bold text-base md:text-lg rounded-full hover:bg-primary-cta hover:text-white transition-all duration-300 shadow-lg hover:shadow-primary-cta/40 hover:-translate-y-1 cursor-not-allowed opacity-80"
                         >
                             Tải Hồ Sơ Dự Án
                         </a>
                         <a 
-                            href="./PitchDeck_SEAMPHONY.pdf" 
-                            download="PitchDeck_SEAMPHONY.pdf" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="px-6 py-4 bg-transparent border-2 border-accent text-accent font-heading font-bold text-base md:text-lg rounded-full hover:bg-accent hover:text-white transition-all duration-300 shadow-lg hover:shadow-accent/40 hover:-translate-y-1"
+                            href="#" 
+                            onClick={(e) => e.preventDefault()}
+                            className="px-6 py-4 bg-transparent border-2 border-accent text-accent font-heading font-bold text-base md:text-lg rounded-full hover:bg-accent hover:text-white transition-all duration-300 shadow-lg hover:shadow-accent/40 hover:-translate-y-1 cursor-not-allowed opacity-80"
                         >
                             Tải PitchDeck
                         </a>
@@ -98,12 +94,12 @@ export default function Hero() {
                     >
                         <div className="space-y-6 text-lg md:text-xl text-text-muted font-body leading-relaxed">
                             <p className="text-2xl md:text-3xl font-heading font-bold text-text-main leading-tight mb-4">
-                                Giải pháp <span className="text-primary-cta">ép nhiệt tuần hoàn</span> biến rác bảo hộ siêu bền thành vật liệu tiêu âm cao cấp.
+                                Giải pháp <span className="text-primary-cta">vải không dệt ép nhiệt</span> biến vải vụn thành vật liệu tiêu âm thẩm mỹ.
                             </p>
                             <ul className="space-y-3 font-body text-base md:text-lg">
-                                <li className="flex items-start gap-3"><span className="text-primary-cta">✓</span> <strong>Bẫy âm thông minh:</strong> Cấu trúc hàng triệu lỗ rỗng vi mô từ sợi bông đánh tơi.</li>
-                                <li className="flex items-start gap-3"><span className="text-primary-cta">✓</span> <strong>Công nghệ sạch:</strong> Keo tinh bột sinh học + Phủ màng Nano Chitosan kỵ nước.</li>
-                                <li className="flex items-start gap-3"><span className="text-primary-cta">✓</span> <strong>Thẩm mỹ hiện đại:</strong> Màu sắc thô mộc Industrial độc bản cho chuỗi F&B, Văn phòng.</li>
+                                <li className="flex items-start gap-3"><span className="text-primary-cta">✓</span> <strong>Bẫy âm thông minh:</strong> Cấu trúc xốp đa lớp từ sợi vải đánh tơi phối trộn liên kết nhiệt.</li>
+                                <li className="flex items-start gap-3"><span className="text-primary-cta">✓</span> <strong>Công nghệ xanh:</strong> Không dùng keo độc hại, kết dính bằng sợi low-melt và phụ gia khoáng an toàn.</li>
+                                <li className="flex items-start gap-3"><span className="text-primary-cta">✓</span> <strong>Thẩm mỹ độc bản:</strong> Mỗi tấm panel có sắc độ và vân vải riêng biệt, lý tưởng cho không gian F&B, Homestay.</li>
                             </ul>
                             <blockquote className="border-l-4 border-primary-cta pl-6 py-2 mt-8 italic font-medium text-text-main text-2xl">
                                 "Không có thứ gì là rác, chỉ là chúng ta chưa đặt nó đúng chỗ."
@@ -155,11 +151,11 @@ export default function Hero() {
                                 className="relative w-full aspect-[4/3] max-w-lg mx-auto bg-secondary-bg rounded-[2rem] border-4 border-white/30 shadow-xl overflow-hidden group/img transform hover:scale-[1.02] transition-all duration-500 cursor-pointer"
                             >
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10"></div>
-                                <img src="/product-sample.png" alt="Seamphony Product Sample" className="w-full h-full object-cover transform group-hover/img:scale-105 transition-transform duration-700" />
+                                <img src="/panel_sample.png" alt="Seamphony Product Sample" className="w-full h-full object-cover transform group-hover/img:scale-105 transition-transform duration-700" />
                                 
                                 {/* Refined Badge - Rotated Corner Ribbon Style */}
                                 <div className="absolute top-6 -right-8 bg-primary-cta text-white font-black px-12 py-2 shadow-2xl z-30 transform rotate-12 border-y border-white/20 text-[10px] md:text-xs tracking-tight">
-                                    85% Khách hàng F&B chọn dùng!
+                                    100% Vải vụn tái chế!
                                 </div>
                             </motion.div>
                         </div>

@@ -27,7 +27,7 @@ export default function TeamFooter() {
                         <div className="space-y-6">
                             <div className="w-14 h-14 bg-secondary-bg rounded-2xl flex items-center justify-center text-primary-cta font-black text-2xl shadow-sm border border-border/50">1</div>
                             <h4 className="font-heading font-bold text-xl text-text-main">Kết Nối Đầu Tư & Tài Trợ</h4>
-                            <p className="font-body text-text-muted text-base leading-relaxed">Tìm kiếm nguồn vốn khởi điểm để chi trả <strong>chứng nhận đo lường an toàn kỹ thuật (chống cháy, cách âm)</strong> nhằm tạo tiền đề pháp lý vững chắc cho thương mại hóa.</p>
+                            <p className="font-body text-text-muted text-base leading-relaxed">Tìm kiếm nguồn vốn khởi điểm để chi trả <strong>chứng nhận đo lường âm học và chống cháy</strong> nhằm tạo tiền đề pháp lý vững chắc cho thương mại hóa.</p>
                         </div>
                         <div className="space-y-6">
                             <div className="w-14 h-14 bg-secondary-bg rounded-2xl flex items-center justify-center text-primary-cta font-black text-2xl shadow-sm border border-border/50">2</div>
@@ -37,7 +37,7 @@ export default function TeamFooter() {
                         <div className="space-y-6">
                             <div className="w-14 h-14 bg-secondary-bg rounded-2xl flex items-center justify-center text-primary-cta font-black text-2xl shadow-sm border border-border/50">3</div>
                             <h4 className="font-heading font-bold text-xl text-text-main">Mở Rộng Mạng Lưới</h4>
-                            <p className="font-body text-text-muted text-base leading-relaxed">Cơ hội cọ xát thực chiến trước các Quỹ và <strong>tìm kiếm các đối tác thi công</strong> sẵn sàng hỗ trợ đưa sản phẩm ván ép Seamphony tiếp cận thị trường thử nghiệm.</p>
+                            <p className="font-body text-text-muted text-base leading-relaxed">Cơ hội cọ xát thực chiến trước các Quỹ và <strong>tìm kiếm các đối tác thi công</strong> sẵn sàng hỗ trợ đưa sản phẩm panel Seamphony tiếp cận thị trường thử nghiệm.</p>
                         </div>
                     </div>
                 </motion.div>

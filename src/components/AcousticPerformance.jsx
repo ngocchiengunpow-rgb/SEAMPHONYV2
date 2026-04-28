@@ -23,9 +23,9 @@ export default function AcousticPerformance() {
             color: "bg-text-muted/60 text-text-muted"
         },
         {
-            name: "Ván Ép Seamphony",
+            name: "Panel Vải Vụn Seamphony",
             nrc: 0.80,
-            desc: "Rất tốt. Ma sát vi mô bên trong cấu trúc sợi chuyển hóa sóng âm từ 500Hz đến 2000Hz thành nhiệt năng. Vượt bài kiểm tra cháy BS EN ISO 11925-2.",
+            desc: "Rất tốt. Dựa trên công bố quốc tế (PMC/NCBI, SAGE Journals), cấu trúc nonwoven từ xơ vải tái chế đạt NRC 0.60 - 0.90. Có thể thay thế hoàn toàn panel sợi thủy tinh độc hại.",
             color: "bg-gradient-to-r from-primary-cta to-accent text-white"
         },
     ];
@@ -94,9 +94,9 @@ export default function AcousticPerformance() {
                     <p className="inline-flex flex-wrap justify-center items-center gap-4 md:gap-8 text-sm md:text-base font-bold tracking-widest uppercase border border-border/50 bg-secondary-bg/50 px-8 py-4 rounded-full shadow-sm text-text-muted">
                         <span>Mút xốp: <span className="text-text-main">NRC 0.50</span></span>
                         <span className="text-border">|</span>
-                        <span>Gỗ tự nhiên: <span className="text-text-main">NRC 0.23</span></span>
+                        <span>Panel PET nỉ ép: <span className="text-text-main">NRC 0.75</span></span>
                         <span className="text-border">|</span>
-                        <span className="text-primary-cta">Seamphony: <span className="text-text-main">NRC 0.80</span></span>
+                        <span className="text-primary-cta">Seamphony: <span className="text-text-main">NRC 0.60-0.90</span></span>
                     </p>
                 </motion.div>
 

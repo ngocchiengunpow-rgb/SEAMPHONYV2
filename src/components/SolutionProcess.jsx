@@ -7,32 +7,38 @@ const steps = [
     {
         icon: Shirt,
         title: "1. Thu gom & Phân loại",
-        desc: "Thu gom từ các nhà máy, bến cảng. Phân loại thô theo màu sắc (Xanh thợ mỏ, Cam cảng biển).",
+        desc: "Thu gom vải vụn tiền tiêu dùng từ xưởng may. Phân loại theo nhóm sợi, loại bỏ phụ kiện kim loại, nhựa.",
         color: "bg-accent/10 text-accent border-accent/20"
     },
     {
-        icon: Factory,
-        title: "2. Xử lý Công nghiệp",
-        desc: "Cắt xén loại bỏ vật liệu cứng. Giặt sấy khử khuẩn dầu mỡ. Đưa qua băng chuyền từ loại bỏ mạt sắt.",
+        icon: Scissors,
+        title: "2. Cắt & Mở xơ",
+        desc: "Dùng máy shredder cắt vải thành mảnh 2-5cm. Máy đánh tơi (fiber opener) chuyển mảnh vải thành xơ rời.",
         color: "bg-primary-cta/10 text-primary-cta border-primary-cta/20"
     },
     {
-        icon: Scissors,
-        title: "3. Băm Đánh Tơi",
-        desc: "Đánh tơi thành dạng sợi bông. Cấu trúc sợi tạo thành hàng triệu lỗ rỗng vi mô giúp bẫy âm thanh.",
+        icon: Droplet,
+        title: "3. Phối trộn Phụ gia",
+        desc: "Trộn 60-70% xơ vải với 20-25% sợi low-melt kết dính và 8-12% phụ gia khoáng chống cháy, chống ẩm.",
         color: "bg-text-muted/10 text-text-muted border-text-muted/20"
     },
     {
-        icon: Droplet,
-        title: "4. Phối Trộn Sinh Học",
-        desc: "Sử dụng keo tinh bột biến tính. Bổ sung muối borat tự nhiên tạo liên kết chéo, chống cháy phi halogen.",
+        icon: Factory,
+        title: "4. Tạo thảm & Ép nhiệt",
+        desc: "Rải hỗn hợp lên khuôn thép. Ép nhiệt thủy lực ở 160-200°C làm sợi low-melt nóng chảy, tạo lõi xốp cứng.",
         color: "bg-accent/10 text-accent border-accent/20"
     },
     {
         icon: Zap,
-        title: "5. Ép Nhiệt & Phủ Nano",
-        desc: "Ép nhiệt áp suất cao. Phủ màng sinh học Nano Chitosan kỵ nước. Khóa ẩm chống nồm mà vẫn giữ rỗng 100%.",
+        title: "5. Hoàn thiện Cá nhân hóa",
+        desc: "Cắt chuẩn kích thước 600x600 hoặc 600x1200mm. Bọc vải nỉ/polyester xuyên âm, in thêu logo theo yêu cầu.",
         color: "bg-primary-cta/10 text-primary-cta border-primary-cta/20"
+    },
+    {
+        icon: Zap,
+        title: "6. Kiểm định & Demo",
+        desc: "Đo hệ số hấp thụ âm bằng ống trở kháng. Lắp đặt công trình demo thực tế để đo mức ồn trước-sau.",
+        color: "bg-text-muted/10 text-text-muted border-text-muted/20"
     }
 ];
 
@@ -60,7 +66,7 @@ export default function SolutionProcess() {
                         initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ delay: 0.2, type: "spring" }}
                         className="text-xl md:text-2xl font-body leading-relaxed text-text-muted font-light"
                     >
-                        Nén chặt hàng triệu sợi vải cũ lại với nhau bằng <strong className="text-text-main">keo sinh học</strong>, hoàn toàn không chứa Formaldehyde độc hại hay VOC. Sản phẩm là một loại "gỗ" mới làm từ vải.
+                        Ứng dụng chuỗi công nghệ <strong className="text-text-main">vải không dệt - ép nhiệt (nonwoven thermal bonding)</strong>, chuyển hóa vải vụn thành vật liệu nội thất xanh đạt chuẩn âm học.
                     </motion.p>
                 </div>
 

@@ -25,8 +25,8 @@ function AnimatedNumber({ value }) {
 
 export default function InteractiveCalculator() {
     const [area, setArea] = useState(50);
-    const costPremium = area * 500000;
-    const costSeamphony = area * 250000;
+    const costPremium = area * 800000;
+    const costSeamphony = area * 420000;
     const savings = costPremium - costSeamphony;
 
     return (
@@ -81,8 +81,8 @@ export default function InteractiveCalculator() {
 
                     <div className="grid md:grid-cols-2 gap-6 mb-10 overflow-hidden">
                         <div className="bg-primary-bg p-4 md:p-6 lg:p-8 rounded-[2rem] border border-border shadow-sm text-center flex flex-col justify-center">
-                            <p className="text-text-muted font-body mb-1 text-base md:text-lg font-semibold">Ván gỗ tiêu âm cao cấp</p>
-                            <p className="text-xs md:text-sm text-text-muted/60 mb-4 md:mb-6">(Trung bình 500,000 VNĐ/m²)</p>
+                            <p className="text-text-muted font-body mb-1 text-base md:text-lg font-semibold">Gỗ tiêu âm xẻ rãnh</p>
+                            <p className="text-xs md:text-sm text-text-muted/60 mb-4 md:mb-6">(Trung bình 800,000 VNĐ/m²)</p>
                             <p className="text-3xl lg:text-4xl xl:text-5xl font-heading font-black text-text-main/50 line-through decoration-text-muted/30 tracking-tighter break-all md:break-normal">
                                 <AnimatedNumber value={costPremium} />
                                 <span className="text-lg lg:text-xl ml-1 lg:ml-2">VNĐ</span>
@@ -91,8 +91,8 @@ export default function InteractiveCalculator() {
                         <div className="bg-text-main p-4 md:p-6 lg:p-8 rounded-[2rem] shadow-xl border-2 border-primary-cta text-center relative overflow-hidden flex flex-col justify-center">
                             <div className="absolute top-0 right-0 w-48 h-48 bg-primary-cta/20 rounded-full blur-3xl"></div>
                             <div className="absolute bottom-0 left-0 w-32 h-32 bg-accent/20 rounded-full blur-3xl"></div>
-                            <p className="text-white font-body mb-1 text-base md:text-lg font-bold relative z-10">Ván ép Seamphony</p>
-                            <p className="text-xs md:text-sm text-white/60 mb-4 md:mb-6 relative z-10">(Khuyến nghị 250,000 VNĐ/m²)</p>
+                            <p className="text-white font-body mb-1 text-base md:text-lg font-bold relative z-10">Panel Vải Vụn Seamphony</p>
+                            <p className="text-xs md:text-sm text-white/60 mb-4 md:mb-6 relative z-10">(Bình quân 420,000 VNĐ/m²)</p>
                             <p className="text-3xl lg:text-4xl xl:text-5xl font-heading font-black text-white relative z-10 drop-shadow-md tracking-tighter break-all md:break-normal">
                                 <AnimatedNumber value={costSeamphony} />
                                 <span className="text-lg lg:text-xl ml-1 lg:ml-2 text-primary-cta">VNĐ</span>

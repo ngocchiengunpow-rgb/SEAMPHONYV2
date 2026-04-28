@@ -7,44 +7,44 @@ export default function CoreFeatures() {
         {
             icon: <Award size={32} />,
             title: "Siêu Tiêu Âm",
-            text: "Cấu trúc hàng triệu lỗ rỗng vi mô giúp bẫy âm thanh cực tốt ở dải tần 500-2000Hz.",
-            metric: "NRC 0.65 - 0.80",
-            subtext: "Tương đương gỗ tiêu âm đắt đỏ."
+            text: "Cấu trúc xốp đa lớp từ xơ vải đánh tơi giúp bẫy âm thanh cực tốt ở nhiều dải tần.",
+            metric: "NRC 0.60 - 0.90",
+            subtext: "Theo nghiên cứu quốc tế."
         },
         {
             icon: <Flame size={32} />,
             title: "Chống Cháy Lan",
-            text: "Tích hợp muối Borat tự nhiên tạo lớp than cách nhiệt khi gặp nhiệt độ cao.",
-            metric: "BS EN ISO 11925-2",
+            text: "Tích hợp phụ gia khoáng chống cháy tạo lớp bảo vệ an toàn khi gặp nhiệt độ cao.",
+            metric: "BS EN ISO chuẩn",
             subtext: "An toàn tuyệt đối cho nhà xưởng."
         },
         {
-            icon: <Droplets size={32} />,
-            title: "Kháng Nước",
-            text: 'Bề mặt được phủ màng Nano Chitosan sinh học tạo "hiệu ứng lá sen", khóa ẩm tuyệt đối.',
-            metric: "Nano Chitosan",
-            subtext: "Chống nồm ẩm, nấm mốc."
+            icon: <Palette size={32} />,
+            title: "Thẩm Mỹ Độc Bản",
+            text: "Mỗi tấm panel có sắc độ và vân vải khác nhau, bản sắc riêng không thể copy.",
+            metric: "Tùy biến cao",
+            subtext: "Thiết kế cho F&B, Homestay."
         },
         {
             icon: <Leaf size={32} />,
-            title: "0% Formaldehyde",
-            text: "Sử dụng keo tinh bột biến tính an toàn tuyệt đối cho sức khỏe người sử dụng.",
+            title: "Xanh & An Toàn",
+            text: "Công nghệ liên kết nhiệt bằng sợi low-melt, không sử dụng keo Formaldehyde độc hại.",
             metric: "Eco-Friendly 100%",
-            subtext: "Không phát tán vi nhựa."
+            subtext: "Không phát tán bụi khoáng."
         },
         {
             icon: <Hammer size={32} />,
-            title: "Thi Công Siêu Tốc",
-            text: "Trọng lượng nhẹ, không bị mủn. Dễ dàng cưa cắt và dán trực tiếp lên tường.",
-            metric: "Tiết kiệm 50% tgian",
-            subtext: "Không cần hệ khung xương."
+            title: "Báo Cáo ESG",
+            text: "Mỗi m² panel giải cứu ~0.6kg vải vụn. Cấp Chứng nhận Không gian Tuần hoàn cho công trình.",
+            metric: "Số liệu minh bạch",
+            subtext: "Tài sản truyền thông ESG."
         },
         {
-            icon: <Palette size={32} />,
+            icon: <Droplets size={32} />,
             title: "Giá Thành Tối Ưu",
-            text: "Tận dụng nguồn rác thải dệt may giúp hạ giá thành sản phẩm xuống mức tối thiểu.",
-            metric: "Rẻ hơn 40% gỗ",
-            subtext: "Hiệu năng cao - Giá bình dân."
+            text: "Tận dụng nguồn rác thải dệt may địa phương giúp giữ giá thành cực kỳ cạnh tranh.",
+            metric: "Từ 380k/m²",
+            subtext: "Biên lợi nhuận gộp 25-35%."
         }
     ];
 
@@ -66,7 +66,7 @@ export default function CoreFeatures() {
                         initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
                         className="text-4xl md:text-5xl font-heading font-extrabold text-text-main tracking-tight"
                     >
-                        6 Siêu Năng Lực Của Ván Ép <span className="text-primary-cta">Seamphony</span>
+                        6 Lợi Thế Của Panel Vải Vụn <span className="text-primary-cta">Seamphony</span>
                     </motion.h2>
                 </div>
 

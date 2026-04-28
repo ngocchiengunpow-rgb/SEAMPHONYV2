@@ -36,31 +36,31 @@ export default function FinancialDashboard() {
                             <div className="w-12 h-12 bg-primary-cta/10 rounded-xl flex items-center justify-center">
                                 <HandCoins className="text-primary-cta" size={24} />
                             </div>
-                            Nhu cầu Gọi Vốn: 150 Triệu VNĐ
+                            Nhu cầu Vốn (CapEx): ~580 Triệu VNĐ
                         </h3>
 
                         <div className="space-y-4 mb-10 w-full">
                             <div className="flex justify-between items-center p-4 bg-primary-bg rounded-2xl border border-border shadow-sm">
-                                <span className="font-semibold text-text-muted">Vốn tự có (30%)</span>
-                                <span className="font-extrabold text-xl font-heading">45 Triệu</span>
+                                <span className="font-semibold text-text-muted">Vốn tự có & Giải thưởng (25%)</span>
+                                <span className="font-extrabold text-xl font-heading">150 Triệu</span>
                             </div>
                             <div className="flex justify-between items-center p-4 bg-primary-bg rounded-2xl border border-border shadow-sm">
-                                <span className="font-semibold text-text-muted">Thưởng thi khởi nghiệp (20%)</span>
-                                <span className="font-extrabold text-xl font-heading">30 Triệu</span>
+                                <span className="font-semibold text-text-muted">Tín dụng Xanh / Ưu đãi (25%)</span>
+                                <span className="font-extrabold text-xl font-heading">130 Triệu</span>
                             </div>
                             <div className="flex justify-between items-center p-4 bg-primary-cta text-white rounded-2xl shadow-lg transform scale-[1.02]">
-                                <span className="font-bold">Angel Investors / Xưởng NT (50%)</span>
-                                <span className="font-black text-2xl font-heading tracking-tight">75 Triệu</span>
+                                <span className="font-bold">Vốn Preseed / Ươm tạo (50%)</span>
+                                <span className="font-black text-2xl font-heading tracking-tight">300 Triệu</span>
                             </div>
                         </div>
 
                         <div className="mt-auto">
-                            <h4 className="font-heading font-bold text-text-main mb-6 text-xl">Mục đích giải ngân (150Tr)</h4>
+                            <h4 className="font-heading font-bold text-text-main mb-6 text-xl">Cơ cấu Đầu tư (CapEx Pilot)</h4>
                             <div className="grid sm:grid-cols-2 gap-4 font-body text-sm text-text-muted">
-                                <div className="flex items-start gap-3 bg-primary-bg p-4 rounded-xl shadow-sm border border-border"><HardHat className="text-primary-cta shrink-0" size={20} /> <span className="pt-0.5"><strong>33.3%</strong> Máy móc (băm, ép 20T)</span></div>
-                                <div className="flex items-start gap-3 bg-primary-bg p-4 rounded-xl shadow-sm border border-border"><Beaker className="text-accent shrink-0" size={20} /> <span className="pt-0.5"><strong>26.7%</strong> R&D & QCVN 06:2022</span></div>
-                                <div className="flex items-start gap-3 bg-primary-bg p-4 rounded-xl shadow-sm border border-border"><MapPin className="text-primary-cta shrink-0" size={20} /> <span className="pt-0.5"><strong>20.0%</strong> Thuê xưởng 30m2</span></div>
-                                <div className="flex items-start gap-3 bg-primary-bg p-4 rounded-xl shadow-sm border border-border"><Megaphone className="text-accent shrink-0" size={20} /> <span className="pt-0.5"><strong>20.0%</strong> Marketing B2B</span></div>
+                                <div className="flex items-start gap-3 bg-primary-bg p-4 rounded-xl shadow-sm border border-border"><HardHat className="text-primary-cta shrink-0" size={20} /> <span className="pt-0.5"><strong>~40%</strong> Máy ép nhiệt, khuôn ép</span></div>
+                                <div className="flex items-start gap-3 bg-primary-bg p-4 rounded-xl shadow-sm border border-border"><Beaker className="text-accent shrink-0" size={20} /> <span className="pt-0.5"><strong>~30%</strong> Máy cắt, đánh tơi vải</span></div>
+                                <div className="flex items-start gap-3 bg-primary-bg p-4 rounded-xl shadow-sm border border-border"><MapPin className="text-primary-cta shrink-0" size={20} /> <span className="pt-0.5"><strong>~20%</strong> Cải tạo mặt bằng</span></div>
+                                <div className="flex items-start gap-3 bg-primary-bg p-4 rounded-xl shadow-sm border border-border"><Megaphone className="text-accent shrink-0" size={20} /> <span className="pt-0.5"><strong>~10%</strong> Thiết bị phụ trợ khác</span></div>
                             </div>
                         </div>
                     </motion.div>
@@ -81,38 +81,38 @@ export default function FinancialDashboard() {
 
                         <div className="space-y-5 mb-10 relative z-10 grow">
                             <div className="flex justify-between text-lg font-body border-b border-white/10 pb-3">
-                                <span className="text-white/70">Nguyên liệu thô</span>
-                                <span className="font-semibold text-white">20,000đ</span>
+                                <span className="text-white/70">Vải vụn & Sợi low-melt, phụ gia</span>
+                                <span className="font-semibold text-white">~25,000đ</span>
                             </div>
                             <div className="flex justify-between text-lg font-body border-b border-white/10 pb-3">
-                                <span className="text-white/70">Keo sinh học & Hóa chất</span>
-                                <span className="font-semibold text-white">45,000đ</span>
+                                <span className="text-white/70">Vải bọc nỉ xuyên âm (hoàn thiện)</span>
+                                <span className="font-semibold text-white">~60,000đ</span>
                             </div>
                             <div className="flex justify-between text-lg font-body border-b border-white/10 pb-3">
                                 <span className="text-white/70">Nhân công</span>
-                                <span className="font-semibold text-white">35,000đ</span>
+                                <span className="font-semibold text-white">~95,000đ</span>
                             </div>
                             <div className="flex justify-between text-lg font-body border-b border-white/10 pb-3">
-                                <span className="text-white/70">Năng lượng & Khấu hao</span>
-                                <span className="font-semibold text-white">25,000đ</span>
+                                <span className="text-white/70">Điện năng & Khấu hao</span>
+                                <span className="font-semibold text-white">~60,000đ</span>
                             </div>
                             <div className="flex justify-between text-lg font-body border-b border-white/10 pb-3">
-                                <span className="text-white/70">Logistics</span>
-                                <span className="font-semibold text-white">15,000đ</span>
+                                <span className="text-white/70">Marketing, Website, Vận chuyển</span>
+                                <span className="font-semibold text-white">~96,000đ</span>
                             </div>
                             <div className="flex justify-between text-2xl font-heading font-black pt-4 text-primary-cta">
-                                <span>Tổng giá vốn (COGS)</span>
-                                <span>140,000đ</span>
+                                <span>Giá vốn ước tính (Mục tiêu)</span>
+                                <span>~336,000đ</span>
                             </div>
                         </div>
 
                         <div className="bg-white/10 backdrop-blur-xl p-8 rounded-3xl flex flex-col items-center justify-center text-center border border-white/20 relative z-10">
-                            <p className="text-sm font-body uppercase tracking-[0.2em] text-white/70 mb-2">Giá Bán Lẻ Dự Kiến</p>
-                            <p className="text-5xl font-heading font-black text-white mb-4">250,000<span className="text-2xl text-white/50">đ</span></p>
+                            <p className="text-sm font-body uppercase tracking-[0.2em] text-white/70 mb-2">Giá Bán Bình Quân</p>
+                            <p className="text-5xl font-heading font-black text-white mb-4">420,000<span className="text-2xl text-white/50">đ</span></p>
                             <div className="bg-primary-cta text-white px-6 py-2 rounded-full text-sm font-bold tracking-wide shadow-[0_0_20px_rgba(234,88,12,0.4)]">
-                                Lợi nhuận gộp: 110,000đ (44%)
+                                Lợi nhuận gộp: 84,000đ (20%)
                             </div>
-                            <p className="text-sm font-body text-white/60 mt-4">Rẻ hơn 5,000đ so với ván rãnh tiêu chuẩn.</p>
+                            <p className="text-sm font-body text-white/60 mt-4">Kịch bản cơ sở đạt 300m²/tháng.</p>
                         </div>
                     </motion.div>
                 </div>
@@ -132,11 +132,11 @@ export default function FinancialDashboard() {
                         <div className="md:border-r border-border md:pr-10 relative group">
                             <div className="absolute -left-4 top-2 w-2 h-2 rounded-full bg-border transition-colors group-hover:bg-accent md:hidden"></div>
                             <h4 className="text-5xl font-heading font-black mb-4 text-border group-hover:text-text-main transition-colors">Y1</h4>
-                            <p className="text-accent font-extrabold text-lg mb-6 tracking-wide">CHỨNG MINH SẢN PHẨM</p>
+                            <p className="text-accent font-extrabold text-lg mb-6 tracking-wide">KỊCH BẢN THẬN TRỌNG</p>
                             <div className="space-y-3 font-body text-text-muted text-lg">
                                 <p className="flex justify-between border-b border-border/50 pb-2"><span>Sản lượng</span> <strong>150m²/tháng</strong></p>
-                                <p className="flex justify-between border-b border-border/50 pb-2"><span>Doanh thu</span> <strong>450 triệu</strong></p>
-                                <p className="flex justify-between text-primary-cta pb-2"><span>Lỗ kế toán</span> <strong>-50 triệu</strong></p>
+                                <p className="flex justify-between border-b border-border/50 pb-2"><span>Lợi nhuận gộp</span> <strong>~90 triệu/năm</strong></p>
+                                <p className="flex justify-between text-primary-cta pb-2"><span>Thời gian HV</span> <strong>~6-7 năm</strong></p>
                             </div>
                         </div>
 
@@ -144,11 +144,11 @@ export default function FinancialDashboard() {
                         <div className="md:border-r border-border md:px-10 relative group">
                             <div className="absolute -left-4 top-2 w-2 h-2 rounded-full bg-border transition-colors group-hover:bg-accent md:hidden"></div>
                             <h4 className="text-5xl font-heading font-black mb-4 text-border group-hover:text-text-main transition-colors">Y2</h4>
-                            <p className="text-accent font-extrabold text-lg mb-6 tracking-wide">CHỨNG MINH THỊ TRƯỜNG</p>
+                            <p className="text-accent font-extrabold text-lg mb-6 tracking-wide">KỊCH BẢN CƠ SỞ</p>
                             <div className="space-y-3 font-body text-text-muted text-lg">
-                                <p className="flex justify-between border-b border-border/50 pb-2"><span>Sản lượng</span> <strong>500m²/tháng</strong></p>
-                                <p className="flex justify-between border-b border-border/50 pb-2"><span>Doanh thu</span> <strong>1.5 tỷ</strong></p>
-                                <p className="flex justify-between text-text-main font-bold pb-2"><span>Lãi ròng</span> <strong>200-300 triệu</strong></p>
+                                <p className="flex justify-between border-b border-border/50 pb-2"><span>Sản lượng</span> <strong>300m²/tháng</strong></p>
+                                <p className="flex justify-between border-b border-border/50 pb-2"><span>Lợi nhuận gộp</span> <strong>~302 triệu/năm</strong></p>
+                                <p className="flex justify-between text-text-main font-bold pb-2"><span>Thời gian HV</span> <strong>~1.9 năm</strong></p>
                             </div>
                         </div>
 
@@ -156,12 +156,12 @@ export default function FinancialDashboard() {
                         <div className="md:pl-10 relative group">
                             <div className="absolute -left-4 top-2 w-2 h-2 rounded-full bg-border transition-colors group-hover:bg-primary-cta md:hidden"></div>
                             <h4 className="text-5xl font-heading font-black mb-4 text-border group-hover:text-text-main transition-colors">Y3</h4>
-                            <p className="text-primary-cta font-extrabold text-lg mb-6 tracking-wide">MỞ RỘNG BỨT PHÁ</p>
+                            <p className="text-primary-cta font-extrabold text-lg mb-6 tracking-wide">KỊCH BẢN TÍCH CỰC</p>
                             <div className="space-y-3 font-body text-text-muted text-lg">
-                                <p className="flex justify-between border-b border-border/50 pb-2"><span>Sản lượng</span> <strong>1000m²/tháng</strong></p>
-                                <p className="flex justify-between border-b border-border/50 pb-2"><span>Doanh thu</span> <strong>2.5 - 3 tỷ</strong></p>
-                                <p className="flex justify-between text-text-main font-bold pb-2"><span>Lãi ròng</span> <strong>700tr - 1 tỷ</strong></p>
-                                <div className="mt-4 inline-block bg-text-main text-white px-4 py-2 rounded-lg text-sm font-bold tracking-widest shadow-md">BIÊN RÒNG 30%-35%</div>
+                                <p className="flex justify-between border-b border-border/50 pb-2"><span>Sản lượng</span> <strong>500m²/tháng</strong></p>
+                                <p className="flex justify-between border-b border-border/50 pb-2"><span>Lợi nhuận gộp</span> <strong>~660 triệu/năm</strong></p>
+                                <p className="flex justify-between text-text-main font-bold pb-2"><span>Thời gian HV</span> <strong>&lt; 1 năm</strong></p>
+                                <div className="mt-4 inline-block bg-text-main text-white px-4 py-2 rounded-lg text-sm font-bold tracking-widest shadow-md">QUY MÔ SCALE-UP</div>
                             </div>
                         </div>
                     </div>
