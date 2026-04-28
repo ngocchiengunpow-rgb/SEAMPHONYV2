@@ -69,7 +69,7 @@ export default function Hero() {
                         custom={3} initial="hidden" animate="visible" variants={fadeUp}
                         className="flex flex-wrap justify-center gap-4 md:gap-6 mb-14"
                     >
-                        <a href="#the-ask" className="px-8 py-4 bg-primary-cta text-white font-heading font-bold text-lg rounded-full hover:bg-[#d94a08] transition-all duration-300 shadow-lg hover:shadow-primary-cta/40 hover:-translate-y-1">
+                        <a href="#contact" className="px-8 py-4 bg-primary-cta text-white font-heading font-bold text-lg rounded-full hover:bg-[#d94a08] transition-all duration-300 shadow-lg hover:shadow-primary-cta/40 hover:-translate-y-1">
                             Cho Nhà Thầu / Chủ Quán
                         </a>
                         <a 

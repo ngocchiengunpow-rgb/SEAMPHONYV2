@@ -18,6 +18,7 @@ import SWOTAnalysis from './components/SWOTAnalysis'
 import ProjectAchievements from './components/ProjectAchievements'
 import FinancialViability from './components/FinancialViability'
 import Roadmap from './components/Roadmap'
+import ProjectStatus from './components/ProjectStatus'
 import ContactForm from './components/ContactForm'
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
         <InteractiveCalculator />
         <FAQObjectionHandling />
       </main>
+      <ProjectStatus />
       <ContactForm />
       <TeamFooter />
       <BackToTop />
