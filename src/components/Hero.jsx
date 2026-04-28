@@ -70,21 +70,21 @@ export default function Hero() {
                         className="flex flex-wrap justify-center gap-4 md:gap-6 mb-14"
                     >
                         <a href="#the-ask" className="px-8 py-4 bg-primary-cta text-white font-heading font-bold text-lg rounded-full hover:bg-[#d94a08] transition-all duration-300 shadow-lg hover:shadow-primary-cta/40 hover:-translate-y-1">
-                            Liên Hệ Hợp Tác
+                            Cho Nhà Thầu / Chủ Quán
                         </a>
                         <a 
                             href="/Ho_so_du_an_Seamphony.pdf" 
                             download
                             className="px-6 py-4 bg-transparent border-2 border-primary-cta text-primary-cta font-heading font-bold text-base md:text-lg rounded-full hover:bg-primary-cta hover:text-white transition-all duration-300 shadow-lg hover:shadow-primary-cta/40 hover:-translate-y-1"
                         >
-                            Tải Hồ Sơ Dự Án
+                            Cho Ban Giám Khảo (Hồ Sơ)
                         </a>
                         <a 
                             href="#" 
                             onClick={(e) => e.preventDefault()}
-                            className="px-6 py-4 bg-transparent border-2 border-accent text-accent font-heading font-bold text-base md:text-lg rounded-full shadow-lg cursor-not-allowed opacity-50"
+                            className="px-6 py-4 bg-transparent border-2 border-accent text-accent font-heading font-bold text-base md:text-lg rounded-full shadow-lg cursor-not-allowed opacity-50 hidden md:inline-flex"
                         >
-                            Tải PitchDeck (Đang cập nhật)
+                            PitchDeck (Sắp ra mắt)
                         </a>
                     </motion.div>
 
@@ -157,6 +157,16 @@ export default function Hero() {
                                     100% Vải vụn tái chế!
                                 </div>
                             </motion.div>
+                            
+                            {/* Disclaimer Text */}
+                            <motion.p 
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                transition={{ delay: 1, duration: 1 }}
+                                className="text-center text-xs text-text-muted/60 italic mt-2"
+                            >
+                                * Ảnh mô phỏng minh họa, không phải công trình đã thi công.
+                            </motion.p>
                         </div>
                     </motion.div>
 

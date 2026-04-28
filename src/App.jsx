@@ -4,7 +4,6 @@ import Hero from './components/Hero'
 import Problem from './components/Problem'
 import SolutionProcess from './components/SolutionProcess'
 import MarketCompetition from './components/MarketCompetition'
-import FinancialDashboard from './components/FinancialDashboard'
 import ESGImpact from './components/ESGImpact'
 import InteractiveCalculator from './components/InteractiveCalculator'
 import FAQObjectionHandling from './components/FAQObjectionHandling'
@@ -17,6 +16,9 @@ import BackToTop from './components/BackToTop'
 import BusinessModelCanvas from './components/BusinessModelCanvas'
 import SWOTAnalysis from './components/SWOTAnalysis'
 import ProjectAchievements from './components/ProjectAchievements'
+import FinancialViability from './components/FinancialViability'
+import Roadmap from './components/Roadmap'
+import ContactForm from './components/ContactForm'
 
 function App() {
   return (
@@ -27,18 +29,20 @@ function App() {
         <Problem />
         <SolutionProcess />
         <BusinessModelCanvas />
+        <FinancialViability />
+        <Roadmap />
         <CoreFeatures />
         <AcousticPerformance />
         <ProjectGallery />
-        <SWOTAnalysis />
         <CompetitiveMatrix />
         <MarketCompetition />
-        <FinancialDashboard />
         <ProjectAchievements />
         <ESGImpact />
+        <SWOTAnalysis />
         <InteractiveCalculator />
         <FAQObjectionHandling />
       </main>
+      <ContactForm />
       <TeamFooter />
       <BackToTop />
     </div>

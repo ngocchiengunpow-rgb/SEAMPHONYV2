@@ -122,9 +122,12 @@ export default function TeamFooter() {
                 </div>
 
                 {/* Brand Center */}
-                <div className="flex flex-col items-center justify-center py-12 border-t border-white/10 mt-12 mb-6">
+                <div className="flex flex-col items-center justify-center py-12 border-t border-white/10 mt-12 mb-6 text-center">
                     <img src="/logo.png" alt="Seamphony" className="w-24 h-24 object-contain brightness-0 invert opacity-50 hover:opacity-100 transition-opacity mb-6" onError={(e) => e.target.style.display = 'none'} />
-                    <h2 className="font-heading font-black tracking-[0.2em] text-2xl text-white/50">SEAMPHONY</h2>
+                    <h2 className="font-heading font-black tracking-[0.2em] text-2xl text-white/50 mb-6">SEAMPHONY</h2>
+                    <p className="text-white/40 text-xs md:text-sm font-body max-w-2xl italic">
+                        * Các giả định kỹ thuật và thị trường được xây dựng dựa trên báo cáo của GIZ (2025) và các nghiên cứu quốc tế về panel âm học từ vải vụn.
+                    </p>
                 </div>
 
                 {/* Footer Bottom */}

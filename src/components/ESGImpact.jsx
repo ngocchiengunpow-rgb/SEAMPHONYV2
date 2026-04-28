@@ -1,91 +1,92 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Coins, TreePine, Cpu, HeartHandshake } from 'lucide-react';
+import { Leaf, Recycle, Globe, Award } from 'lucide-react';
 
 export default function ESGImpact() {
-    const containerVars = {
-        hidden: { opacity: 0 },
-        visible: { opacity: 1, transition: { staggerChildren: 0.15 } },
-    };
-
-    const itemVars = {
-        hidden: { opacity: 0, scale: 0.9 },
-        visible: { opacity: 1, scale: 1, transition: { duration: 0.6, type: "spring", bounce: 0.4 } },
+    const fadeUp = {
+        hidden: { opacity: 0, y: 30 },
+        visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
     };
 
     return (
-        <section id="esg" className="py-32 bg-primary-bg relative scroll-mt-32">
+        <section id="esg" className="py-24 bg-primary-bg relative">
             <div className="max-w-7xl mx-auto px-6 lg:px-12">
-                <div className="text-center mb-20 max-w-3xl mx-auto">
-                    <motion.h2
-                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-                        className="text-4xl md:text-6xl font-heading font-extrabold text-text-main mb-6 tracking-tight"
+                <div className="text-center mb-16 max-w-3xl mx-auto">
+                    <motion.div
+                        initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
+                        className="inline-flex items-center justify-center p-3 bg-green-100 rounded-2xl mb-6 text-green-600"
                     >
-                        Giải pháp <span className="text-accent">Bền vững ESG</span>
+                        <Leaf size={32} />
+                    </motion.div>
+                    <motion.h2
+                        initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
+                        className="text-4xl md:text-5xl font-heading font-extrabold text-text-main mb-6"
+                    >
+                        Tác động <span className="text-green-600">tuần hoàn & ESG</span>
                     </motion.h2>
                     <motion.p
-                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}
-                        className="text-xl text-text-muted font-body font-light"
+                        initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.1 }}
+                        className="text-lg text-text-muted font-body"
                     >
-                        Seamphony không chỉ là một sản phẩm thương mại. Đó là lời giải cho bài toán môi trường và kinh tế tuần hoàn tại Việt Nam.
+                        Mỗi mét vuông panel Seamphony không chỉ xử lý tiếng ồn, mà còn gắn với một lượng vải vụn được tái chế và một câu chuyện ESG cụ thể.
                     </motion.p>
                 </div>
 
+                <div className="grid md:grid-cols-3 gap-8 mb-12">
+                    <motion.div
+                        initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
+                        className="bg-white p-8 rounded-[2rem] border border-border shadow-sm text-center"
+                    >
+                        <div className="w-16 h-16 bg-blue-50 text-blue-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <Recycle size={32} />
+                        </div>
+                        <h3 className="text-2xl font-heading font-black text-text-main mb-4">0,6 kg vải / 1 m² panel</h3>
+                        <p className="text-text-muted font-body leading-relaxed">
+                            Trung bình mỗi 1 m² panel Seamphony sử dụng khoảng 0,6 kg vải vụn tiền tiêu dùng từ xưởng may.
+                        </p>
+                    </motion.div>
+
+                    <motion.div
+                        initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.1 }}
+                        className="bg-white p-8 rounded-[2rem] border border-border shadow-sm text-center"
+                    >
+                        <div className="w-16 h-16 bg-green-50 text-green-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <Leaf size={32} />
+                        </div>
+                        <h3 className="text-2xl font-heading font-black text-text-main mb-4">2,16 tấn vải/năm</h3>
+                        <p className="text-text-muted font-body leading-relaxed">
+                            Ở mức sản xuất pilot 300 m² panel/tháng, dự án có thể tái chế khoảng 2,16 tấn vải vụn mỗi năm, tránh chôn lấp và đốt bỏ.
+                        </p>
+                    </motion.div>
+
+                    <motion.div
+                        initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.2 }}
+                        className="bg-white p-8 rounded-[2rem] border border-border shadow-sm text-center"
+                    >
+                        <div className="w-16 h-16 bg-orange-50 text-orange-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <Globe size={32} />
+                        </div>
+                        <h3 className="text-2xl font-heading font-black text-text-main mb-4">Hàng chục tấn/năm</h3>
+                        <p className="text-text-muted font-body leading-relaxed">
+                            Khi nhân rộng 2 – 3 "micro-hub tuần hoàn", tổng khối lượng vải vụn được tái chế mỗi năm có thể đạt tới hàng chục tấn.
+                        </p>
+                    </motion.div>
+                </div>
+
                 <motion.div
-                    variants={containerVars} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }}
-                    className="grid md:grid-cols-2 gap-8 lg:gap-10"
+                    initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.3 }}
+                    className="bg-green-600 text-white p-10 md:p-12 rounded-[2rem] shadow-xl flex flex-col md:flex-row items-center gap-8 md:gap-12 relative overflow-hidden"
                 >
-                    {/* Economics */}
-                    <motion.div variants={itemVars} className="group">
-                        <div className="h-full bg-secondary-bg p-10 lg:p-12 rounded-[2.5rem] border border-border/50 hover:bg-white hover:border-accent hover:shadow-2xl hover:shadow-accent/10 transition-all duration-500">
-                            <div className="w-20 h-20 bg-primary-bg rounded-2xl flex items-center justify-center border border-border/50 shadow-sm mb-8 group-hover:scale-110 transition-transform duration-500">
-                                <Coins size={40} className="text-accent" />
-                            </div>
-                            <h3 className="text-3xl font-heading font-bold text-text-main mb-4 group-hover:text-accent transition-colors">Kinh tế</h3>
-                            <p className="text-lg text-text-muted font-body leading-relaxed">
-                                Tận dụng nguồn nguyên liệu <strong className="text-text-main">miễn phí</strong> hoặc giá siêu rẻ. Giúp các nhà máy dệt may tiết kiệm 650 - 1.000 đ/kg phí xử lý rác, tạo ra chuỗi giá trị Win-Win vững chắc.
-                            </p>
-                        </div>
-                    </motion.div>
-
-                    {/* Environment */}
-                    <motion.div variants={itemVars} className="group">
-                        <div className="h-full bg-secondary-bg p-10 lg:p-12 rounded-[2.5rem] border border-border/50 hover:bg-accent hover:text-white hover:shadow-2xl hover:shadow-accent/30 transition-all duration-500">
-                            <div className="w-20 h-20 bg-primary-bg rounded-2xl flex items-center justify-center border border-border/50 shadow-sm mb-8 group-hover:scale-110 transition-transform duration-500 -rotate-3">
-                                <TreePine size={40} className="text-accent group-hover:text-accent" />
-                            </div>
-                            <h3 className="text-3xl font-heading font-bold text-text-main group-hover:text-white mb-4 transition-colors">Môi trường</h3>
-                            <p className="text-lg text-text-muted font-body leading-relaxed group-hover:text-white/90 transition-colors">
-                                Trung bình mỗi m² panel <strong className="font-bold">giải cứu ~0.6kg vải vụn</strong>. Ngăn chặn triệt để lượng khí thải độc hại phát sinh từ việc đốt lò hoặc đồng xử lý, đóng góp trực tiếp vào mục tiêu Net Zero.
-                            </p>
-                        </div>
-                    </motion.div>
-
-                    {/* Technology */}
-                    <motion.div variants={itemVars} className="group">
-                        <div className="h-full bg-secondary-bg p-10 lg:p-12 rounded-[2.5rem] border border-border/50 hover:bg-text-main hover:text-white hover:shadow-2xl hover:shadow-text-main/30 transition-all duration-500">
-                            <div className="w-20 h-20 bg-primary-bg rounded-2xl flex items-center justify-center border border-border/50 shadow-sm mb-8 group-hover:scale-110 transition-transform duration-500 rotate-3">
-                                <Cpu size={40} className="text-text-main group-hover:text-text-main" />
-                            </div>
-                            <h3 className="text-3xl font-heading font-bold text-text-main group-hover:text-white mb-4 transition-colors">Công nghệ</h3>
-                            <p className="text-lg text-text-muted font-body leading-relaxed group-hover:text-white/90 transition-colors">
-                                Ứng dụng quy trình nonwoven ép nhiệt bằng sợi low-melt, hoàn toàn không chứa Formaldehyde. Dễ dàng <strong className="font-bold">nhân bản quy mô (Scale-up)</strong> cực nhanh bằng cụm máy móc nội địa.
-                            </p>
-                        </div>
-                    </motion.div>
-
-                    {/* Social */}
-                    <motion.div variants={itemVars} className="group">
-                        <div className="h-full bg-secondary-bg p-10 lg:p-12 rounded-[2.5rem] border border-border/50 hover:bg-white hover:border-primary-cta hover:shadow-2xl hover:shadow-primary-cta/10 transition-all duration-500">
-                            <div className="w-20 h-20 bg-primary-bg rounded-2xl flex items-center justify-center border border-border/50 shadow-sm mb-8 group-hover:scale-110 transition-transform duration-500">
-                                <HeartHandshake size={40} className="text-primary-cta" />
-                            </div>
-                            <h3 className="text-3xl font-heading font-bold text-text-main mb-4 group-hover:text-primary-cta transition-colors">Xã hội</h3>
-                            <p className="text-lg text-text-muted font-body leading-relaxed">
-                                Tạo sinh kế linh hoạt (thu gom, phân loại vải) cho nhóm lao động lớn tuổi. Phát hành <strong className="text-primary-cta font-bold">Chứng nhận Không gian Tuần hoàn</strong>, giúp doanh nghiệp F&B lan tỏa tinh thần sống Xanh.
-                            </p>
-                        </div>
-                    </motion.div>
+                    <div className="absolute -top-24 -right-24 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
+                    <div className="shrink-0 w-24 h-24 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-white/30 relative z-10">
+                        <Award size={48} className="text-white" />
+                    </div>
+                    <div className="relative z-10 text-center md:text-left">
+                        <h3 className="text-3xl font-heading font-black mb-4 tracking-tight">Chứng nhận Không gian Tuần hoàn</h3>
+                        <p className="text-lg font-body leading-relaxed text-white/90">
+                            Mỗi công trình lắp đặt Seamphony sẽ được cấp một "Chứng nhận không gian tuần hoàn" ghi rõ số m² panel, kg vải vụn tái chế và ước tính lượng CO₂ giảm phát thải. Doanh nghiệp F&B, Coworking có thể dùng tài liệu này làm báo cáo ESG và truyền thông xanh trực tiếp tới khách hàng.
+                        </p>
+                    </div>
                 </motion.div>
             </div>
         </section>
