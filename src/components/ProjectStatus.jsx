@@ -5,7 +5,7 @@ import { Flag, PlayCircle, Milestone } from 'lucide-react';
 export default function ProjectStatus() {
     const fadeUp = {
         hidden: { opacity: 0, y: 30 },
-        visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
+        visible: { opacity: 1, y: 0, transition: { type: "spring", bounce: 0, duration: 0.9 } }
     };
 
     return (
@@ -35,7 +35,7 @@ export default function ProjectStatus() {
                 <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
                     <motion.div
                         initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
-                        className="bg-secondary-bg p-8 lg:p-10 rounded-[2rem] border border-border shadow-sm hover:shadow-xl transition-shadow relative overflow-hidden"
+                        className="bg-white p-8 lg:p-10 rounded-3xl border border-border/50 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 relative overflow-hidden group"
                     >
                         <div className="absolute top-0 right-0 w-32 h-32 bg-accent/5 rounded-full blur-[40px]"></div>
                         <h3 className="text-2xl font-heading font-bold mb-6 flex items-center gap-3 text-text-main relative z-10">
@@ -67,7 +67,7 @@ export default function ProjectStatus() {
 
                     <motion.div
                         initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.2 }}
-                        className="bg-white p-8 lg:p-10 rounded-[2rem] border border-border shadow-sm hover:shadow-xl transition-shadow relative overflow-hidden"
+                        className="bg-white p-8 lg:p-10 rounded-3xl border border-border/50 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 relative overflow-hidden group"
                     >
                         <div className="absolute top-0 right-0 w-32 h-32 bg-primary-cta/5 rounded-full blur-[40px]"></div>
                         <h3 className="text-2xl font-heading font-bold mb-6 flex items-center gap-3 text-text-main relative z-10">

@@ -5,7 +5,7 @@ import { Leaf, Recycle, Globe, Award } from 'lucide-react';
 export default function ESGImpact() {
     const fadeUp = {
         hidden: { opacity: 0, y: 30 },
-        visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+        visible: { opacity: 1, y: 0, transition: { type: "spring", bounce: 0, duration: 0.9 } },
     };
 
     return (
@@ -35,9 +35,9 @@ export default function ESGImpact() {
                 <div className="grid md:grid-cols-3 gap-8 mb-12">
                     <motion.div
                         initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
-                        className="bg-white p-8 rounded-[2rem] border border-border shadow-sm text-center"
+                        className="bg-white p-8 rounded-3xl border border-border/50 shadow-sm text-center hover:shadow-xl transition-shadow duration-300"
                     >
-                        <div className="w-16 h-16 bg-blue-50 text-blue-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <div className="w-16 h-16 bg-blue-50 text-blue-500 rounded-2xl flex items-center justify-center mx-auto mb-6">
                             <Recycle size={32} />
                         </div>
                         <h3 className="text-2xl font-heading font-black text-text-main mb-4">0,6 kg vải / 1 m² panel</h3>
@@ -48,9 +48,9 @@ export default function ESGImpact() {
 
                     <motion.div
                         initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.1 }}
-                        className="bg-white p-8 rounded-[2rem] border border-border shadow-sm text-center"
+                        className="bg-white p-8 rounded-3xl border border-border/50 shadow-sm text-center hover:shadow-xl transition-shadow duration-300"
                     >
-                        <div className="w-16 h-16 bg-green-50 text-green-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <div className="w-16 h-16 bg-green-50 text-green-500 rounded-2xl flex items-center justify-center mx-auto mb-6">
                             <Leaf size={32} />
                         </div>
                         <h3 className="text-2xl font-heading font-black text-text-main mb-4">2,16 tấn vải/năm</h3>
@@ -61,9 +61,9 @@ export default function ESGImpact() {
 
                     <motion.div
                         initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.2 }}
-                        className="bg-white p-8 rounded-[2rem] border border-border shadow-sm text-center"
+                        className="bg-white p-8 rounded-3xl border border-border/50 shadow-sm text-center hover:shadow-xl transition-shadow duration-300"
                     >
-                        <div className="w-16 h-16 bg-orange-50 text-orange-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <div className="w-16 h-16 bg-orange-50 text-orange-500 rounded-2xl flex items-center justify-center mx-auto mb-6">
                             <Globe size={32} />
                         </div>
                         <h3 className="text-2xl font-heading font-black text-text-main mb-4">Hàng chục tấn/năm</h3>
@@ -75,10 +75,10 @@ export default function ESGImpact() {
 
                 <motion.div
                     initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.3 }}
-                    className="bg-green-600 text-white p-10 md:p-12 rounded-[2rem] shadow-xl flex flex-col md:flex-row items-center gap-8 md:gap-12 relative overflow-hidden"
+                    className="bg-green-600 text-white p-10 md:p-12 rounded-3xl shadow-xl flex flex-col md:flex-row items-center gap-8 md:gap-12 relative overflow-hidden"
                 >
                     <div className="absolute -top-24 -right-24 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
-                    <div className="shrink-0 w-24 h-24 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-white/30 relative z-10">
+                    <div className="shrink-0 w-24 h-24 bg-white/20 rounded-2xl flex items-center justify-center backdrop-blur-sm border border-white/30 relative z-10 shadow-lg">
                         <Award size={48} className="text-white" />
                     </div>
                     <div className="relative z-10 text-center md:text-left">

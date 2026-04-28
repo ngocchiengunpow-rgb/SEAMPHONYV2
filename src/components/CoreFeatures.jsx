@@ -55,7 +55,7 @@ export default function CoreFeatures() {
 
     const itemVars = {
         hidden: { opacity: 0, y: 40 },
-        visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] } }
+        visible: { opacity: 1, y: 0, transition: { type: "spring", bounce: 0, duration: 0.9 } }
     };
 
     return (
@@ -63,7 +63,7 @@ export default function CoreFeatures() {
             <div className="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
                 <div className="text-center mb-16 max-w-3xl mx-auto">
                     <motion.h2
-                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ type: "spring", bounce: 0, duration: 0.9 }}
                         className="text-4xl md:text-5xl font-heading font-extrabold text-text-main tracking-tight"
                     >
                         6 Lợi Thế Của Panel Vải Vụn <span className="text-primary-cta">Seamphony</span>
@@ -81,12 +81,12 @@ export default function CoreFeatures() {
                             whileHover={{
                                 scale: 1.02,
                                 y: -5,
-                                boxShadow: "0 20px 40px -15px rgba(143, 166, 172, 0.4)",
-                                borderColor: "#8FA6AC"
+                                boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.1)",
+                                borderColor: "rgba(148, 163, 184, 0.3)"
                             }}
-                            className="bg-secondary-bg p-8 lg:p-10 rounded-[2rem] border border-border shadow-sm transition-all duration-400 flex flex-col h-full group relative overflow-hidden"
+                            className="bg-white p-8 lg:p-10 rounded-3xl border border-border/60 shadow-sm transition-all duration-500 flex flex-col h-full group relative overflow-hidden"
                         >
-                            <div className="absolute top-0 right-0 w-32 h-32 bg-primary-cta/5 rounded-bl-[100px] -z-10 group-hover:scale-110 transition-transform duration-500"></div>
+                            <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-primary-cta/5 to-transparent rounded-bl-[100px] -z-10 group-hover:scale-150 transition-transform duration-700"></div>
 
                             <div className="w-16 h-16 bg-primary-bg rounded-2xl border border-border flex items-center justify-center mb-8 text-primary-cta group-hover:scale-110 group-hover:bg-primary-cta/10 transition-all duration-300 shrink-0 shadow-sm relative z-10">
                                 {feature.icon}

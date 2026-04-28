@@ -5,7 +5,7 @@ import { Wallet, TrendingUp } from 'lucide-react';
 export default function FinancialViability() {
     const fadeUp = {
         hidden: { opacity: 0, y: 30 },
-        visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
+        visible: { opacity: 1, y: 0, transition: { type: "spring", bounce: 0, duration: 0.9 } }
     };
 
     return (
@@ -29,7 +29,7 @@ export default function FinancialViability() {
                 <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
                     <motion.div
                         initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
-                        className="bg-secondary-bg p-8 lg:p-10 rounded-[2rem] border border-border hover:shadow-xl transition-shadow"
+                        className="bg-white p-8 lg:p-10 rounded-3xl border border-border/50 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
                     >
                         <h3 className="text-2xl font-heading font-bold mb-6 flex items-center gap-3 text-text-main">
                             <Wallet className="text-primary-cta" /> Cấu trúc chi phí rõ ràng
@@ -52,7 +52,7 @@ export default function FinancialViability() {
 
                     <motion.div
                         initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.2 }}
-                        className="bg-white p-8 lg:p-10 rounded-[2rem] border border-border hover:shadow-xl transition-shadow"
+                        className="bg-white p-8 lg:p-10 rounded-3xl border border-border/50 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
                     >
                         <h3 className="text-2xl font-heading font-bold mb-6 flex items-center gap-3 text-text-main">
                             <TrendingUp className="text-accent" /> Doanh thu & hoàn vốn

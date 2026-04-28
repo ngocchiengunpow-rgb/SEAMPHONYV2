@@ -11,9 +11,11 @@ export default function Hero() {
             opacity: 1,
             y: 0,
             transition: {
+                type: "spring",
+                bounce: 0,
+                duration: 0.9,
                 delay: i * 0.15,
-                duration: 0.8,
-                ease: [0.16, 1, 0.3, 1] // Apple-like smooth spring
+                opacity: { duration: 0.6 }
             }
         })
     };
@@ -38,7 +40,7 @@ export default function Hero() {
 
                     <motion.h1
                         custom={1} initial="hidden" animate="visible" variants={fadeUp}
-                        className="text-6xl md:text-8xl lg:text-9xl font-heading font-extrabold text-text-main tracking-tighter leading-[1.05] mb-8 max-w-6xl"
+                        className="text-5xl md:text-7xl lg:text-8xl font-heading font-extrabold text-text-main tracking-tighter leading-[1.05] mb-8 max-w-5xl"
                     >
                         Panel cách âm từ <br className="hidden md:block" />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-cta to-accent">vải vụn tái chế.</span>
@@ -69,20 +71,20 @@ export default function Hero() {
                         custom={3} initial="hidden" animate="visible" variants={fadeUp}
                         className="flex flex-wrap justify-center gap-4 md:gap-6 mb-14"
                     >
-                        <a href="#contact" className="px-8 py-4 bg-primary-cta text-white font-heading font-bold text-lg rounded-full hover:bg-[#d94a08] transition-all duration-300 shadow-lg hover:shadow-primary-cta/40 hover:-translate-y-1">
+                        <a href="#contact" className="px-8 py-4 bg-primary-cta text-white font-heading font-bold text-base md:text-lg rounded-full hover:bg-[#d94a08] transition-all duration-300 shadow-xl shadow-primary-cta/20 hover:shadow-primary-cta/40 hover:-translate-y-0.5">
                             Cho Nhà Thầu / Chủ Quán
                         </a>
                         <a 
                             href="/Ho_so_du_an_Seamphony.pdf" 
                             download
-                            className="px-6 py-4 bg-transparent border-2 border-primary-cta text-primary-cta font-heading font-bold text-base md:text-lg rounded-full hover:bg-primary-cta hover:text-white transition-all duration-300 shadow-lg hover:shadow-primary-cta/40 hover:-translate-y-1"
+                            className="px-6 py-4 bg-white/50 backdrop-blur-md border border-primary-cta/30 text-primary-cta font-heading font-bold text-base md:text-lg rounded-full hover:bg-primary-cta/5 transition-all duration-300 shadow-sm hover:shadow hover:-translate-y-0.5"
                         >
                             Cho Ban Giám Khảo (Hồ Sơ)
                         </a>
                         <a 
                             href="#" 
                             onClick={(e) => e.preventDefault()}
-                            className="px-6 py-4 bg-transparent border-2 border-accent text-accent font-heading font-bold text-base md:text-lg rounded-full shadow-lg cursor-not-allowed opacity-50 hidden md:inline-flex"
+                            className="px-6 py-4 bg-transparent text-text-muted font-heading font-bold text-base md:text-lg rounded-full cursor-not-allowed opacity-50 hidden md:inline-flex"
                         >
                             PitchDeck (Sắp ra mắt)
                         </a>
@@ -108,21 +110,21 @@ export default function Hero() {
 
                         {/* Product Visual Showcase - Stacked Vertical Layout */}
                         <div className="flex flex-col gap-8 lg:ml-10 w-full max-w-2xl">
-                            <div className="relative group perspective-1000">
-                                <div className="absolute inset-0 bg-gradient-to-tr from-primary-cta/20 to-accent/20 rounded-[2rem] blur-3xl transform group-hover:scale-105 transition-transform duration-700"></div>
+                            <div className="relative group">
+                                <div className="absolute inset-0 bg-gradient-to-tr from-primary-cta/10 to-accent/10 rounded-3xl blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
                                 
                                 {/* Main Video Card */}
-                                <div className="relative aspect-video w-full bg-black rounded-[2.5rem] border-4 border-white/10 shadow-2xl overflow-hidden transform transition-all duration-700 hover:rotate-yd-2 hover:scale-[1.01] z-10 group/vid">
+                                <div className="relative aspect-video w-full bg-black rounded-3xl border border-white/20 shadow-2xl overflow-hidden transform transition-all duration-700 hover:scale-[1.02] z-10 group/vid">
                                     {!isPlaying ? (
                                         <div 
                                             className="absolute inset-0 flex items-center justify-center bg-neutral-900/40 backdrop-blur-[2px] z-20 group/play cursor-not-allowed"
                                         >
                                             {/* Play CTA Button */}
-                                            <div className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center rounded-full bg-primary-cta/40 text-white/50 shadow-[0_0_50px_-10px_rgba(234,88,12,0.2)] border-4 border-white/10">
+                                            <div className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center rounded-full bg-white/10 text-white backdrop-blur-md shadow-2xl border border-white/20 group-hover/play:bg-primary-cta transition-colors duration-300">
                                                 <Play size={40} className="fill-current ml-1" />
                                             </div>
                                             {/* Click to Play Hint */}
-                                            <div className="absolute bottom-10 left-0 right-0 text-center text-white/80 font-heading font-bold text-sm tracking-widest uppercase opacity-0 group-hover/play:opacity-100 transition-opacity duration-500">
+                                            <div className="absolute bottom-10 left-0 right-0 text-center text-white font-heading font-bold text-sm tracking-widest uppercase opacity-0 group-hover/play:opacity-100 transition-opacity duration-500">
                                                 Video Đang Cập Nhật
                                             </div>
                                         </div>
@@ -146,14 +148,14 @@ export default function Hero() {
                             <motion.div 
                                 initial={{ opacity: 0, y: 30 }}
                                 animate={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 0.8, duration: 1 }}
-                                className="relative w-full aspect-[4/3] max-w-lg mx-auto bg-secondary-bg rounded-[2rem] border-4 border-white/30 shadow-xl overflow-hidden group/img transform hover:scale-[1.02] transition-all duration-500 cursor-pointer"
+                                transition={{ type: "spring", bounce: 0, duration: 0.9, delay: 0.6 }}
+                                className="relative w-full aspect-[4/3] max-w-lg mx-auto bg-white rounded-3xl border border-border/50 shadow-xl overflow-hidden group/img transform hover:scale-[1.02] transition-all duration-500 cursor-pointer"
                             >
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10"></div>
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 pointer-events-none"></div>
                                 <img src="/panel_sample.png" alt="Seamphony Product Sample" className="w-full h-full object-cover transform group-hover/img:scale-105 transition-transform duration-700" />
                                 
                                 {/* Refined Badge - Rotated Corner Ribbon Style */}
-                                <div className="absolute top-6 -right-8 bg-primary-cta text-white font-black px-12 py-2 shadow-2xl z-30 transform rotate-12 border-y border-white/20 text-[10px] md:text-xs tracking-tight">
+                                <div className="absolute top-6 -right-8 bg-primary-cta text-white font-black px-12 py-2 shadow-xl z-30 transform rotate-12 border-y border-white/20 text-[10px] md:text-xs tracking-tight">
                                     100% Vải vụn tái chế!
                                 </div>
                             </motion.div>

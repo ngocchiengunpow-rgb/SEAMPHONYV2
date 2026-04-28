@@ -57,13 +57,13 @@ export default function SolutionProcess() {
 
                 <div className="text-center mb-24 max-w-4xl mx-auto">
                     <motion.h2
-                        initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
+                        initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ type: "spring", bounce: 0, duration: 0.9 }}
                         className="text-4xl md:text-6xl font-heading font-extrabold mb-8 tracking-tight"
                     >
                         Bản chất Công nghệ
                     </motion.h2>
                     <motion.p
-                        initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ delay: 0.2, type: "spring" }}
+                        initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ type: "spring", bounce: 0, duration: 0.9, delay: 0.2 }}
                         className="text-xl md:text-2xl font-body leading-relaxed text-text-muted font-light"
                     >
                         Ứng dụng chuỗi công nghệ <strong className="text-text-main">vải không dệt - ép nhiệt (nonwoven thermal bonding)</strong>, chuyển hóa vải vụn thành vật liệu nội thất xanh đạt chuẩn âm học.
@@ -84,10 +84,10 @@ export default function SolutionProcess() {
                         return (
                             <motion.div
                                 key={idx}
-                                initial={{ opacity: 0, y: 40, scale: 0.95 }}
+                                initial={{ opacity: 0, y: 40, scale: 0.98 }}
                                 whileInView={{ opacity: 1, y: 0, scale: 1 }}
                                 viewport={{ once: true, margin: "-100px" }}
-                                transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+                                transition={{ type: "spring", bounce: 0, duration: 0.9, delay: 0.1 }}
                                 className={`relative flex flex-col md:flex-row items-start md:items-center mb-16 last:mb-0 group ${isEven ? 'md:flex-row-reverse' : ''}`}
                             >
                                 {/* Timeline Dot */}
@@ -99,7 +99,8 @@ export default function SolutionProcess() {
 
                                 {/* Content */}
                                 <div className={`w-full sm:pl-28 md:pl-0 md:w-1/2 ${isEven ? 'md:pl-20' : 'md:pr-20'}`}>
-                                    <div className={`bg-primary-bg p-8 lg:p-10 rounded-[2rem] border shadow-sm hover:shadow-xl transition-all duration-300 group-hover:-translate-y-2 ${step.color.replace('bg-', 'border-').replace('/10', '/30')}`}>
+                                    <div className={`bg-white p-8 lg:p-10 rounded-3xl border border-border/50 shadow-sm hover:shadow-xl transition-all duration-500 group-hover:-translate-y-1 relative overflow-hidden`}>
+                                        <div className={`absolute inset-0 bg-gradient-to-br ${step.color.replace('text-', 'from-').split(' ')[0]}/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none`}></div>
                                         <div className="flex items-center gap-4 mb-4 sm:hidden">
                                             <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${step.color}`}>
                                                 <step.icon size={24} />
