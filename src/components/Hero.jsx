@@ -73,18 +73,18 @@ export default function Hero() {
                             Liên Hệ Hợp Tác
                         </a>
                         <a 
-                            href="#" 
-                            onClick={(e) => e.preventDefault()}
-                            className="px-6 py-4 bg-transparent border-2 border-primary-cta text-primary-cta font-heading font-bold text-base md:text-lg rounded-full hover:bg-primary-cta hover:text-white transition-all duration-300 shadow-lg hover:shadow-primary-cta/40 hover:-translate-y-1 cursor-not-allowed opacity-80"
+                            href="/Ho_so_du_an_Seamphony.pdf" 
+                            download
+                            className="px-6 py-4 bg-transparent border-2 border-primary-cta text-primary-cta font-heading font-bold text-base md:text-lg rounded-full hover:bg-primary-cta hover:text-white transition-all duration-300 shadow-lg hover:shadow-primary-cta/40 hover:-translate-y-1"
                         >
                             Tải Hồ Sơ Dự Án
                         </a>
                         <a 
                             href="#" 
                             onClick={(e) => e.preventDefault()}
-                            className="px-6 py-4 bg-transparent border-2 border-accent text-accent font-heading font-bold text-base md:text-lg rounded-full hover:bg-accent hover:text-white transition-all duration-300 shadow-lg hover:shadow-accent/40 hover:-translate-y-1 cursor-not-allowed opacity-80"
+                            className="px-6 py-4 bg-transparent border-2 border-accent text-accent font-heading font-bold text-base md:text-lg rounded-full shadow-lg cursor-not-allowed opacity-50"
                         >
-                            Tải PitchDeck
+                            Tải PitchDeck (Đang cập nhật)
                         </a>
                     </motion.div>
 
@@ -115,16 +115,15 @@ export default function Hero() {
                                 <div className="relative aspect-video w-full bg-black rounded-[2.5rem] border-4 border-white/10 shadow-2xl overflow-hidden transform transition-all duration-700 hover:rotate-yd-2 hover:scale-[1.01] z-10 group/vid">
                                     {!isPlaying ? (
                                         <div 
-                                            className="absolute inset-0 flex items-center justify-center cursor-pointer bg-neutral-900/40 backdrop-blur-[2px] z-20 group/play"
-                                            onClick={() => setIsPlaying(true)}
+                                            className="absolute inset-0 flex items-center justify-center bg-neutral-900/40 backdrop-blur-[2px] z-20 group/play cursor-not-allowed"
                                         >
                                             {/* Play CTA Button */}
-                                            <div className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center rounded-full bg-primary-cta/90 text-white shadow-[0_0_50px_-10px_rgba(234,88,12,0.6)] group-hover/play:scale-110 group-hover/play:bg-primary-cta transition-all duration-500 border-4 border-white/20">
+                                            <div className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center rounded-full bg-primary-cta/40 text-white/50 shadow-[0_0_50px_-10px_rgba(234,88,12,0.2)] border-4 border-white/10">
                                                 <Play size={40} className="fill-current ml-1" />
                                             </div>
                                             {/* Click to Play Hint */}
                                             <div className="absolute bottom-10 left-0 right-0 text-center text-white/80 font-heading font-bold text-sm tracking-widest uppercase opacity-0 group-hover/play:opacity-100 transition-opacity duration-500">
-                                                Click to Play Intro
+                                                Video Đang Cập Nhật
                                             </div>
                                         </div>
                                     ) : (

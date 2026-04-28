@@ -129,7 +129,7 @@ export default function TeamFooter() {
 
                 {/* Footer Bottom */}
                 <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-white/40 font-body text-sm lowercase tracking-wider">
-                    <p>© 2026 seamphony project. i-startup 2026.</p>
+                    <p>© 2026 seamphony project. bvc 2026.</p>
                     <div className="flex flex-col md:flex-row gap-6 md:gap-12">
                         <a href="tel:0356882119" className="flex items-center gap-3 hover:text-primary-cta transition-colors cursor-pointer"><Phone size={18} /> 0356 882 119</a>
                         <a href="mailto:chien103391@st.vimaru.edu.vn" className="flex items-center gap-3 hover:text-primary-cta transition-colors cursor-pointer"><Mail size={18} /> chien103391@st.vimaru.edu.vn</a>
