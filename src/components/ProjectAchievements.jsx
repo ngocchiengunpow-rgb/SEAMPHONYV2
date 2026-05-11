@@ -4,8 +4,8 @@ import { FlaskConical, Users, Factory, Globe } from 'lucide-react';
 
 export default function ProjectAchievements() {
     const fadeUp = {
-        hidden: { opacity: 0, y: 40 },
-        visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] } },
+        hidden: { opacity: 0, y: 20 },
+        visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] } },
     };
 
     return (
@@ -13,13 +13,13 @@ export default function ProjectAchievements() {
             <div className="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
                 <div className="text-center mb-20 max-w-3xl mx-auto">
                     <motion.h2 
-                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-                        className="text-4xl md:text-5xl font-heading font-black text-text-main mb-6 tracking-tight"
+                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+                        className="text-3xl md:text-5xl font-heading font-black text-text-main mb-6 tracking-tight"
                     >
                         Thành Tựu Dự Án
                     </motion.h2>
                     <motion.p 
-                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}
+                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ delay: 0.1 }}
                         className="text-xl text-text-muted font-body font-light"
                     >
                         Dù ở giai đoạn Early Stage, Seamphony đã đạt được những <strong className="text-primary-cta font-bold">cột mốc tiền đề</strong> cực kỳ quan trọng.
@@ -28,7 +28,7 @@ export default function ProjectAchievements() {
 
                 <div className="grid md:grid-cols-2 gap-8">
                     {/* R&D */}
-                    <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} className="bg-white p-8 rounded-[2rem] shadow-sm border border-border group hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
+                    <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} className="bg-white p-8 rounded-[2rem] shadow-sm border border-border group hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
                         <div className="w-16 h-16 bg-primary-cta/10 rounded-2xl flex items-center justify-center mb-6 text-primary-cta group-hover:scale-110 transition-transform">
                             <FlaskConical size={32} />
                         </div>
@@ -39,7 +39,7 @@ export default function ProjectAchievements() {
                     </motion.div>
 
                     {/* Market Validation */}
-                    <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} transition={{ delay: 0.1 }} className="bg-white p-8 rounded-[2rem] shadow-sm border border-border group hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
+                    <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} transition={{ delay: 0.1 }} className="bg-white p-8 rounded-[2rem] shadow-sm border border-border group hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
                         <div className="w-16 h-16 bg-accent/10 rounded-2xl flex items-center justify-center mb-6 text-accent group-hover:scale-110 transition-transform">
                             <Users size={32} />
                         </div>
@@ -50,7 +50,7 @@ export default function ProjectAchievements() {
                     </motion.div>
 
                     {/* Network & Materials */}
-                    <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} transition={{ delay: 0.2 }} className="bg-white p-8 rounded-[2rem] shadow-sm border border-border group hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
+                    <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} transition={{ delay: 0.2 }} className="bg-white p-8 rounded-[2rem] shadow-sm border border-border group hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
                         <div className="w-16 h-16 bg-green-500/10 rounded-2xl flex items-center justify-center mb-6 text-green-500 group-hover:scale-110 transition-transform">
                             <Factory size={32} />
                         </div>
@@ -61,7 +61,7 @@ export default function ProjectAchievements() {
                     </motion.div>
 
                     {/* Digital Branding */}
-                    <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} transition={{ delay: 0.3 }} className="bg-text-main text-white p-8 rounded-[2rem] shadow-xl group hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 relative overflow-hidden">
+                    <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} transition={{ delay: 0.3 }} className="bg-text-main text-white p-8 rounded-[2rem] shadow-xl group hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 relative overflow-hidden">
                         <div className="absolute top-0 right-0 w-32 h-32 bg-primary-cta/20 rounded-full blur-[40px] pointer-events-none"></div>
                         <div className="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform relative z-10">
                             <Globe size={32} className="text-white" />

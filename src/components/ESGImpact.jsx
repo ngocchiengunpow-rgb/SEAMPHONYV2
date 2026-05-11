@@ -4,8 +4,8 @@ import { Leaf, Recycle, Globe, Award } from 'lucide-react';
 
 export default function ESGImpact() {
     const fadeUp = {
-        hidden: { opacity: 0, y: 30 },
-        visible: { opacity: 1, y: 0, transition: { type: "spring", bounce: 0, duration: 0.9 } },
+        hidden: { opacity: 0, y: 20 },
+        visible: { opacity: 1, y: 0, transition: { type: "spring", bounce: 0, duration: 0.6 } },
     };
 
     return (
@@ -13,19 +13,19 @@ export default function ESGImpact() {
             <div className="max-w-7xl mx-auto px-6 lg:px-12">
                 <div className="text-center mb-16 max-w-3xl mx-auto">
                     <motion.div
-                        initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
+                        initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={fadeUp}
                         className="inline-flex items-center justify-center p-3 bg-green-100 rounded-2xl mb-6 text-green-600"
                     >
                         <Leaf size={32} />
                     </motion.div>
                     <motion.h2
-                        initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
-                        className="text-4xl md:text-5xl font-heading font-extrabold text-text-main mb-6"
+                        initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={fadeUp}
+                        className="text-3xl md:text-5xl font-heading font-extrabold text-text-main mb-6"
                     >
                         Tác động <span className="text-green-600">tuần hoàn & ESG</span>
                     </motion.h2>
                     <motion.p
-                        initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.1 }}
+                        initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={fadeUp} transition={{ delay: 0.1 }}
                         className="text-lg text-text-muted font-body"
                     >
                         Mỗi mét vuông panel Seamphony không chỉ giúp không gian êm hơn, mà còn ghi lại một đơn vị tác động tuần hoàn cụ thể cho xưởng may và chủ công trình.
@@ -34,7 +34,7 @@ export default function ESGImpact() {
 
                 <div className="grid md:grid-cols-3 gap-8 mb-12">
                     <motion.div
-                        initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
+                        initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={fadeUp}
                         className="bg-white p-8 rounded-3xl border border-border/50 shadow-sm text-center hover:shadow-xl transition-shadow duration-300 flex flex-col h-full"
                     >
                         <div className="w-16 h-16 bg-blue-50 text-blue-500 rounded-2xl flex items-center justify-center mx-auto mb-6 shrink-0">
@@ -47,7 +47,7 @@ export default function ESGImpact() {
                     </motion.div>
 
                     <motion.div
-                        initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.1 }}
+                        initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={fadeUp} transition={{ delay: 0.1 }}
                         className="bg-white p-8 rounded-3xl border border-border/50 shadow-sm text-center hover:shadow-xl transition-shadow duration-300 flex flex-col h-full"
                     >
                         <div className="w-16 h-16 bg-green-50 text-green-500 rounded-2xl flex items-center justify-center mx-auto mb-6 shrink-0">
@@ -60,7 +60,7 @@ export default function ESGImpact() {
                     </motion.div>
 
                     <motion.div
-                        initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.2 }}
+                        initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={fadeUp} transition={{ delay: 0.2 }}
                         className="bg-white p-8 rounded-3xl border border-border/50 shadow-sm text-center hover:shadow-xl transition-shadow duration-300 flex flex-col h-full"
                     >
                         <div className="w-16 h-16 bg-orange-50 text-orange-500 rounded-2xl flex items-center justify-center mx-auto mb-6 shrink-0">
@@ -74,7 +74,7 @@ export default function ESGImpact() {
                 </div>
 
                 <motion.div
-                    initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.3 }}
+                    initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={fadeUp} transition={{ delay: 0.3 }}
                     className="bg-green-600 text-white p-10 md:p-12 rounded-3xl shadow-xl flex flex-col md:flex-row items-center gap-8 md:gap-12 relative overflow-hidden"
                 >
                     <div className="absolute -top-24 -right-24 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>

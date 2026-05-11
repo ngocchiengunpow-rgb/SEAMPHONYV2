@@ -9,8 +9,8 @@ export default function Problem() {
     };
 
     const itemVars = {
-        hidden: { opacity: 0, y: 40 },
-        visible: { opacity: 1, y: 0, transition: { type: "spring", bounce: 0, duration: 0.9 } },
+        hidden: { opacity: 0, y: 20 },
+        visible: { opacity: 1, y: 0, transition: { type: "spring", bounce: 0, duration: 0.6 } },
     };
 
     return (
@@ -18,13 +18,13 @@ export default function Problem() {
             <div className="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
 
                 <motion.div
-                    initial={{ opacity: 0, y: 40 }}
+                    initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, margin: "-100px" }}
-                    transition={{ type: "spring", bounce: 0, duration: 0.9 }}
+                    viewport={{ once: true, margin: "-50px" }}
+                    transition={{ type: "spring", bounce: 0, duration: 0.6 }}
                     className="text-center mb-20"
                 >
-                    <h2 className="text-4xl md:text-6xl font-heading font-extrabold text-text-main mb-6 tracking-tight">Thị trường Bế tắc</h2>
+                    <h2 className="text-3xl md:text-6xl font-heading font-extrabold text-text-main mb-6 tracking-tight">Thị trường Bế tắc</h2>
                     <p className="text-xl text-text-muted font-body max-w-2xl mx-auto">Thiếu giải pháp giao thoa giữa ngành công nghiệp dệt may và nhu cầu nội thất tiêu âm thẩm mỹ.</p>
                 </motion.div>
 
@@ -76,7 +76,7 @@ export default function Problem() {
                 <motion.div
                     initial={{ opacity: 0, scale: 0.95, y: 30 }}
                     whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                    viewport={{ once: true }}
+                    viewport={{ once: true, margin: "-50px" }}
                     transition={{ type: "spring", bounce: 0, duration: 1 }}
                     className="bg-[#0F172A] rounded-3xl p-10 lg:p-14 relative overflow-hidden shadow-2xl flex flex-col lg:flex-row items-center gap-12"
                 >

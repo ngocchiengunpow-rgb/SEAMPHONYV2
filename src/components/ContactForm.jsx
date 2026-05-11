@@ -9,20 +9,20 @@ export default function ContactForm() {
                 
                 <div className="lg:w-5/12 w-full text-left">
                     <motion.h2
-                        initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-                        className="text-4xl md:text-5xl font-heading font-extrabold text-text-main mb-6"
+                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.6 }}
+                        className="text-3xl md:text-5xl font-heading font-extrabold text-text-main mb-6"
                     >
-                        Liên hệ & <span className="text-primary-cta">Đăng ký tư vấn</span>
+                        Liên hệ & <span className="text-primary-cta">Đăng ký</span>
                     </motion.h2>
                     <motion.p
-                        initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}
+                        initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ delay: 0.1 }}
                         className="text-lg text-text-muted font-body mb-10 leading-relaxed"
                     >
                         Nếu bạn là xưởng may, nhà thầu nội thất, chủ quán café/homestay hoặc đơn vị quan tâm đến ESG và kinh tế tuần hoàn, hãy để lại thông tin để Seamphony liên hệ.
                     </motion.p>
 
                     <div className="space-y-6">
-                        <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }} className="flex items-center gap-4">
+                        <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ delay: 0.2 }} className="flex items-center gap-4">
                             <div className="w-12 h-12 bg-primary-cta/10 rounded-full flex items-center justify-center text-primary-cta shrink-0">
                                 <Mail size={20} />
                             </div>
@@ -32,7 +32,7 @@ export default function ContactForm() {
                             </div>
                         </motion.div>
                         
-                        <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.3 }} className="flex items-center gap-4">
+                        <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ delay: 0.3 }} className="flex items-center gap-4">
                             <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center text-accent shrink-0">
                                 <Phone size={20} />
                             </div>
@@ -42,7 +42,7 @@ export default function ContactForm() {
                             </div>
                         </motion.div>
 
-                        <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.4 }} className="flex items-center gap-4">
+                        <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ delay: 0.4 }} className="flex items-center gap-4">
                             <div className="w-12 h-12 bg-green-500/10 rounded-full flex items-center justify-center text-green-600 shrink-0">
                                 <FileText size={20} />
                             </div>
@@ -56,7 +56,7 @@ export default function ContactForm() {
 
                 <div className="lg:w-7/12 w-full">
                     <motion.form
-                        initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.5 }}
+                        initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.5 }}
                         className="bg-secondary-bg p-8 md:p-12 rounded-[2rem] border border-border shadow-xl space-y-6"
                         onSubmit={(e) => { e.preventDefault(); alert('Cảm ơn bạn đã quan tâm. Chúng tôi sẽ liên hệ lại sớm nhất!'); }}
                     >

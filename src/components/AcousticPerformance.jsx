@@ -36,13 +36,13 @@ export default function AcousticPerformance() {
 
                 <div className="text-center mb-16 max-w-3xl mx-auto">
                     <motion.h2
-                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-                        className="text-4xl md:text-5xl font-heading font-extrabold text-text-main mb-6 tracking-tight"
+                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }}
+                        className="text-3xl md:text-5xl font-heading font-extrabold text-text-main mb-6 tracking-tight"
                     >
                         Khả năng Tiêu âm Vượt trội <span className="text-primary-cta">(Hệ số NRC)</span>
                     </motion.h2>
                     <motion.p
-                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}
+                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ delay: 0.1 }}
                         className="text-xl text-text-muted font-body font-light"
                     >
                         Hiệu suất cách âm thực tế so sánh với các vật liệu xây dựng và trang trí nội thất phổ biến trên thị trường.
@@ -50,7 +50,7 @@ export default function AcousticPerformance() {
                 </div>
 
                 <motion.div
-                    initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}
+                    initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.6 }}
                     className="bg-secondary-bg p-8 lg:p-16 rounded-[2.5rem] border border-border/80 shadow-2xl relative max-w-5xl mx-auto"
                 >
                     <div className="absolute top-0 right-0 w-64 h-64 bg-primary-cta/10 rounded-full blur-[80px] mix-blend-multiply"></div>
@@ -73,7 +73,7 @@ export default function AcousticPerformance() {
                                             className={`h-full rounded-full ${item.color} relative overflow-hidden`}
                                             initial={{ width: 0 }}
                                             whileInView={{ width: `${item.nrc * 100}%` }}
-                                            viewport={{ once: true }}
+                                            viewport={{ once: true, margin: "-50px" }}
                                             transition={{ duration: 1.5, delay: 0.2 + index * 0.15, type: "spring", bounce: 0.2 }}
                                         >
                                             {isHighlight && <div className="absolute inset-0 bg-white/20 -skew-x-12 translate-x-[-100%] animate-[shimmer_2s_infinite]"></div>}
@@ -88,7 +88,7 @@ export default function AcousticPerformance() {
                 </motion.div>
 
                 <motion.div
-                    initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.4 }}
+                    initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ delay: 0.4 }}
                     className="mt-12 text-center"
                 >
                     <p className="inline-flex flex-wrap justify-center items-center gap-4 md:gap-8 text-sm md:text-base font-bold tracking-widest uppercase border border-border/50 bg-secondary-bg/50 px-8 py-4 rounded-full shadow-sm text-text-muted">

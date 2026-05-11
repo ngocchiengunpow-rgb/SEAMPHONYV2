@@ -41,20 +41,20 @@ export default function MarketCompetition() {
                     {/* Left: Stats */}
                     <div>
                         <motion.h2
-                            initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}
-                            className="text-4xl md:text-6xl font-heading font-extrabold text-text-main mb-8 tracking-tight"
+                            initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={fadeUp}
+                            className="text-3xl md:text-5xl font-heading font-extrabold text-text-main mb-6"
                         >
                             Thị trường khổng lồ
                         </motion.h2>
                         <motion.p
-                            initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}
-                            className="text-xl text-text-muted font-body mb-16 font-light leading-relaxed"
+                            initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ delay: 0.1, duration: 0.6 }}
+                            className="text-lg md:text-xl text-text-muted font-body mb-16 font-light leading-relaxed"
                         >
                             Ngành dệt may khổng lồ thải ra lượng lớn vải vụn cần xử lý. Cùng lúc đó, các không gian dịch vụ F&B, Homestay đang rất cần giải pháp cách âm có câu chuyện Xanh.
                         </motion.p>
 
                         <div className="space-y-12">
-                            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="flex gap-6 items-start">
+                            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} className="flex gap-6 items-start">
                                 <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shrink-0 shadow-sm border border-border">
                                     <DollarSign className="text-primary-cta" size={32} />
                                 </div>
@@ -66,7 +66,7 @@ export default function MarketCompetition() {
                                 </div>
                             </motion.div>
 
-                            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }} className="flex gap-6 items-start">
+                            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ delay: 0.1 }} className="flex gap-6 items-start">
                                 <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shrink-0 shadow-sm border border-border">
                                     <BarChart3 className="text-primary-cta" size={32} />
                                 </div>
@@ -78,7 +78,7 @@ export default function MarketCompetition() {
                                 </div>
                             </motion.div>
 
-                            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }} className="flex gap-6 items-start">
+                            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ delay: 0.2 }} className="flex gap-6 items-start">
                                 <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shrink-0 shadow-sm border border-border">
                                     <Users className="text-primary-cta" size={32} />
                                 </div>
@@ -94,7 +94,7 @@ export default function MarketCompetition() {
 
                     {/* Right: Customer Segments */}
                     <motion.div
-                        initial={{ opacity: 0, scale: 0.95, filter: 'blur(10px)' }} whileInView={{ opacity: 1, scale: 1, filter: 'blur(0px)' }} viewport={{ once: true }} transition={{ duration: 0.8 }}
+                        initial={{ opacity: 0, scale: 0.95, filter: 'blur(10px)' }} whileInView={{ opacity: 1, scale: 1, filter: 'blur(0px)' }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.6 }}
                         className="bg-primary-bg p-8 lg:p-12 rounded-[2.5rem] border border-border/80 shadow-2xl relative"
                     >
                         <div className="absolute -top-6 -right-6 w-32 h-32 bg-primary-cta/20 rounded-full blur-3xl mix-blend-multiply"></div>
@@ -125,7 +125,7 @@ export default function MarketCompetition() {
                 <div className="grid lg:grid-cols-2 gap-8 lg:gap-16">
 
                     <motion.div
-                        initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }}
+                        initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={fadeUp}
                         className="space-y-8"
                     >
                         <h3 className="text-3xl font-heading font-extrabold text-text-main mb-6">Lợi thế Cạnh tranh</h3>

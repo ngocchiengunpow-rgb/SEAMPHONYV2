@@ -10,7 +10,7 @@ function AnimatedNumber({ value }) {
         if (node) {
             const startValue = parseInt(node.textContent.replace(/\D/g, '')) || 0;
             const controls = animate(startValue, value, {
-                duration: 0.8,
+                duration: 0.6,
                 ease: "easeOut",
                 onUpdate(v) {
                     node.textContent = new Intl.NumberFormat('vi-VN').format(Math.round(v));
@@ -35,22 +35,22 @@ export default function InteractiveCalculator() {
 
                 <div className="text-center mb-16 max-w-3xl mx-auto">
                     <motion.h2
-                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-                        className="text-4xl md:text-5xl font-heading font-extrabold text-text-main mb-6 tracking-tight"
+                        initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-20px" }} transition={{ duration: 0.6 }}
+                        className="text-3xl md:text-5xl font-heading font-extrabold text-text-main mb-6 tracking-tight"
                     >
                         Bài toán Kinh tế: <br className="md:hidden" /><span className="text-primary-cta">Tính toán Chi phí Thi công</span>
                     </motion.h2>
                     <motion.p
-                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}
-                        className="text-xl text-text-muted font-body font-light"
+                        initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-20px" }} transition={{ delay: 0.1, duration: 0.6 }}
+                        className="text-lg md:text-xl text-text-muted font-body font-light"
                     >
                         Mô phỏng tức thì số tiền bạn có thể tiết kiệm được khi lựa chọn giải pháp tiêu âm thông minh.
                     </motion.p>
                 </div>
 
                 <motion.div
-                    initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}
-                    className="bg-secondary-bg p-8 lg:p-12 rounded-[2.5rem] border border-border/80 shadow-2xl relative max-w-4xl mx-auto"
+                    initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-20px" }} transition={{ duration: 0.6 }}
+                    className="bg-secondary-bg p-5 md:p-12 rounded-[2rem] md:rounded-[2.5rem] border border-border/80 shadow-2xl relative max-w-4xl mx-auto"
                 >
                     <div className="mb-12 flex flex-col items-center">
                         <label className="text-xl font-heading font-bold text-text-main mb-6 flex items-center gap-3">
@@ -80,22 +80,22 @@ export default function InteractiveCalculator() {
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-6 mb-10 overflow-hidden">
-                        <div className="bg-primary-bg p-4 md:p-6 lg:p-8 rounded-[2rem] border border-border shadow-sm text-center flex flex-col justify-center">
-                            <p className="text-text-muted font-body mb-1 text-base md:text-lg font-semibold">Gỗ tiêu âm xẻ rãnh</p>
-                            <p className="text-xs md:text-sm text-text-muted/60 mb-4 md:mb-6">(Trung bình 800,000 VNĐ/m²)</p>
-                            <p className="text-3xl lg:text-4xl xl:text-5xl font-heading font-black text-text-main/50 line-through decoration-text-muted/30 tracking-tighter break-all md:break-normal">
+                        <div className="bg-primary-bg p-6 rounded-[2rem] border border-border shadow-sm text-center flex flex-col justify-center">
+                            <p className="text-text-muted font-body mb-1 text-sm md:text-lg font-semibold">Gỗ tiêu âm xẻ rãnh</p>
+                            <p className="text-[10px] md:text-sm text-text-muted/60 mb-4 md:mb-6">(Trung bình 800,000 VNĐ/m²)</p>
+                            <p className="text-2xl md:text-4xl lg:text-5xl font-heading font-black text-text-main/50 line-through decoration-text-muted/30 tracking-tighter break-words">
                                 <AnimatedNumber value={costPremium} />
-                                <span className="text-lg lg:text-xl ml-1 lg:ml-2">VNĐ</span>
+                                <span className="text-sm md:text-xl ml-1 lg:ml-2">VNĐ</span>
                             </p>
                         </div>
-                        <div className="bg-text-main p-4 md:p-6 lg:p-8 rounded-[2rem] shadow-xl border-2 border-primary-cta text-center relative overflow-hidden flex flex-col justify-center">
+                        <div className="bg-text-main p-6 rounded-[2rem] shadow-xl border-2 border-primary-cta text-center relative overflow-hidden flex flex-col justify-center">
                             <div className="absolute top-0 right-0 w-48 h-48 bg-primary-cta/20 rounded-full blur-3xl"></div>
                             <div className="absolute bottom-0 left-0 w-32 h-32 bg-accent/20 rounded-full blur-3xl"></div>
-                            <p className="text-white font-body mb-1 text-base md:text-lg font-bold relative z-10">Panel Vải Vụn Seamphony</p>
-                            <p className="text-xs md:text-sm text-white/60 mb-4 md:mb-6 relative z-10">(Bình quân 420,000 VNĐ/m²)</p>
-                            <p className="text-3xl lg:text-4xl xl:text-5xl font-heading font-black text-white relative z-10 drop-shadow-md tracking-tighter break-all md:break-normal">
+                            <p className="text-white font-body mb-1 text-sm md:text-lg font-bold relative z-10">Panel Vải Vụn Seamphony</p>
+                            <p className="text-[10px] md:text-sm text-white/60 mb-4 md:mb-6 relative z-10">(Bình quân 420,000 VNĐ/m²)</p>
+                            <p className="text-2xl md:text-4xl lg:text-5xl font-heading font-black text-white relative z-10 drop-shadow-md tracking-tighter break-words">
                                 <AnimatedNumber value={costSeamphony} />
-                                <span className="text-lg lg:text-xl ml-1 lg:ml-2 text-primary-cta">VNĐ</span>
+                                <span className="text-sm md:text-xl ml-1 lg:ml-2 text-primary-cta">VNĐ</span>
                             </p>
                         </div>
                     </div>
@@ -104,9 +104,9 @@ export default function InteractiveCalculator() {
                         <p className="text-lg md:text-xl font-body font-bold text-text-main mb-4 uppercase tracking-wider flex items-center justify-center gap-2">
                             <Zap className="text-primary-cta fill-primary-cta" /> BẠN TIẾT KIỆM ĐƯỢC
                         </p>
-                        <p className="text-5xl md:text-7xl font-heading font-black text-primary-cta mb-6 drop-shadow-sm">
+                        <p className="text-4xl md:text-7xl font-heading font-black text-primary-cta mb-6 drop-shadow-sm">
                             <AnimatedNumber value={savings} />
-                            <span className="text-2xl md:text-4xl ml-3 text-text-main">VNĐ</span>
+                            <span className="text-xl md:text-4xl ml-2 md:ml-3 text-text-main">VNĐ</span>
                         </p>
                         <div className="inline-block bg-primary-bg px-6 py-2 rounded-full border border-primary-cta/20">
                             <p className="text-text-muted font-body text-sm md:text-base font-semibold">

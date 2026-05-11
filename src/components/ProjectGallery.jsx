@@ -15,13 +15,13 @@ export default function ProjectGallery() {
 
                 <div className="text-center mb-16 max-w-3xl mx-auto">
                     <motion.h2
-                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-                        className="text-4xl md:text-5xl font-heading font-extrabold text-text-main mb-6 tracking-tight"
+                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }}
+                        className="text-3xl md:text-5xl font-heading font-extrabold text-text-main mb-6 tracking-tight"
                     >
                         Không gian <span className="text-primary-cta">Thực tế</span>
                     </motion.h2>
                     <motion.p
-                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}
+                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ delay: 0.1 }}
                         className="text-xl text-text-muted font-body font-light"
                     >
                         Chiêm ngưỡng vẻ đẹp thô mộc, độc bản của ván ép Seamphony khi được ứng dụng vào các phong cách thiết kế đương đại.
@@ -34,8 +34,8 @@ export default function ProjectGallery() {
                             key={index}
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ delay: index * 0.2, duration: 0.8 }}
+                            viewport={{ once: true, margin: "-50px" }}
+                            transition={{ delay: index * 0.1, duration: 0.6 }}
                             className="group relative rounded-[2rem] overflow-hidden bg-secondary-bg border border-border shadow-md hover:shadow-2xl transition-all duration-500 aspect-[4/5] md:aspect-auto md:h-[500px]"
                         >
                             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10"></div>

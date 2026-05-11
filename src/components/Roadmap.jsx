@@ -1,14 +1,22 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+const fadeUp = {
+    hidden: { opacity: 0, y: 30 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
+};
+
 export default function Roadmap() {
     return (
         <section id="roadmap" className="py-16 lg:py-24 bg-secondary-bg relative border-t border-border/50">
             <div className="max-w-5xl mx-auto px-6 lg:px-12">
                 <div className="text-center mb-20">
-                    <h2 className="text-4xl md:text-5xl font-heading font-extrabold text-text-main mb-6">
+                    <motion.h2
+                        initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={fadeUp}
+                        className="text-2xl md:text-5xl font-heading font-extrabold text-text-main mb-6"
+                    >
                         Lộ trình phát triển <span className="text-primary-cta">Seamphony</span>
-                    </h2>
+                    </motion.h2>
                     <p className="text-lg text-text-muted font-body">
                         Seamphony được triển khai theo ba giai đoạn, từ xưởng pilot đến mạng lưới "micro-hub tuần hoàn".
                     </p>
@@ -20,7 +28,7 @@ export default function Roadmap() {
 
                     {/* Stage 1 */}
                     <motion.div
-                        initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ type: "spring", bounce: 0, duration: 0.9 }}
+                        initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ type: "spring", bounce: 0, duration: 0.7 }}
                         className="relative flex flex-col md:flex-row items-center md:justify-between w-full group"
                     >
                         <div className="absolute left-[-33px] md:left-1/2 md:-translate-x-1/2 w-4 h-4 rounded-full bg-primary-cta shadow-[0_0_0_8px_rgba(234,88,12,0.1)] border-2 border-white z-10 transition-transform duration-300 group-hover:scale-125"></div>
@@ -40,7 +48,7 @@ export default function Roadmap() {
 
                     {/* Stage 2 */}
                     <motion.div
-                        initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ type: "spring", bounce: 0, duration: 0.9, delay: 0.1 }}
+                        initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ type: "spring", bounce: 0, duration: 0.7, delay: 0.1 }}
                         className="relative flex flex-col md:flex-row items-center md:justify-between w-full group"
                     >
                         <div className="absolute left-[-33px] md:left-1/2 md:-translate-x-1/2 w-4 h-4 rounded-full bg-accent shadow-[0_0_0_8px_rgba(37,99,235,0.1)] border-2 border-white z-10 transition-transform duration-300 group-hover:scale-125"></div>
@@ -60,7 +68,7 @@ export default function Roadmap() {
 
                     {/* Stage 3 */}
                     <motion.div
-                        initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ type: "spring", bounce: 0, duration: 0.9, delay: 0.2 }}
+                        initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ type: "spring", bounce: 0, duration: 0.7, delay: 0.2 }}
                         className="relative flex flex-col md:flex-row items-center md:justify-between w-full group"
                     >
                         <div className="absolute left-[-33px] md:left-1/2 md:-translate-x-1/2 w-4 h-4 rounded-full bg-green-500 shadow-[0_0_0_8px_rgba(34,197,94,0.1)] border-2 border-white z-10 transition-transform duration-300 group-hover:scale-125"></div>

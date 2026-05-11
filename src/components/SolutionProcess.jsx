@@ -57,13 +57,13 @@ export default function SolutionProcess() {
 
                 <div className="text-center mb-16 max-w-4xl mx-auto">
                     <motion.h2
-                        initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ type: "spring", bounce: 0, duration: 0.9 }}
-                        className="text-4xl md:text-6xl font-heading font-extrabold mb-8 tracking-tight"
+                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ type: "spring", bounce: 0, duration: 0.6 }}
+                        className="text-3xl md:text-6xl font-heading font-extrabold mb-8 tracking-tight"
                     >
                         Bản chất Công nghệ
                     </motion.h2>
                     <motion.p
-                        initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ type: "spring", bounce: 0, duration: 0.9, delay: 0.2 }}
+                        initial={{ opacity: 0, scale: 0.98 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true, margin: "-50px" }} transition={{ type: "spring", bounce: 0, duration: 0.6, delay: 0.1 }}
                         className="text-xl md:text-2xl font-body leading-relaxed text-text-muted font-light"
                     >
                         Ứng dụng chuỗi công nghệ <strong className="text-text-main">vải không dệt - ép nhiệt (nonwoven thermal bonding)</strong>, chuyển hóa vải vụn thành vật liệu nội thất xanh đạt chuẩn âm học.
@@ -71,7 +71,7 @@ export default function SolutionProcess() {
                 </div>
 
                 <motion.div
-                    initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}
+                    initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.6 }}
                     className="max-w-5xl mx-auto mb-24 rounded-3xl overflow-hidden shadow-2xl relative"
                 >
                     <img src="/manufacturing_process.png" alt="Quy trình sản xuất Panel Seamphony" className="w-full h-[400px] object-cover" />
@@ -95,10 +95,10 @@ export default function SolutionProcess() {
                         return (
                             <motion.div
                                 key={idx}
-                                initial={{ opacity: 0, y: 40, scale: 0.98 }}
+                                initial={{ opacity: 0, y: 20, scale: 0.98 }}
                                 whileInView={{ opacity: 1, y: 0, scale: 1 }}
-                                viewport={{ once: true, margin: "-100px" }}
-                                transition={{ type: "spring", bounce: 0, duration: 0.9, delay: 0.1 }}
+                                viewport={{ once: true, margin: "-50px" }}
+                                transition={{ type: "spring", bounce: 0, duration: 0.6, delay: 0.1 }}
                                 className={`relative flex flex-col md:flex-row items-start md:items-center mb-16 last:mb-0 group ${isEven ? 'md:flex-row-reverse' : ''}`}
                             >
                                 {/* Timeline Dot */}

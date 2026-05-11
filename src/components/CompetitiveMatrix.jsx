@@ -82,13 +82,13 @@ export default function CompetitiveMatrix() {
 
                 <div className="text-center mb-16 max-w-3xl mx-auto">
                     <motion.h2
-                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-                        className="text-4xl md:text-5xl font-heading font-extrabold text-text-main mb-6 tracking-tight"
+                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }}
+                        className="text-3xl md:text-5xl font-heading font-extrabold text-text-main mb-6 tracking-tight"
                     >
                         Định vị Cạnh tranh trên Thị trường
                     </motion.h2>
                     <motion.p
-                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}
+                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ delay: 0.1 }}
                         className="text-xl text-text-muted font-body font-light"
                     >
                         So sánh toàn diện về giá thành, hiệu năng và tính bền vững giữa các giải pháp tiêu âm thông dụng.
@@ -97,7 +97,7 @@ export default function CompetitiveMatrix() {
 
                 {/* Desktop Table View */}
                 <motion.div
-                    initial={{ opacity: 0, scale: 0.98 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.6 }}
+                    initial={{ opacity: 0, scale: 0.98 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.6 }}
                     className="overflow-x-auto rounded-[2rem] border border-border shadow-2xl bg-primary-bg"
                 >
                     <table className="w-full text-left border-collapse min-w-[1000px]">

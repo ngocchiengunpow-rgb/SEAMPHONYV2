@@ -6,16 +6,16 @@ export default function Hero() {
     const [isPlaying, setIsPlaying] = useState(false);
 
     const fadeUp = {
-        hidden: { opacity: 0, y: 40 },
+        hidden: { opacity: 0, y: 20 },
         visible: (i) => ({
             opacity: 1,
             y: 0,
             transition: {
                 type: "spring",
                 bounce: 0,
-                duration: 0.9,
-                delay: i * 0.15,
-                opacity: { duration: 0.6 }
+                duration: 0.6,
+                delay: i * 0.1,
+                opacity: { duration: 0.4 }
             }
         })
     };
@@ -45,7 +45,7 @@ export default function Hero() {
 
                     <motion.h1
                         custom={1} initial="hidden" animate="visible" variants={fadeUp}
-                        className="text-5xl md:text-7xl lg:text-8xl font-heading font-extrabold text-text-main tracking-tighter leading-[1.05] mb-8 max-w-5xl"
+                        className="text-4xl md:text-7xl lg:text-8xl font-heading font-extrabold text-text-main tracking-tighter leading-[1.1] mb-8 max-w-5xl"
                     >
                         Panel cách âm từ <br className="hidden md:block" />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-cta to-accent">vải vụn tái chế.</span>
@@ -148,7 +148,7 @@ export default function Hero() {
                             <motion.div 
                                 initial={{ opacity: 0, y: 30 }}
                                 animate={{ opacity: 1, y: 0 }}
-                                transition={{ type: "spring", bounce: 0, duration: 0.9, delay: 0.6 }}
+                                transition={{ type: "spring", bounce: 0, duration: 0.7, delay: 0.6 }}
                                 className="relative w-full aspect-[4/3] max-w-lg mx-auto bg-white rounded-3xl border border-border/50 shadow-xl overflow-hidden group/img transform hover:scale-[1.02] transition-all duration-500 cursor-pointer"
                             >
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 pointer-events-none"></div>

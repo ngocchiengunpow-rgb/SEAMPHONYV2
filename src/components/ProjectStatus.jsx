@@ -5,7 +5,7 @@ import { Flag, PlayCircle, Milestone } from 'lucide-react';
 export default function ProjectStatus() {
     const fadeUp = {
         hidden: { opacity: 0, y: 30 },
-        visible: { opacity: 1, y: 0, transition: { type: "spring", bounce: 0, duration: 0.9 } }
+        visible: { opacity: 1, y: 0, transition: { type: "spring", bounce: 0, duration: 0.7 } }
     };
 
     return (
@@ -13,19 +13,19 @@ export default function ProjectStatus() {
             <div className="max-w-6xl mx-auto px-6 lg:px-12 relative z-10">
                 <div className="text-center mb-16 max-w-3xl mx-auto">
                     <motion.div
-                        initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
+                        initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={fadeUp}
                         className="inline-flex items-center justify-center p-3 bg-primary-cta/10 rounded-2xl mb-6 text-primary-cta"
                     >
                         <Milestone size={32} />
                     </motion.div>
                     <motion.h2
-                        initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
-                        className="text-4xl md:text-5xl font-heading font-extrabold text-text-main mb-6"
+                        initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={fadeUp}
+                        className="text-3xl md:text-5xl font-heading font-black text-text-main mb-6 tracking-tight"
                     >
-                        Trạng thái hiện tại & Bước tiếp theo <span className="text-primary-cta">của Seamphony</span>
+                        Thành Tựu Dự Án
                     </motion.h2>
                     <motion.p
-                        initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.1 }}
+                        initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={fadeUp} transition={{ delay: 0.1 }}
                         className="text-lg text-text-muted font-body"
                     >
                         Seamphony đang đi từ ý tưởng đến xưởng pilot bằng những bước cụ thể, có thể kiểm chứng.
@@ -34,7 +34,7 @@ export default function ProjectStatus() {
 
                 <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
                     <motion.div
-                        initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
+                        initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={fadeUp}
                         className="bg-white p-8 lg:p-10 rounded-3xl border border-border/50 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 relative overflow-hidden group"
                     >
                         <div className="absolute top-0 right-0 w-32 h-32 bg-accent/5 rounded-full blur-[40px]"></div>
@@ -66,7 +66,7 @@ export default function ProjectStatus() {
                     </motion.div>
 
                     <motion.div
-                        initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.2 }}
+                        initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={fadeUp} transition={{ delay: 0.2 }}
                         className="bg-white p-8 lg:p-10 rounded-3xl border border-border/50 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 relative overflow-hidden group"
                     >
                         <div className="absolute top-0 right-0 w-32 h-32 bg-primary-cta/5 rounded-full blur-[40px]"></div>

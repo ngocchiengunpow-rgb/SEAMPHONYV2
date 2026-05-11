@@ -30,16 +30,16 @@ export default function FAQObjectionHandling() {
 
                 <div className="text-center mb-16">
                     <motion.div
-                        initial={{ opacity: 0, scale: 0.8 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }}
+                        initial={{ opacity: 0, scale: 0.8 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true, margin: "-50px" }}
                         className="w-16 h-16 bg-accent/10 rounded-2xl flex items-center justify-center mx-auto mb-6"
                     >
                         <MessageCircleQuestion className="text-accent" size={32} />
                     </motion.div>
                     <motion.h2
-                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-                        className="text-4xl md:text-5xl font-heading font-extrabold text-text-main tracking-tight"
+                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.6 }}
+                        className="text-3xl md:text-5xl font-heading font-extrabold text-text-main mb-6"
                     >
-                        Giải đáp Nút thắt Công nghệ <span className="text-accent">(Q&A)</span>
+                        Liên hệ & <span className="text-primary-cta">Đăng ký</span>
                     </motion.h2>
                 </div>
 
@@ -54,7 +54,7 @@ export default function FAQObjectionHandling() {
                         return (
                             <motion.div
                                 key={index}
-                                initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: index * 0.1 }}
+                                initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ delay: index * 0.1 }}
                                 className={`border rounded-2xl overflow-hidden transition-all duration-300 ${isOpen ? 'bg-primary-bg border-accent/40 shadow-lg' : 'bg-primary-bg border-border/60 hover:border-accent/50 hover:bg-white/80 shadow-sm'}`}
                             >
                                 <button

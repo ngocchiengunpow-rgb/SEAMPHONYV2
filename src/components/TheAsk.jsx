@@ -7,13 +7,13 @@ export default function TheAsk() {
         <section id="the-ask" className="py-16 lg:py-24 bg-primary-bg relative">
             <div className="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
                 <motion.div
-                    initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
+                    initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.6 }}
                     className="bg-white text-text-main rounded-[2.5rem] p-10 lg:p-16 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] border border-border/50 relative overflow-hidden transform hover:-translate-y-2 transition-transform duration-500 scroll-mt-32"
                 >
                     <div className="absolute top-0 left-0 w-3 h-full bg-primary-cta"></div>
                     <div className="absolute -top-[20%] -right-[10%] w-[400px] h-[400px] bg-primary-cta/10 rounded-full blur-[100px] pointer-events-none"></div>
 
-                    <h3 className="text-4xl md:text-5xl font-heading font-black mb-12 flex items-center gap-5 tracking-tight relative z-10">
+                    <h3 className="text-2xl md:text-5xl font-heading font-black mb-12 flex items-center gap-5 tracking-tight relative z-10">
                         <Handshake size={48} className="text-primary-cta" /> Điều đội thi mong muốn
                     </h3>
                     

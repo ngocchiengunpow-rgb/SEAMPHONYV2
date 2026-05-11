@@ -4,8 +4,8 @@ import { ShieldCheck, AlertTriangle, TrendingUp, Zap } from 'lucide-react';
 
 export default function SWOTAnalysis() {
     const fadeUp = {
-        hidden: { opacity: 0, y: 40 },
-        visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] } },
+        hidden: { opacity: 0, y: 20 },
+        visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] } },
     };
 
     return (
@@ -15,13 +15,13 @@ export default function SWOTAnalysis() {
             <div className="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
                 <div className="text-center mb-24 max-w-3xl mx-auto">
                     <motion.h2 
-                        initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }}
-                        className="text-4xl md:text-5xl font-heading font-black text-text-main mb-6 tracking-tight"
+                        initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true, margin: "-50px" }}
+                        className="text-3xl md:text-5xl font-heading font-black text-text-main mb-6 tracking-tight"
                     >
                         Phân Tích SWOT
                     </motion.h2>
                     <motion.p 
-                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}
+                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ delay: 0.1 }}
                         className="text-xl text-text-muted font-body font-light"
                     >
                         Đánh giá <strong className="text-primary-cta font-bold">Nội tại & Ngoại cảnh</strong> để tối ưu hóa chiến lược cạnh tranh.
@@ -30,7 +30,7 @@ export default function SWOTAnalysis() {
 
                 <div className="grid md:grid-cols-2 gap-8">
                     {/* Strengths */}
-                    <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} className="bg-primary-bg rounded-[2rem] p-8 lg:p-10 border-t-8 border-t-green-500 shadow-xl relative group hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
+                    <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} className="bg-primary-bg rounded-[2rem] p-8 lg:p-10 border-t-8 border-t-green-500 shadow-xl relative group hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
                         <div className="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 group-hover:scale-110 transition-all duration-500">
                             <ShieldCheck size={64} className="text-green-500" />
                         </div>
@@ -45,7 +45,7 @@ export default function SWOTAnalysis() {
                     </motion.div>
 
                     {/* Weaknesses */}
-                    <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} transition={{ delay: 0.1 }} className="bg-primary-bg rounded-[2rem] p-8 lg:p-10 border-t-8 border-t-amber-500 shadow-xl relative group hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
+                    <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} transition={{ delay: 0.1 }} className="bg-primary-bg rounded-[2rem] p-8 lg:p-10 border-t-8 border-t-amber-500 shadow-xl relative group hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
                         <div className="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 group-hover:scale-110 transition-all duration-500">
                             <AlertTriangle size={64} className="text-amber-500" />
                         </div>
@@ -59,7 +59,7 @@ export default function SWOTAnalysis() {
                     </motion.div>
 
                     {/* Opportunities */}
-                    <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} transition={{ delay: 0.2 }} className="bg-primary-bg rounded-[2rem] p-8 lg:p-10 border-t-8 border-t-blue-500 shadow-xl relative group hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
+                    <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} transition={{ delay: 0.2 }} className="bg-primary-bg rounded-[2rem] p-8 lg:p-10 border-t-8 border-t-blue-500 shadow-xl relative group hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
                         <div className="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 group-hover:scale-110 transition-all duration-500">
                             <TrendingUp size={64} className="text-blue-500" />
                         </div>
@@ -73,7 +73,7 @@ export default function SWOTAnalysis() {
                     </motion.div>
 
                     {/* Threats */}
-                    <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} transition={{ delay: 0.3 }} className="bg-text-main rounded-[2rem] p-8 lg:p-10 shadow-xl relative group hover:shadow-2xl hover:-translate-y-2 hover:shadow-red-500/20 transition-all duration-500 overflow-hidden">
+                    <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} transition={{ delay: 0.3 }} className="bg-text-main rounded-[2rem] p-8 lg:p-10 shadow-xl relative group hover:shadow-2xl hover:-translate-y-2 hover:shadow-red-500/20 transition-all duration-500 overflow-hidden">
                         <div className="absolute top-0 left-0 w-full h-2 bg-red-500"></div>
                         <div className="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 group-hover:scale-110 transition-all duration-500">
                             <Zap size={64} className="text-red-500" />

@@ -15,14 +15,14 @@ export default function TheTeam() {
                     {/* Team */}
                     <div>
                         <motion.h3
-                            initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}
-                            className="text-3xl lg:text-4xl font-heading font-black mb-10 text-white flex items-center gap-4"
+                            initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.6 }}
+                            className="text-2xl md:text-4xl font-heading font-black mb-10 text-white flex items-center gap-4"
                         >
                             <UsersIcon size={36} className="text-accent" /> Nhà sáng lập
                         </motion.h3>
                         <div className="space-y-6">
                             <motion.div
-                                initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}
+                                initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.6 }}
                                 className="bg-white/5 p-6 rounded-[2rem] border border-white/10 hover:bg-white/10 transition-colors backdrop-blur-md"
                             >
                                 <div className="flex gap-6 items-center mb-4">
@@ -38,7 +38,7 @@ export default function TheTeam() {
                             </motion.div>
 
                             <motion.div
-                                initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}
+                                initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ delay: 0.1, duration: 0.6 }}
                                 className="bg-white/5 p-6 rounded-[2rem] border border-white/10 hover:bg-white/10 transition-colors backdrop-blur-md"
                             >
                                 <div className="flex gap-6 items-center flex-wrap">
@@ -72,13 +72,13 @@ export default function TheTeam() {
                     {/* Vision */}
                     <div>
                         <motion.h3
-                            initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}
-                            className="text-3xl lg:text-4xl font-heading font-black mb-10 text-white flex items-center gap-4"
+                            initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.6 }}
+                            className="text-2xl md:text-4xl font-heading font-black mb-10 text-white flex items-center gap-4"
                         >
                             <Rocket size={36} className="text-primary-cta" /> Tầm nhìn Tương lai
                         </motion.h3>
                         <motion.div
-                            initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}
+                            initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.6 }}
                             className="bg-primary-cta/10 p-10 rounded-[2.5rem] border border-primary-cta/30 backdrop-blur-md h-full flex flex-col justify-center"
                         >
                             <Lightbulb size={48} className="text-primary-cta mb-8" />

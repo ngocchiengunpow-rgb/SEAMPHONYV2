@@ -54,8 +54,8 @@ export default function CoreFeatures() {
     };
 
     const itemVars = {
-        hidden: { opacity: 0, y: 40 },
-        visible: { opacity: 1, y: 0, transition: { type: "spring", bounce: 0, duration: 0.9 } }
+        hidden: { opacity: 0, y: 20 },
+        visible: { opacity: 1, y: 0, transition: { type: "spring", bounce: 0, duration: 0.6 } }
     };
 
     return (
@@ -63,15 +63,15 @@ export default function CoreFeatures() {
             <div className="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
                 <div className="text-center mb-16 max-w-3xl mx-auto">
                     <motion.h2
-                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ type: "spring", bounce: 0, duration: 0.9 }}
-                        className="text-4xl md:text-5xl font-heading font-extrabold text-text-main tracking-tight"
+                        initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ type: "spring", bounce: 0, duration: 0.6 }}
+                        className="text-3xl md:text-5xl font-heading font-extrabold text-text-main tracking-tight"
                     >
                         6 Lợi Thế Của Panel Vải Vụn <span className="text-primary-cta">Seamphony</span>
                     </motion.h2>
                 </div>
 
                 <motion.div
-                    variants={containerVars} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }}
+                    variants={containerVars} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }}
                     className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8"
                 >
                     {features.map((feature, index) => (

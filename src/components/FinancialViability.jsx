@@ -5,7 +5,7 @@ import { Wallet, TrendingUp } from 'lucide-react';
 export default function FinancialViability() {
     const fadeUp = {
         hidden: { opacity: 0, y: 30 },
-        visible: { opacity: 1, y: 0, transition: { type: "spring", bounce: 0, duration: 0.9 } }
+        visible: { opacity: 1, y: 0, transition: { type: "spring", bounce: 0, duration: 0.7 } }
     };
 
     return (
@@ -13,13 +13,13 @@ export default function FinancialViability() {
             <div className="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
                 <div className="text-center mb-16 max-w-3xl mx-auto">
                     <motion.h2
-                        initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
+                        initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={fadeUp}
                         className="text-4xl md:text-5xl font-heading font-extrabold text-text-main mb-6"
                     >
                         Tại sao Seamphony là <span className="text-primary-cta">mô hình khả thi?</span>
                     </motion.h2>
                     <motion.p
-                        initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.1 }}
+                        initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={fadeUp} transition={{ delay: 0.1 }}
                         className="text-lg text-text-muted font-body"
                     >
                         Seamphony không chỉ dừng ở ý tưởng, mà đã được xây dựng trên các giả định tài chính và kỹ thuật cụ thể.
@@ -28,7 +28,7 @@ export default function FinancialViability() {
 
                 <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
                     <motion.div
-                        initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
+                        initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={fadeUp}
                         className="bg-white p-8 lg:p-10 rounded-3xl border border-border/50 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
                     >
                         <h3 className="text-2xl font-heading font-bold mb-6 flex items-center gap-3 text-text-main">
@@ -65,7 +65,7 @@ export default function FinancialViability() {
                     </motion.div>
 
                     <motion.div
-                        initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.2 }}
+                        initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={fadeUp} transition={{ delay: 0.2 }}
                         className="bg-white p-8 lg:p-10 rounded-3xl border border-border/50 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
                     >
                         <h3 className="text-2xl font-heading font-bold mb-6 flex items-center gap-3 text-text-main">
