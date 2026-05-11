@@ -25,7 +25,7 @@ const steps = [
     {
         icon: Factory,
         title: "4. Tạo thảm & Ép nhiệt",
-        desc: "Rải hỗn hợp lên khuôn thép. Ép nhiệt thủy lực ở 160-200°C làm sợi low-melt nóng chảy, tạo lõi xốp cứng.",
+        desc: "Rải đều hỗn hợp xơ vào khuôn thép. Ép thủy lực trong bàn gia nhiệt (160-180°C) 10-15 phút. Làm mát, duy trì lực nén hạ nhiệt độ để ổn định cấu trúc, chống co ngót cong vênh.",
         color: "bg-accent/10 text-accent border-accent/20"
     },
     {
