@@ -31,6 +31,10 @@ const AnimatedCounter = ({ from = 0, to, duration = 2, suffix = "", prefix = "" 
 
 export default function MarketCompetition() {
     // Removed unused nrcData
+    const fadeUp = {
+        hidden: { opacity: 0, y: 20 },
+        visible: { opacity: 1, y: 0, transition: { type: "spring", bounce: 0, duration: 0.6 } },
+    };
 
     return (
         <section id="market" className="py-32 bg-secondary-bg relative scroll-mt-32">
