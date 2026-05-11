@@ -18,8 +18,8 @@ export default function AcousticPerformance() {
         },
         {
             name: "Tấm tiêu âm mút xốp",
-            nrc: 0.90,
-            desc: "Tốt nhưng rủi ro cháy nổ cao, sinh khói độc, thẩm mỹ kém.",
+            nrc: 0.55,
+            desc: "Trung bình nhưng rủi ro cháy nổ cao, dễ bắt lửa, thẩm mỹ kém (0.4-0.7).",
             color: "bg-text-muted/60 text-text-muted"
         },
         {

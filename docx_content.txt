@@ -1,0 +1,596 @@
+
+
+HỒ SƠ DỰ THI
+CUỘC THI Ý TƯỞNG KINH DOANH
+BUSINESS VENTURE CHALLENGE 2026
+
+
+TÊN ĐỘI THI: SEAMPHONY
+TÊN DỰ ÁN: Seamphony – Panel cách âm từ vải vụn tái chế
+
+
+NHÓM/CÁ NHÂN THỰC HIỆN
+Nguyễn Ngọc Chiến - Founder
+Trương Ngọc Khánh Duy - Co-Founder
+Bùi Thanh Thủy - Co-Founder
+
+
+Hải Phòng, ngày 23 tháng 04 năm 2026
+
+Thông tin đội thi 
+Họ và tên trưởng nhóm: Nguyễn Ngọc Chiến 
+Trường/ lớp/ (năm thứ 3): Trường Đại học Hàng Hải Việt Nam/ KTN64ĐH2
+Số điện thoại liên hệ: 0356882119
+Email: chien103391@st.vimaru.edu.vn
+Danh sách thành viên trong nhóm (tên, trường, năm thứ, email, SĐT, tối đa 5 thành viên): 
+Trương Ngọc Khánh Duy, ĐHHHVN, năm thứ 3, zytrun@gmail.com, 0354882138
+Bùi Thanh Thủy, ĐHHHVN, năm thứ 3, thuy100211@st.vimaru.edu.vn, 0346687548
+Trang web dự án: https://seamphonyv-2.vercel.app/#hero
+
+
+
+Thông tin sơ lược dự án 
+Tóm tắt dự án: 
+Seamphony là dự án phát triển tấm panel tiêu âm - cách âm từ vải vụn tiền tiêu dùng, thu gom tại các xưởng may ở khu vực Hải Phòng - Quảng Ninh, xử lý bằng công nghệ vải không dệt - ép nhiệt (nonwoven thermal bonding) để tạo ra vật liệu nội thất xanh đáp ứng nhu cầu xử lý tiếng ồn cho các quán café, homestay, văn phòng, studio và các không gian dịch vụ đang bùng nổ tại khu vực Hải Phòng - Quảng Ninh và toàn quốc.
+Seamphony không chỉ là một sản phẩm panel mới, dự án xây dựng một vòng tuần hoàn vải vụn cấp địa phương: mỗi m² panel gắn với một lượng vải thải được cứu khỏi lò đốt, đồng thời mang lại câu chuyện ESG cụ thể, có số liệu cho cả nhà máy dệt may lẫn chủ công trình. Đây là mô hình chưa tồn tại trên thị trường Việt Nam.
+
+Hình 1.1: Logo dự án Seamphony.
+Lĩnh vực: 
+Ngành nghề hoạt động: Công nghệ, công nghiệp, sản xuất vật liệu xây dựng - nội thất, kết hợp công nghệ môi trường và kinh tế tuần hoàn dệt may.
+Phân khúc cụ thể: Vật liệu âm học (tấm panel cách âm - tiêu âm - trang trí) cho quán café, homestay, khách sạn nhỏ, văn phòng, studio, lớp học và không gian làm việc chung.
+Hiện trạng dự án:
+Giai đoạn phát triển: Dự án đang ở giai đoạn nghiên cứu khả thi và thiết kế mô hình kinh doanh, đã nghiên cứu thành công sản phẩm MVP.
+Pháp lý: Chưa có pháp nhân.
+Kết quả đạt được: Khảo sát 10 quán cà phê, nhận được phản hồi tích cực sẽ sãn sàng sử dụng sản phẩm của nhóm nếu dự án đi vào hoạt động, vận hành thành công trang web dự án.
+
+
+Tổng quan dự án 
+ĐỐI TÁC CHÍNH
+Xưởng may, DN dệt may HP
+HTX tái chế, đơn vị thu gom vải
+Nhà cung cấp máy nonwoven
+Đơn vị thi công cách âm - nội thất
+HOẠT ĐỘNG CHÍNH
+Thu gom, phân loại vải vụn
+Cắt/băm, đánh tơi, phối trộn, ép nhiệt
+Thiết kế giải pháp cách âm, lắp đặt
+Báo cáo ESG cho khách hàng 
+
+GIẢI PHÁP GIÁ TRỊ
+Panel cách âm - tiêu âm từ vải vụn tái chế.
+Thiết kế đẹp, tùy biến kích thước/màu sắc.
+Công nghệ liên kết nhiệt, an toàn, thân thiện môi trường.
+Hỗ trợ khách hàng đạt mục tiêu ESG/kinh tế tuần hoàn.
+QUAN HỆ KHÁCH HÀNG
+B2B: nhà thầu, kho VLXD, KTS
+Tư vấn - khảo sát - lắp đặt trọn gói
+Hỗ trợ sau lắp đặt, nội dung ESG
+Cộng đồng không gian êm & xanh online 
+PHÂN KHÚC KHÁCH HÀNG
+Đơn vị thi công nội thất, kho VLXD
+Chủ café, homestay, studio, coworking
+Doanh nghiệp cần báo cáo ESG
+Khách lẻ DIY tại nhà 
+
+TÀI NGUYÊN CHÍNH
+Nguồn vải vụn ổn định HP–QN
+Dây chuyền pilot ép nhiệt
+Mạng lưới xưởng may đối tác
+Đội ngũ liên ngành & thương hiệu 
+
+CÁC KÊNH THÔNG TIN VÀ KÊNH PHÂN PHỐI
+B2B: nhà thầu, kho VLXD, KTS
+Trực tiếp: chủ quán, homestay
+Online: website, TikTok, sàn TMĐT 
+
+CẤU TRÚC CHI PHÍ
+Thu gom, phân loại, vận chuyển vải vụn.
+Nguyên liệu, điện năng, vận hành máy móc.
+Nhân sự, khấu hao thiết bị, mặt bằng, marketing, pháp lý.
+DÒNG DOANH THU
+Bán panel theo m² / tấm chuẩn.
+Gói thiết kế + cung cấp + lắp đặt.
+Bộ panel DIY cho khách lẻ
+Sản phẩm phụ (bảng tiêu âm, vách ngăn)
+
+Mô tả chi tiết về ý tưởng, giải pháp
+Phân tích Nỗi đau & Giải pháp
+ Nỗi đau
+Ngành dệt may Việt Nam - đóng góp hơn 44 tỷ USD kim ngạch xuất khẩu năm 2024 - đang phải đối mặt với một nghịch lý: càng sản xuất nhiều, càng phát sinh nhiều vải vụn mà không biết xử lý đi đâu. Theo báo cáo GIZ (2025), Việt Nam phát sinh khoảng 250.000 tấn vải vụn tiền tiêu dùng mỗi năm từ khâu cắt may xuất khẩu. Trong đó, 40% bị đốt lò hơi hoặc đồng xử lý. Giá bán vải vụn hiện dao động 2.000-5.000 đ/kg, trong khi nhiều nhà máy còn phải trả thêm phí xử lý 650-1.000 đ/kg. Một nhà máy thải 200 tấn/năm có thể mất 130-200 triệu đồng chỉ để thoát khỏi vải vụn của chính mình.
+Ở chiều ngược lại, mức ồn trung bình trong café và nhà hàng đạt ~80 dBA - vượt xa ngưỡng thoải mái 48-72 dBA cho cuộc trò chuyện. Tiếng ồn ảnh hưởng tiêu cực đến trải nghiệm ẩm thực, làm giảm mong muốn quay lại của khách. Thị trường hiện có rockwool, bông thủy tinh, mút xốp - tất cả đều hoặc là rủi ro sức khoẻ (bụi khoáng), kém thẩm mỹ, hoặc không có câu chuyện bền vững để kể.
+→ Kết luận: nhà máy dệt may CẦN ai đó lấy vải vụn đi với giá trị tốt hơn; chủ công trình CẦN vật liệu cách âm đẹp, an toàn và gắn với câu chuyện xanh. Seamphony là điểm giao của hai nhu cầu đó.
+Giải pháp
+Hình 1.2: Panel Seamphony được trưng bày trong quán cà phê( nguồn: ảnh mô phỏng từ AI)
+Seamphony thiết kế một hệ thống gồm 3 vòng gắn kết:
+Vòng 1 - Thu gom - Sản xuất: ký "Thoả thuận đối tác tuần hoàn" với xưởng may. Seamphony hỗ trợ phân loại vải tại nguồn, đặt container thu gom, lấy vải định kỳ. Nhà máy được miễn/giảm chi phí xử lý và nhận báo cáo ESG ghi nhận lượng vải được tái sinh.
+Vòng 2 - Sản xuất - Thị trường: từ vải vụn, tạo ra panel tiêu âm thiết kế đẹp, cá nhân hóa theo từng không gian. Bán dưới dạng tấm chuẩn hoặc gói "khảo sát âm học + thiết kế + thi công".
+Vòng 3 - Khách hàng - ESG: mỗi công trình lắp đặt nhận "Chứng nhận không gian tuần hoàn" ghi rõ: m² panel, kg vải vụn tái chế, kg CO₂ tránh phát thải. Tài sản truyền thông ESG thực sự cho chủ quán.
+ Mỗi tấm panel Seamphony mang 3 lớp giá trị: (1) Hiệu năng âm học - NRC 0,6-0,9; (2) Câu chuyện tái chế - từ vải vụn tiền sản xuất đến panel cách âm mọi nhà; (3) Tính địa phương và thẩm mỹ - mỗi panel có sắc độ và vân vải khác nhau, bản sắc riêng không thể copy.
+Lợi thế cạnh tranh & Giá trị khác biệt
+ Đối thủ cạnh tranh.
+Không có nhóm giải pháp nào trên thị trường kết hợp được: (1) nguyên liệu tái chế từ phế thải địa phương, (2) hiệu năng âm học đạt chuẩn và (3) gói báo cáo ESG đi kèm. Đó chính là khoảng trống Seamphony chiếm. Nếu nhìn toàn thị trường xử lý âm trong không gian nhỏ và vừa, có bốn nhóm giải pháp chính:
+- Panel PET nỉ ép: được quảng bá là thân thiện môi trường do dùng sợi PET tái chế, hiệu năng tốt, đang mở rộng mạnh trên toàn cầu.
+- Panel rockwool bọc nỉ: dùng bông khoáng, hiệu quả cao, đã trở thành chuẩn trong nhiều phòng thu, hội trường.
+- Mút xốp tiêu âm dạng trứng: rẻ, dễ mua, phổ biến trong phòng thu nghiệp dư, nhưng nhiều loại foam giá rẻ không đạt chuẩn chống cháy, tuổi thọ kém, nhìn không phù hợp với không gian dịch vụ chuyên nghiệp.
+- Gỗ tiêu âm: đẹp, cao cấp, nhưng thường đi kèm lớp rockwool phía sau, chi phí thi công cao, phù hợp với phòng nghe, hội trường hơn là quán café hay homestay nhỏ.
+Bảng 2: So sánh Seamphony và các đối thủ cạnh tranh
+Giải pháp
+NRC tiêu biểu
+Giá (đ/m²)
+ESG / Xanh
+Hạn chế chính
+Panel PET nỉ ép
+0,7–0,9
+400.000–700.000
+Có – nhựa PET
+Phụ thuộc nhập khẩu; không gắn chuỗi địa phương
+Panel rockwool bọc nỉ
+0,7–1,0
+350.000–600.000
+Trung bình
+Bụi khoáng khi thi công; nặng
+Mút xốp tiêu âm
+0,4–0,7
+80.000–200.000
+Kém
+Cháy nhanh; không phù hợp không gian chuyên nghiệp
+Gỗ tiêu âm
+0,5–0,8
+1.000.000+
+Trung bình
+Giá cao; chủ yếu studio, hội trường
+Seamphony ✓
+0,6–0,9 (mục tiêu)
+380.000–480.000
+Mạnh – vải vụn nội địa + ESG
+Đang pilot; cần kiểm định chính thức
+Seamphony không cố gắng làm thêm một loại panel PET mới, cũng không đi theo hướng mút xốp giá rẻ. Dự án chọn một vị trí khác: dùng vải vụn tiền tiêu dùng từ chính ngành dệt may Việt Nam làm lõi cho panel tiêu âm. Điểm khác biệt lớn nhất là: với Seamphony, mỗi tấm panel gắn trực tiếp vào bài toán 250.000 tấn vải vụn/năm mà GIZ và các bên đang cảnh báo, chứ không chỉ là một sản phẩm cách âm đẹp và rẻ. Điều này giúp Seamphony nói chuyện cùng ngôn ngữ với các nhà máy dệt may, các chương trình kinh tế tuần hoàn và các khách hàng quan tâm ESG, trong khi hầu hết thương hiệu panel khác chỉ dừng ở lợi ích kỹ thuật.
+Lợi thế kỹ thuật từ nền tảng nghiên cứu khoa học quốc tế
+Giải pháp công nghệ của Seamphony được xây dựng dựa trên nền tảng vững chắc từ hai nghiên cứu công bố trên các tạp chí khoa học quốc tế uy tín. Nghiên cứu đầu tiên, "Reuse of Textile Waste in the Production of Sound Absorption Boards" (Tạp chí PMC/NCBI, 2023) , ứng dụng công nghệ vải không dệt (nonwoven) kết hợp gia nhiệt đối với chất thải sợi len từ nhà máy. Kết quả thử nghiệm cho thấy, ở mức mật độ ~40 kg/m³, vật liệu đạt hệ số hấp thụ âm (α) từ 0,4–0,9 và chỉ số tiêu âm NRC ≈ 0,65. Đáng chú ý, phân tích cũng chỉ ra rằng 74% lượng vải vụn tại các xưởng may khảo sát hoàn toàn đáp ứng tiêu chuẩn để sản xuất panel. 
+Nghiên cứu thứ hai, "Development of low-cost textile sound absorber boards from garment and textile waste" (Tạp chí SAGE Journals, 2025) , tiến hành kết hợp rác thải may mặc với resin polymer nhằm tạo ra cấu trúc bọt xốp. Các mẫu thử nghiệm tối ưu nhất đã đạt chỉ số NRC lên tới 0,9175 và hệ số cách âm STC là 22,47 – vượt qua nhiều loại panel sợi tự nhiên có cùng độ dày trên thị trường. Nhóm tác giả khẳng định đây là giải pháp vật liệu lý tưởng, đáp ứng hoàn hảo xu hướng phát triển panel xanh và mô hình kinh tế tuần hoàn.
+Từ các minh chứng khoa học trên, Seamphony sở hữu một nền tảng kỹ thuật rõ ràng: khi được xử lý đúng chuẩn về mật độ, cấu trúc và chất kết dính, panel từ vải phế thải hoàn toàn có thể đạt hiệu năng tương đương hoặc vượt trội so với các sản phẩm đang lưu hành. Điểm khác biệt cốt lõi của Seamphony so với phần lớn các đơn vị nội thất hiện nay là chiến lược đầu tư sâu vào năng lực thiết kế công thức lõi và quy trình xử lý vải vụn, thay vì chỉ dừng lại ở công đoạn gia công lắp ráp khung và bọc vải bề mặt thông thường. 
+Lợi thế chi phí đầu vào.
+Về chi phí đầu vào, sự khác biệt xuất phát từ hai phía:
+Giá vải vụn và chi phí xử lý hiện tại:
+Nghiên cứu của GIZ và các báo cáo về quản lý vải vụn cho thấy nhiều nhà máy đang phải trả phí xử lý chất thải công nghiệp cho vải vụn, hoặc bán lại với giá rất thấp cho thương lái.
+Với giá thu mua vải vụn ở mức vài nghìn đồng mỗi kg, trong khi foam hoặc bông khoáng và PET phải chịu chi phí nguyên liệu xuất phát từ ngành hóa dầu, vải vụn có lợi thế rõ ràng nếu chuyển hóa thành lõi panel đúng cách.
+Cách Seamphony đóng gói mô hình thu gom - sản xuất:
+Thay vì chỉ đi mua phế liệu, Seamphony thiết kế chương trình thu gom và đối tác với xưởng may: hỗ trợ phân loại, lấy vải tại nguồn, đổi lại giá thu mua tốt hơn cho loại vải phù hợp sản xuất panel. Nhà máy bớt chi phí xử lý, dự án có nguồn nguyên liệu ổn định với chi phí thấp.
+Sau khi trừ chi phí vận chuyển, phân loại, xử lý sơ bộ và phần PET low-melt, chi phí lõi panel tính trên m² vẫn có khả năng cạnh tranh với rockwool hoặc PET, trong khi phần giá trị câu chuyện ESG giúp nâng biên lợi nhuận so với việc chỉ cạnh tranh bằng giá.
+Tóm lại, với cùng một mét vuông panel, Seamphony có cơ hội chứa tỉ lệ nguyên liệu giá rẻ (vải vụn) cao hơn so với các giải pháp dùng 100% nguyên liệu mới, từ đó mở biên lợi nhuận mà vẫn để dành ngân sách cho R&D và marketing.
+Lợi thế chuỗi cung ứng địa phương Hải Phòng – Quảng Ninh.
+Lợi thế cuối cùng nhưng rất quan trọng là yếu tố địa phương. Một mặt, Hải Phòng sở hữu mạng lưới các khu công nghiệp dệt may dày đặc, tạo ra nguồn cung dồi dào và liên tục đối với nguyên liệu vải vụn tiền tiêu dùng. Mặt khác, thị trường lân cận là Quảng Ninh (đặc biệt là Hạ Long) lại đang chứng kiến sự bùng nổ của các mô hình kinh doanh lưu trú và F&B như café, homestay, và boutique hotel. Để đáp ứng nguồn cầu này, Seamphony cung cấp một giải pháp xanh vừa xử lý triệt để bài toán tiếng ồn, vừa mang lại nét độc bản cho từng không gian kiến trúc.
+Seamphony được xây dựng bởi đội ngũ sinh ra và lớn lên tại chính khu vực này. Điều đó giúp dự án:
+Tiếp cận và thuyết phục xưởng may, HTX, chủ cơ sở dịch vụ dễ hơn, vì có sự tin tưởng và đồng cảm địa phương.
+Triển khai nhanh các điểm thu gom vải vụn thí điểm gần khu sản xuất, giảm chi phí logistic.
+Chọn và lắp đặt các công trình demo đầu tiên ngay tại quê nhà, từ đó chứng minh hiệu quả âm học, thẩm mỹ và câu chuyện ESG với những người trực tiếp sử dụng.
+Đối với một thương hiệu panel PET nhập khẩu, một nhà cung cấp mút xốp hoặc một đơn vị gỗ tiêu âm ở nơi khác, việc xây dựng cùng lúc mạng lưới nguồn cung vải vụn, xưởng gia công và khách hàng dịch vụ tại đây sẽ tốn nhiều thời gian và chi phí hơn. Seamphony, nếu đi trước và làm tốt, có thể trở thành lựa chọn mặc định khi nhắc đến panel cách âm từ vải vụn tại Hải Phòng - Quảng Ninh, rồi từ đó nhân rộng sang các cụm dệt may - du lịch khác.
+
+
+Mô hình thực thi & Độ khả thi
+ Quy trình công nghệ từ vải vụn đến panel
+Trong 12 - 24 tháng đầu, Seamphony triển khai một xưởng pilot sử dụng chuỗi công nghệ vải không dệt - ép nhiệt (nonwoven thermal bonding), được rút gọn từ dây chuyền sản xuất acoustic panel trên thế giới và bám theo các nghiên cứu về panel tiêu âm từ vải vụn.
+Bước 1: Thu gom và phân loại vải vụn
+Nguồn: vải vụn tiền tiêu dùng từ 3 - 5 xưởng may tại mạng lưới khu công nghiệp Hải Phòng – Quảng Ninh (VD: Regina Miracle (tại khu VSIP)).
+Công đoạn: phân loại theo nhóm sợi (ưu tiên nhóm sợi tự nhiên cotton, len) cho dòng sản phẩm phân hủy sinh học và nhóm sợi tổng hợp (Polyester) cho dòng sản phẩm tái chế công nghiệp. Loại bỏ nhãn mác, phụ kiện nhựa/ kim loại để đảm bảo tính ổn định của panel.
+Cơ sở: Việc phân loại chặt chẽ tại nguồn là yếu tố quyết định để kiểm soát mật độ xơ và sự tương tác với chất kết dính PLA/PET, đảm bảo tính ổn định về cấu trúc và hiệu suất tiêu âm NRC cho tấm panel thành phẩm.
+Bước 2: Cắt và mở xơ 
+Thiết bị:
+Máy cắt/băm vải vụn (Fabric Shredder): Cắt vải vụn thành các mảnh nhỏ kích thước đồng đều từ 2 – 3 cm (việc khống chế kích thước dưới 3cm giúp quá trình đánh tơi ở công đoạn sau hiệu quả hơn).
+Máy đánh tơi và tạo màng (Fiber Opener/Web-former): Đánh tơi hoàn toàn các mảnh vải thành xơ rời, loại bỏ các nút thắt sợi và tạo thành lớp màng xơ (web) có độ phồng cao.
+Mục tiêu: Tạo ra thảm xơ có cấu trúc rỗng, độ tơi xốp tối đa và diện tích bề mặt lớn nhất có thể.
+Cơ sở: Độ "tơi" của xơ vải ở bước này là điều kiện tiên quyết để ở Bước 3, các hạt phụ gia chống cháy APP và Pentaerythritol có thể phân tán đều khắp bề mặt từng sợi đơn lẻ. Nếu xơ không đủ tơi (bị vón cục), các chất chống cháy và chống ẩm sẽ không thể bao phủ toàn diện, dẫn đến việc tấm panel có những điểm yếu về PCCC hoặc dễ bị thấm ẩm cục bộ. Ngoài ra, cấu trúc xơ càng rỗng thì hiệu suất tiêu âm (NRC) của panel càng cao.
+Bước 3: Phối trộn xơ vải với sợi kết dính và phụ gia
+Thành phần dự kiến:
+55% xơ vải vụn đã đánh tơi. 
+20% sợi liên kết nhiệt sinh học (low-melt PLA) - khi gia nhiệt sẽ chảy và liên kết các xơ, có khả năng phân hủy sinh học. 
+18% khoáng chống cháy APP (Ammonium Polyphosphate) - chống cháy lan hiệu quả, không chứa Halogen độc hại. 
+4% phụ gia tạo bọt than Pentaerythritol - kết hợp với APP tạo hệ chống cháy phồng rộp (IFR) an toàn tuyệt đối cho không gian kín. 
+3% hợp chất chống ẩm gốc Silane (hoặc Paraffin wax) - tạo hiệu ứng chống thấm nước an toàn, không chứa hóa chất vĩnh cửu PFAS.
+Cơ sở: Các nghiên cứu chuyên sâu về vật liệu âm học bền vững chứng minh rằng, cấu trúc composite kết hợp giữa xơ vải tái chế, chất kết dính sinh học (PLA) và hệ phụ gia thế hệ mới không chỉ đạt hiệu năng hấp thụ âm tương đương hoặc vượt trội vật liệu truyền thống, mà còn giải quyết triệt để rủi ro cháy nổ và đáp ứng tiêu chuẩn xanh của kinh tế tuần hoàn.
+Bước 4: Tạo thảm xơ và ép nhiệt 
+Quy trình: 
+
+Kết quả: Sợi sinh học PLA nóng chảy, tạo thành mạng lưới liên kết vững chắc khóa chặt các xơ vải; đồng thời hệ phụ gia chống cháy và chống ẩm được phân tán đồng đều. Lõi panel thành phẩm đạt độ dày 25 - 50 mm, mật độ tối ưu 30 - 60 kg/m³, cấu trúc xốp rỗng giúp hấp thụ âm thanh hoàn hảo tương đương panel nonwoven thương mại cao cấp.
+Bước 5: Hoàn thiện bề mặt và cá nhân hóa thiết kế
+Bọc vải tiêu âm: Lõi panel sau khi làm nguội được cắt gọt về kích thước chuẩn (600 x 600, 600 x 1200 mm) và bọc lớp vải chuyên dụng có khả năng cho âm xuyên qua (acoustically transparent fabric). Lớp vải bọc ưu tiên sử dụng sợi tái chế (rPET) và được xử lý chống cháy bề mặt (FR treated) nhằm đồng bộ hóa mức độ an toàn PCCC với lõi panel.
+Cá nhân hóa (Bespoke Design): Phục vụ tệp khách hàng B2B và F&B (quán café, nhà hàng) và các không gian kinh doanh, Seamphony cung cấp dịch vụ thêu logo hoặc in họa tiết trực tiếp lên mặt panel. Dự án ứng dụng công nghệ in nhuộm thấm (Sublimation printing) thay vì in chuyển nhiệt tạo màng, đảm bảo mực in thấm sâu vào xơ vải mà không làm bít tắc các lỗ mao dẫn, giữ nguyên vẹn hiệu suất tiêu âm ban đầu của bề mặt.
+Bước 6:  Kiểm tra kỹ thuật và thử nghiệm thực tế
+Kiểm định phòng Lab: Mẫu panel thành phẩm khi hoàn thành có kế hoạch được gửi đến các trung tâm đo lường độc lập trong lĩnh vực để đánh giá toàn diện 3 chỉ số cốt lõi:
+Bảng 3: Kiểm định phòng Lab liên quan đến sản phẩm
+Tiêu chí
+Cơ sở 
+Tiêu chuẩn áp dụng
+Loại chứng nhận
+Hệ số hấp thụ âm thanh
+Viện Phát triển và Ứng dụng Vật liệu âm thanh (DASM), Viện Vật liệu xây dựng (VIBM),...
+ISO 354 (đo buồng vang).
+ASTM C423 (đo NRC).
+ISO 10534-2 (phương pháp ống trở kháng).
+Phiếu kết quả thử nghiệm (Test Report) do các trung tâm VILAS cấp.
+Khả năng chống cháy lan
+Cục Cảnh sát Phòng cháy chữa cháy và Cứu nạn cứu hộ (PCCC & CNCH), Viện Vật liệu xây dựng (VIBM),...
+QCVN 06:2022/BXD: Quy chuẩn kỹ thuật quốc gia về an toàn cháy cho nhà và công trình.
+TCVN 13249:2020 (ISO 13943:2017).
+ISO 5657: Thử nghiệm độ bắt cháy.
+Giấy chứng nhận kiểm định phương tiện PCCC (do Cục PCCC cấp), Chứng nhận hợp quy vật liệu xây dựng (QCVN 16:2023/BXD)
+Khả năng kháng ẩm (khí hậu nhiệt đới Việt Nam)
+Trung tâm Kỹ thuật Tiêu chuẩn Đo lường Chất lượng 3 (QUATEST 3), Viện Nghiên cứu và Ứng dụng VLXD Nhiệt đới (VIBM),...
+TCVN 11506:2016 *
+Chứng nhận Hợp chuẩn (TCVN - tự nguyện) hoặc Chứng nhận Hợp quy (đối với VLXD bắt buộc theo QCVN 16:2023/BXD)
+Thử nghiệm thực tế (Field-test): Nhóm tiến hành lắp đặt panel tại 2 - 3 không gian F&B/homestay demo trực tiếp tại trung tâm khu vực Hải Phòng. Việc đo đạc mức ồn trước và sau thi công được ghi nhận, đồng thời thu thập phản hồi của chủ đầu tư về tính thẩm mỹ và giá trị truyền thông ESG mà sản phẩm mang lại.
+Cơ sở thực thi: Quy trình công nghệ được thiết kế theo tư duy sản xuất tinh gọn (Lean Manufacturing). Mô hình xưởng pilot này giúp dự án tối ưu hóa chi phí đầu tư thiết bị ban đầu (CAPEX) trong giai đoạn chứng minh ý tưởng, đồng thời tạo bộ khung dữ liệu chuẩn xác để sẵn sàng gọi vốn và nhân rộng quy mô (scale-up) thành nhà máy thương mại.
+
+(Nguồn: ảnh mô phỏng được tạo ra từ AI)
+Hình 3.1: Mô phỏng quy trình sản xuất Panel cách âm Seamphony.
+ Danh mục thiết bị chính
+Nhóm thiết bị
+Tên kỹ thuật / cấu hình tham chiếu
+Vai trò chính
+Máy cắt/băm vải
+Fabric shredder for textile waste
+Cắt vải vụn thành mảnh nhỏ
+Máy mở xơ/đánh tơi
+Fiber opener / fiber carding machine, 50 - 80 kg/giờ 
+Đánh tơi vải vụn thành xơ rời
+Máy ép nhiệt thủy lực
+Hydraulic hot press with heating platens, bàn 600 x 600 - 1000 x 1000 mm 
+Ép nhiệt tạo lõi panel
+Khuôn ép
+Steel mold 600 x 600, 600 x 1200 mm
+Định hình kích thước và độ dày
+Bàn bọc vải và dụng cụ phụ trợ
+Workbench, staple gun, dụng cụ cắt vải
+Hoàn thiện bề mặt, cá nhân hóa panel
+
+
+
+4. Chiến lược vận hành & Chiếm lĩnh thị trường
+4.1. Lộ trình từ sản xuất đến tay người dùng
+Thu gom – chuẩn hóa nguyên liệu tại xưởng may
+Ký “Thỏa thuận đối tác tuần hoàn” với 3–5 xưởng may/HTX tái chế ở Hải Phòng – Quảng Ninh để thu gom vải vụn tiền tiêu dùng theo lịch cố định, gắn với các chỉ số ESG cụ thể của từng đối tác.
+Hỗ trợ phân loại tại nguồn (loại bỏ kim, nhãn, phụ kiện; tách nhóm cotton, polyester, poly–cotton) nhằm giảm chi phí xử lý về sau, ổn định chất lượng panel và đảm bảo an toàn cho thiết bị.
+Tận dụng bối cảnh: nhiều nhà máy đang phải trả 650–1.000 đ/kg để xử lý vải thải, nên sẵn sàng hợp tác khi được giảm/miễn chi phí xử lý, đồng thời nhận báo cáo ESG và chứng nhận tham gia mô hình tuần hoàn.
+Sản xuất panel tại xưởng pilot Seamphony
+Bước 1 – Thu gom và phân loại vải vụn theo tiêu chuẩn đã thống nhất với xưởng may.
+Bước 2 – Cắt nhỏ và mở sơ, biến vải vụn thành xơ rời.
+Bước 3 – Phối trộn xơ với sợi kết dính, phụ gia an toàn (chống cháy, chống ẩm).
+Bước 4 – Tạo thảm xơ và ép nhiệt theo quy trình nonwoven phù hợp với thiết bị pilot.
+Bước 5 – Hoàn thiện bề mặt, cắt theo kích thước chuẩn, kiểm tra ngoại quan và đóng gói.
+Kiểm định kỹ thuật – tạo bằng chứng thuyết phục
+Gửi mẫu panel tới phòng thí nghiệm để đo hệ số hấp thụ âm theo chuẩn ISO 105342 (ống trở kháng), đối chiếu với dải NRC 0,6–0,9 mà các nghiên cứu về panel từ vải vụn đã ghi nhận.
+Lắp đặt panel tại 2–3 công trình demo (café, homestay, văn phòng), dùng máy đo mức ồn để đo trước – sau; xây dựng case study có số liệu (giảm bao nhiêu dB, cảm nhận khách, thay đổi thời gian lưu lại/quay lại quán), làm tư liệu cho nhà đầu tư và khách B2B.
+Phân phối qua các kênh ưu tiên
+Kênh 1 – B2B nhà thầu nội thất & kho VLXD
+Cung cấp bảng báo giá, datasheet kỹ thuật, mẫu panel thực tế và case study công trình demo.
+Chọn 3–5 nhà thầu/kho VLXD tại Hải Phòng – Quảng Ninh làm đối tác chiến lược, áp dụng chính sách chiết khấu và hỗ trợ kỹ thuật theo sản lượng.
+Kênh 2 – Chủ quán café, homestay, studio (B2B trực tiếp)
+Tiếp cận thông qua công trình demo, kênh số và các hoạt động kết nối do Trung tâm Hỗ trợ Khởi nghiệp Đổi mới sáng tạo Hải Phòng (Startup Hai Phong) tổ chức.
+Bán theo “combo”: khảo sát hiện trường → tư vấn layout → cung cấp panel → lắp đặt và bàn giao kèm “Chứng nhận không gian tuần hoàn” ghi rõ m² panel, kg vải tái chế, mức giảm ồn đo được.
+Kênh 3 – Bộ panel DIY (giai đoạn sau)
+Đóng gói bộ panel nhỏ (5–10 tấm) kèm hướng dẫn, bán qua website và sàn TMĐT cho nhóm khách hàng lẻ muốn tự xử lý tiếng ồn tại nhà, căn hộ nhỏ, phòng thu cá nhân.
+Chạm tay người dùng – tạo vòng lặp truyền miệng
+Tại các quán/không gian sử dụng, mỗi cụm panel sẽ đi kèm một QR code nhỏ dẫn đến trang “hành trình sản phẩm” riêng của công trình đó (xưởng may cung cấp vải, bao nhiêu kg được tái chế, mức giảm ồn, câu chuyện của chủ quán).
+Khách ghé quán nhìn thấy – quét QR – biết đến Seamphony và câu chuyện tuần hoàn – trở thành khách hàng tiềm năng hoặc người giới thiệu cho kiến trúc sư, chủ quán khác.
+4.2. Phương án quản trị rủi ro “thông minh”
+Rủi ro nguồn cung vải vụn không ổn định
+Nguy cơ: chất lượng, số lượng vải vụn lên xuống; một xưởng dừng hợp tác có thể khiến chuỗi cung ứng bị động.
+Giải pháp:
+Ký hợp đồng/biên bản ghi nhớ với từ 3 xưởng may/HTX trở lên, tránh phụ thuộc vào một nguồn duy nhất.
+Đưa tiêu chí kỹ thuật (tỷ lệ cotton/PET, độ sạch, không lẫn kim loại) vào phụ lục hợp đồng, có cơ chế kiểm tra và phản hồi.
+Duy trì tồn kho an toàn 1–2 tuần vải đã phân loại tại xưởng Seamphony.
+Rủi ro hiệu năng panel không đạt NRC kỳ vọng
+Nguy cơ: lần thử nghiệm đầu không đạt dải NRC 0,6–0,9 làm giảm độ tin cậy với khách B2B và nhà đầu tư.
+Giải pháp:
+Thiết kế trước ma trận thử nghiệm: thay đổi mật độ (kg/m³), độ dày panel, tỷ lệ sợi low–melt và phụ gia; thử nhiều tổ hợp trước khi cố định cấu hình.
+Chỉ đưa sản phẩm vào bán thương mại sau khi có kết quả kiểm định đạt ngưỡng tối thiểu và được kiểm chứng tại công trình demo.
+Rủi ro khách hàng nghi ngờ độ bền và an toàn
+Nguy cơ: tâm lý “panel làm từ rác” dẫn tới lo ngại về mốc, bụi, cháy, tuổi thọ sản phẩm.
+Giải pháp:
+Sử dụng phụ gia chống cháy/chống ẩm ở ngưỡng tham chiếu từ các nghiên cứu và nhà cung cấp nonwoven uy tín, phù hợp các quy định hiện hành.
+Cung cấp tài liệu hướng dẫn sử dụng/bảo dưỡng, kèm chính sách bảo hành 2–3 năm cho panel trong điều kiện lắp đặt tiêu chuẩn.
+Công khai số liệu đo thực tế (giảm ồn, phản hồi khách) từ công trình demo trên website, mạng xã hội và tài liệu bán hàng.
+Rủi ro cạnh tranh về giá từ panel PET/foam giá rẻ
+Nguy cơ: thị trường đã có nhiều loại panel PET/foam nhập khẩu giá rẻ, dễ khiến khách hàng so sánh đơn thuần theo giá.
+Giải pháp:
+Định vị khác biệt: “panel vải vụn địa phương + câu chuyện ESG + chứng nhận không gian tuần hoàn”, không tham gia cuộc đua giá thấp nhất.
+Gắn lợi ích tài chính gián tiếp cho khách: dễ kể câu chuyện marketing, dễ thuyết phục nhà đầu tư/khách quốc tế về ESG, hỗ trợ tăng trải nghiệm khách hàng và doanh thu F&B/dịch vụ.
+Tập trung vào phân khúc chấp nhận trả thêm cho sự xanh – độc đáo – có câu chuyện, tránh chạy theo phân khúc quá nhạy cảm giá.
+Rủi ro dòng tiền giai đoạn đầu
+Nguy cơ: chi phí đầu tư máy móc khoảng 505–660 triệu đồng và vận hành khoảng 90–125 triệu đồng/tháng là đáng kể so với doanh thu giai đoạn pilot.
+Giải pháp:
+Giai đoạn 1 tập trung vào các công trình demo và đơn hàng nhỏ nhưng “có tiếng nói” (quán café, homestay, studio nổi bật) để tối đa hóa hiệu ứng thương hiệu thay vì chạy theo sản lượng bằng mọi giá.
+Kết hợp nguồn vốn: vốn tự có của đội ngũ, giải thưởng cuộc thi (như BVC) và các chương trình ươm tạo/hỗ trợ khởi nghiệp, hạn chế vay thương mại ở giai đoạn còn chưa ổn định doanh thu.
+Bám sát kế hoạch tài chính 3 năm, chỉ mở rộng công suất khi đã có dòng tiền dương ổn định và tỷ lệ nợ vay/tổng tài sản ở mức an toàn.
+
+5. Sức khỏe tài chính & Tiềm năng tăng trưởng
+5.1 Nguồn vốn triển khai
+Để triển khai xưởng pilot và lộ trình tăng trưởng, Seamphony dự kiến huy động vốn theo ba lớp:
+Vốn tự có và giải thưởng, hỗ trợ khởi nghiệp (giai đoạn 0–12 tháng)
+Quy mô dự kiến: 100.000.000 – 150.000.000 đồng.
+Nguồn: vốn góp của các thành viên sáng lập, giải thưởng từ các cuộc thi khởi nghiệp (trong đó có BVC 2026) và các chương trình hỗ trợ khởi nghiệp sinh viên.
+Mục đích: hoàn thiện sản phẩm MVP, thiết lập xưởng quy mô nhỏ, thực hiện 3–5 công trình demo, khảo sát thị trường và truyền thông cơ bản.
+Vốn preseed từ vườn ươm và các chương trình hỗ trợ (giai đoạn 6–24 tháng)
+Quy mô dự kiến: 200.000.000 – 400.000.000 đồng.
+Nguồn: chương trình ươm tạo, quỹ hỗ trợ startup sinh viên, các tổ chức quan tâm kinh tế tuần hoàn dệt may.
+Mục đích: hoàn thiện đầy đủ dây chuyền pilot 300 m²/tháng, ổn định chất lượng sản phẩm, xây dựng kênh khách hàng B2B tại Hải Phòng – Quảng Ninh.
+Vốn seed/nhà đầu tư thiên thần (sau 18–24 tháng)
+Quy mô: tùy thuộc vào kết quả giai đoạn pilot, dự kiến 500.000.000 – 1.000.000.000 đồng.
+Mục đích: mở rộng công suất (500–700 m²/tháng), nhân rộng mô hình “microhub” tại các cụm dệt may – dịch vụ khác, đầu tư vào thương hiệu và hệ thống phân phối.
+Ngoài vốn chủ sở hữu và vốn đầu tư, dự án dự kiến tiếp cận các chương trình tín dụng xanh và ưu đãi lãi suất dành cho mô hình kinh tế tuần hoàn, nhằm tài trợ một phần CapEx và giảm áp lực dòng tiền trong giai đoạn đầu.
+
+
+1. Các giả định tài chính cốt lõi
+Nhóm giả định
+Giá trị cơ sở
+Đơn vị
+Ghi chú
+Công suất thiết kế xưởng pilot
+300
+m² panel/tháng
+1 ca làm việc, 3 lao động sản xuất; phù hợp mặt bằng 150–200 m²
+Giá bán bình quân giai đoạn pilot
+420.000
+đồng/m²
+Khớp phân khúc panel cách âm trung cấp, có giá trị ESG
+Biên lợi nhuận gộp mục tiêu
+≈ 20
+%
+Sau khi tính đủ COGS + chi phí phân bổ trên từng m²
+Vốn đầu tư ban đầu (CapEx)
+580
+triệu đồng
+Trung bình trong khung 505–660 triệu đã xây dựng cho dây chuyền nonwoven
+Chi phí vận hành tại 300 m²/tháng (OpEx)
+105
+triệu đồng/tháng
+Giá trị giữa khoảng 90,7–122,8 triệu, phù hợp mức giá điện, lương tối thiểu vùng, thuê xưởng hiện hành
+Thời gian khấu hao thiết bị
+7
+năm
+Theo chuẩn mực kế toán Việt Nam đối với máy móc thiết bị sản xuất
+
+2. Cấu trúc chi phí và điểm hòa vốn
+Khoản mục chi phí
+Chi phí/tháng (ước tính)
+Tỷ trọng
+Ghi chú
+Nguyên liệu (vải thải, sợi PET sinh học, phụ gia an toàn, vải bọc)
+25 triệu
+≈ 24 %
+Tính trên sản lượng 300 m², tương đương 80–85 nghìn đồng/m² vật tư thô
+Nhân công sản xuất trực tiếp (3 người)
+28 triệu
+≈ 27 %
+Mức lương bám sát mặt bằng lương tối thiểu vùng Hải Phòng và phụ cấp
+Điện, nước, vận hành máy
+8 triệu
+≈ 8 %
+Theo mức tiêu thụ 1.500–2.000 kWh/tháng và chi phí vận hành thực tế
+Thuê xưởng & mặt bằng
+18 triệu
+≈ 17 %
+Xưởng 150–200 m² tại khu công nghiệp/ven đô
+Khấu hao dây chuyền thiết bị
+7 triệu
+≈ 7 %
+580 triệu/7 năm, chưa tính giá trị thu hồi
+Marketing, bán hàng & chi phí chung
+19 triệu
+≈ 17 %
+Ngân sách marketing ESG, website, pháp lý, quản lý chung
+TỔNG CHI PHÍ VẬN HÀNH (OpEx)
+105 triệu
+100 %
+Cộng các khoản trên, là cơ sở tính điểm hòa vốn
+Với OpEx khoảng 105 triệu đồng/tháng và lợi nhuận gộp ước tính 84.000 đồng/m² (giá bán 420.000 đồng/m², giá vốn 336.000 đồng/m²), sản lượng hòa vốn theo công thức Q = FC / (P − VC) xấp xỉ 1.250 m²/năm, tương đương khoảng 105 m²/tháng. 
+3. Kết quả tài chính dự kiến 3 năm – Kịch bản cơ sở (tăng trưởng chậm nhưng chắc)
+Chỉ tiêu
+Năm 1
+Năm 2
+Năm 3
+Đơn vị
+Ghi chú
+Sản lượng bình quân
+200
+280
+350
+m²/tháng
+Năm 1 ramp-up, Năm 2–3 tăng theo năng lực thị trường, không vượt quá công suất thiết kế
+Doanh thu
+1,0
+1,41
+1,764
+tỷ đồng/năm
+Tính theo giá bán bình quân 420.000 đồng/m²
+Giá vốn toàn phần
+0,80
+1,088
+1,296
+tỷ đồng/năm
+Giá vốn ~336.000 đồng/m², phản ánh đầy đủ chi phí
+Lợi nhuận gộp
+0,20
+0,322
+0,468
+tỷ đồng/năm
+Biên lợi nhuận gộp tăng dần khi tối ưu chuỗi cung ứng
+Lợi nhuận ròng sau thuế ước tính
+0,06
+0,13
+0,22
+tỷ đồng/năm
+Giả định tỷ lệ chi phí ngoài giá vốn ~10–12% doanh thu và thuế TNDN 20 %
+Dòng tiền thuần từ hoạt động kinh doanh
+≈ 0,12
+≈ 0,19
+≈ 0,28
+tỷ đồng/năm
+Cộng lại khấu hao và điều chỉnh nhẹ vốn lưu động
+Thời gian hoàn vốn lũy kế
+Chưa hoàn vốn
+Tiệm cận hòa vốn
+Hoàn vốn ~2,5–3 năm
+năm
+Tính trên CapEx 580 triệu đồng, không tính thêm đầu tư mới
+
+4. Ba kịch bản tăng trưởng – kiểm tra sức chịu đựng tài chính (Stress test)
+Chỉ tiêu
+Kịch bản thận trọng
+Kịch bản cơ sở
+Kịch bản tích cực
+Đơn vị
+Ghi chú
+Sản lượng bình quân năm 3
+220
+350
+500
+m²/tháng
+Phụ thuộc số hợp đồng B2B và khả năng mở thêm ca
+Doanh thu năm 3
+≈ 1,11
+≈ 1,764
+≈ 2,52
+tỷ đồng/năm
+Giữ nguyên giá bán 420.000 đồng/m² để tránh “đẩy” giá vô lý
+Lợi nhuận gộp năm 3
+≈ 0,22
+≈ 0,468
+≈ 0,84
+tỷ đồng/năm
+Chênh lệch theo sản lượng, biên gộp ổn định
+Lợi nhuận ròng năm 3
+≈ 0,07
+≈ 0,22
+≈ 0,40
+tỷ đồng/năm
+Sau thuế 20 %, chưa tính lãi vay vì ưu tiên dùng vốn chủ và vốn hỗ trợ
+Thời gian hoàn vốn lũy kế
+4–5
+≈ 2,5–3
+≈ 2
+năm
+Kịch bản xấu vẫn sống được; kịch bản cơ sở phù hợp nhà đầu tư thận trọng
+
+
+
+6. Năng lực đội ngũ & Hệ sinh thái hỗ trợ
+6.1. Năng lực đội ngũ sáng lập
+Đội ngũ Seamphony gồm ba thành viên đồng sáng lập, đang là sinh viên năm 3 Trường Đại học Hàng hải Việt Nam, có sự bổ trợ rõ ràng về chuyên môn và vai trò:
+Nguyễn Ngọc Chiến – Founder
+Chuyên ngành: Kỹ thuật truyền thông và mạng máy tính (KTN64H2 – Trường Đại học Hàng hải Việt Nam).
+Vai trò chính: thiết kế sản phẩm panel từ vải vụn (cấu trúc kỹ thuật, tiêu âm, an toàn), xây dựng quy trình sản xuất và trực tiếp phụ trách chiến lược marketing số của dự án.
+Đóng góp: chịu trách nhiệm kết nối giữa nghiên cứu khoa học (vật liệu tiêu âm từ vải vụn, nonwoven – ép nhiệt) với điều kiện thiết bị thực tế tại Hải Phòng – Quảng Ninh; phối hợp với giảng viên và chuyên gia để chuẩn hóa thông số kỹ thuật, đồng thời xây dựng hệ thống nhận diện thương hiệu, nội dung trên website và các kênh mạng xã hội.
+Bùi Thanh Thủy – CoFounder
+Chuyên ngành: Kinh doanh quốc tế và Logistics.
+Vai trò chính: phụ trách thương mại và chuỗi cung ứng, bao gồm khảo sát nhu cầu thị trường, thiết kế phương án giá – điều khoản thương mại và tổ chức dòng chảy thu gom – vận chuyển vải vụn từ xưởng may đến xưởng Seamphony rồi ra công trình.
+Đóng góp: xây dựng mạng lưới kết nối với các xưởng may, HTX tái chế, đơn vị vận tải; tối ưu chi phí logictics và thời gian giao hàng; đàm phán các thỏa thuận tuần hoàn với doanh nghiệp dệt may và khách hàng B2B.
+Trương Ngọc Khánh Duy – CoFounder
+Chuyên ngành: Quản trị kinh doanh.
+Vai trò chính: xây dựng mô hình kinh doanh và tài chính, phân tích chi phí – doanh thu, lập kế hoạch dòng tiền, điểm hòa vốn và phương án hoàn vốn trong từng giai đoạn.
+Đóng góp: phụ trách khảo sát và làm việc với nhóm khách hàng café, homestay, doanh nghiệp nội thất tại Hải Phòng – Quảng Ninh; thiết kế cấu trúc giá, chính sách cho đối tác B2B; chuẩn bị nội dung làm việc với nhà đầu tư, quỹ hỗ trợ và các chương trình ươm tạo.
+Cả ba thành viên đều sinh sống và học tập tại Hải Phòng, hiểu rõ bối cảnh địa phương về dệt may, café – du lịch và có khả năng làm việc trực tiếp với xưởng may, HTX, chủ quán và các bên liên quan tại khu vực Hải Phòng – Quảng Ninh.
+6.2. Sự gắn kết và cơ chế phối hợp trong nhóm
+Đội ngũ đã có quá trình làm việc chung từ giai đoạn nghiên cứu khả thi đến xây dựng sản phẩm MVP và hoàn thiện hồ sơ dự thi hiện tại:
+Cấu trúc nội bộ được phân chia theo ba trụ cột: kỹ thuật – kinh doanh – marketing; các quyết định quan trọng được thảo luận chung, sau đó phân công rõ người chịu trách nhiệm chính.
+Nhịp làm việc được duy trì qua các mốc: hoàn thiện nghiên cứu thị trường, xây dựng website, khảo sát 10 quán café, thiết kế mô hình thu gom – sản xuất – phân phối và hoàn thiện hồ sơ tài chính pilot.
+Nhóm thống nhất định hướng dài hạn với Seamphony, coi đây là dự án khởi nghiệp nghiêm túc trong 3–5 năm tới, không chỉ dừng lại ở một đề tài dự thi.
+Sự gắn kết thể hiện ở việc đội ngũ cùng xây dựng chi tiết mô hình chuỗi giá trị (xưởng may – Seamphony – khách hàng), quy trình công nghệ, cấu trúc chi phí và chiến lược kênh, thay vì để từng cá nhân làm rời rạc.
+6.3. Hệ sinh thái hỗ trợ và đối tác dự kiến
+Seamphony xác định rõ các nhóm nguồn lực và đối tác cần thiết để triển khai dự án:
+Cơ sở đào tạo và giảng viên hướng dẫn
+Trường Đại học Hàng hải Việt Nam cung cấp nền tảng kiến thức kỹ thuật và kinh tế, đồng thời là cầu nối với doanh nghiệp địa phương.
+Giảng viên và chuyên gia trong lĩnh vực kỹ thuật, vật liệu, kinh tế có thể tham gia cố vấn về thiết kế quy trình sản xuất, đánh giá hiệu quả tài chính và quản trị rủi ro.
+Trung tâm Hỗ trợ Khởi nghiệp Đổi mới sáng tạo Hải Phòng (Startup Hai Phong)
+Đơn vị trực thuộc Sở Khoa học và Công nghệ thành phố, đóng vai trò bảo trợ chuyên môn và truyền thông cho các dự án khởi nghiệp sáng tạo.
+Với mạng lưới doanh nghiệp, chuyên gia và tổ chức hỗ trợ trong hệ sinh thái khởi nghiệp thành phố, Trung tâm là đầu mối quan trọng giúp Seamphony:
+Kết nối với doanh nghiệp dệt may, đơn vị thi công nội thất, kiến trúc sư và các nhà đầu tư tiềm năng tại Hải Phòng.
+Tiếp cận các chương trình đào tạo, cố vấn chuyên sâu về đổi mới sáng tạo, quản trị doanh nghiệp, gọi vốn và tuân thủ pháp lý.
+Lan tỏa câu chuyện “panel từ vải vụn địa phương” qua các kênh truyền thông chính thống của thành phố, tăng độ tin cậy cho dự án trong mắt đối tác và khách hàng.
+Xưởng may, HTX tái chế và doanh nghiệp dệt may tại Hải Phòng – Quảng Ninh
+Vai trò: nguồn cung vải vụn tiền tiêu dùng, đồng thời là đối tác trong mô hình “thỏa thuận tuần hoàn” (giảm chi phí xử lý chất thải, nhận báo cáo ESG về lượng vải được tái chế).
+Lợi ích: giải quyết chi phí xử lý vải thải, cải thiện hình ảnh ESG với khách hàng và đối tác quốc tế.
+Đơn vị thi công nội thất, kho vật liệu xây dựng, kiến trúc sư
+Vai trò: kênh phân phối B2B quan trọng, đưa panel Seamphony vào các công trình café, homestay, văn phòng, studio.
+Lợi ích: có thêm lựa chọn vật liệu tiêu âm – cách âm mới, có câu chuyện bền vững và sản xuất tại địa phương.
+Các chương trình ươm tạo, quỹ hỗ trợ khởi nghiệp và tổ chức thúc đẩy kinh tế tuần hoàn
+Vai trò: hỗ trợ cố vấn, kết nối, đào tạo và cung cấp nguồn vốn preseed/seed cho giai đoạn xây dựng xưởng pilot và mở rộng.
+Dự án định vị mình là mô hình kinh tế tuần hoàn dệt may ở quy mô địa phương, phù hợp với ưu tiên của nhiều chương trình hỗ trợ trong và ngoài nước.
+6.4. Kế hoạch bổ sung năng lực trong tương lai
+Đội ngũ nhận thức rõ các khoảng trống hiện tại và đã xây dựng định hướng bổ sung:
+Ngắn hạn (12–18 tháng đầu): tìm kiếm cố vấn kỹ thuật (vật liệu, âm học) từ các khoa chuyên ngành và chuyên gia trong lĩnh vực nonwoven – acoustic để chuẩn hóa sản phẩm và quy trình đo kiểm.
+Trung hạn (sau khi xưởng pilot vận hành ổn định): tuyển thêm kỹ thuật viên vận hành dây chuyền và nhân sự phụ trách phát triển kinh doanh B2B khi sản lượng và số lượng dự án tăng.
+Dài hạn (khi mở rộng sang nhiều “microhub”): xây dựng bộ phận vận hành chuỗi cung ứng (thu gom – sản xuất – phân phối) và bộ phận chuyên trách ESG/reporting để phục vụ khách hàng doanh nghiệp.
+Với cấu trúc như vậy, Seamphony kỳ vọng chuyển đổi dần từ một nhóm sinh viên khởi nghiệp sang một doanh nghiệp khởi nghiệp vật liệu xanh có nền tảng chuyên môn, vận hành và hệ sinh thái hỗ trợ đầy đủ.
+
+
+7. Tuyên ngôn Sứ mệnh & Tầm nhìn chiến lược
+7.1. Giá trị cốt lõi
+Seamphony được xây dựng trên ba giá trị cốt lõi, gắn chặt với bối cảnh Hải Phòng – Quảng Ninh và mô hình kinh tế tuần hoàn dệt may:
+Tuần hoàn và trách nhiệm: Dự án cam kết coi vải vụn tiền tiêu dùng không phải là chất thải, mà là nguồn nguyên liệu đầu vào chính cho một chuỗi giá trị mới từ xưởng may đến công trình dịch vụ. Mỗi quyết định về thiết kế panel, tổ chức sản xuất và lựa chọn đối tác đều ưu tiên giảm lãng phí, kéo dài vòng đời vật liệu và minh bạch về tác động môi trường – xã hội thông qua các chỉ số có thể đo được.
+Địa phương và gắn kết cộng đồng: Seamphony khởi nguồn từ hệ sinh thái dệt may và dịch vụ của Hải Phòng – Quảng Ninh, nơi vừa có nguồn vải vụn dồi dào, vừa có nhu cầu xử lý tiếng ồn trong quán café, homestay, studio, văn phòng. Dự án coi việc làm việc trực tiếp với xưởng may, HTX, chủ quán và đơn vị thi công nội thất tại địa phương là nền tảng để xây dựng mô hình bền vững, sau đó nhân rộng sang các cụm đô thị – công nghiệp có cấu trúc tương tự.
+Đo lường và minh bạch tác động: Seamphony không dừng ở khẩu hiệu “xanh”, mà đặt mục tiêu đo lường và công bố các chỉ số như: kg vải vụn được tái chế, số công trình được cải thiện âm học, số đối tác tham gia mô hình tuần hoàn. Các chỉ số này được sử dụng để báo cáo cho nhà máy dệt may, khách hàng B2B, các chương trình hỗ trợ và cơ quan quản lý về hiệu quả ESG của dự án, giúp tăng tính tin cậy và khả năng mở rộng.
+7.2. Sứ mệnh
+Sứ mệnh của Seamphony là biến vải vụn của ngành dệt may Việt Nam thành những không gian sử dụng êm ái và những câu chuyện tuần hoàn có thể đo lường, giúp doanh nghiệp và cộng đồng cùng tham gia vào kinh tế tuần hoàn theo cách cụ thể, dễ hiểu và mang lại lợi ích rõ ràng.
+Sứ mệnh này thể hiện rõ hai định hướng song song:
+Giải quyết đồng thời bài toán chất thải dệt may tiền tiêu dùng và nhu cầu vật liệu tiêu âm – cách âm thẩm mỹ, an toàn, có nguồn gốc rõ ràng cho các không gian dịch vụ.
+Tạo ra “bộ công cụ ESG” cho nhà máy dệt may, chủ quán và doanh nghiệp dịch vụ: mỗi m² panel gắn với lượng vải tái chế và mức cải thiện âm học cụ thể, có thể đưa vào báo cáo ESG, hồ sơ dự án hoặc hoạt động truyền thông thương hiệu.
+7.3. Tầm nhìn 3–5 năm
+Trong 3–5 năm tới, Seamphony đặt tầm nhìn:
+Trở thành thương hiệu panel tiêu âm từ vải vụn được nhận diện rõ tại thị trường Việt Nam: Seamphony hướng tới việc khi nhắc đến panel tiêu âm – cách âm từ vải vụn tại các thành phố cảng và đô thị dịch vụ, khách hàng và đối tác nghĩ đến Seamphony như một trong những lựa chọn tiên phong, có lợi thế về địa phương, câu chuyện tuần hoàn và hệ thống chỉ số tác động minh bạch.
+Xây dựng và vận hành mạng lưới “microhub tuần hoàn” tại 2–3 cụm dệt may – dịch vụ trọng điểm: Mỗi microhub là một cụm liên kết khép kín: xưởng may (nguồn vải vụn) – xưởng Seamphony (sản xuất panel) – thị trường nội thất và dịch vụ tại chỗ (café, homestay, văn phòng, studio).Mục tiêu đến năm thứ 5 là vận hành ổn định ít nhất 3 microhub tại các cụm như: Hải Phòng – Quảng Ninh, Nam Định – Thái Bình, Bắc Ninh – Bắc Giang hoặc các khu vực có cấu trúc dệt may – dịch vụ tương tự.
+Đạt quy mô tái chế hàng chục tấn vải vụn mỗi năm và hiện diện tại hàng trăm công trìnhThông qua tăng dần sản lượng panel và nhân rộng mô hình microhub, Seamphony hướng tới việc tái chế hàng chục tấn vải vụn tiền tiêu dùng mỗi năm, thay vì để khối lượng này đi vào lò đốt hoặc bãi rác. Song song, dự án đặt mục tiêu xuất hiện tại hàng trăm công trình café, homestay, văn phòng, studio trên toàn quốc, mỗi công trình là một ví dụ điển hình về ứng dụng vật liệu tuần hoàn trong nội thất.
+Trở thành trường hợp tham chiếu về kinh tế tuần hoàn dệt may cấp địa phươngSeamphony không chỉ muốn được ghi nhận như một nhà cung cấp panel, mà còn như một case study cụ thể về cách triển khai mô hình kinh tế tuần hoàn dệt may ở quy mô thành phố/cụm công nghiệp.Trong tầm nhìn của dự án, mô hình Seamphony có thể được sử dụng làm tài liệu tham khảo cho các chương trình đào tạo, hội thảo hoặc báo cáo về kinh tế tuần hoàn, khởi nghiệp xanh và ESG tại Việt Nam; đồng thời là ví dụ thực tế cho các chương trình hỗ trợ khởi nghiệp của thành phố Hải Phòng và các địa phương khác.
+8. Chiến lược tiếp cận & Truyền thông định vị
+8.1. Định vị truyền thông
+Seamphony định vị mình là giải pháp panel tiêu âm – cách âm từ vải vụn địa phương, kết hợp đồng thời ba yếu tố:
+Vật liệu nội thất có hiệu năng âm học được kiểm chứng (NRC, mức giảm ồn đo được tại công trình).
+Câu chuyện kinh tế tuần hoàn dệt may cấp địa phương (vải vụn Hải Phòng – Quảng Ninh được “giữ lại” và tái sinh ngay trong hệ sinh thái dịch vụ của thành phố).
+Công cụ ESG có số liệu cụ thể cho xưởng may, chủ công trình và các chương trình hỗ trợ khởi nghiệp – đổi mới sáng tạo.
+Thông điệp xuyên suốt:
+“Từ vải vụn đến không gian êm và một câu chuyện tuần hoàn đo được.”
+8.2. Đối tượng mục tiêu và kênh tiếp cận
+Dự án xác định ba nhóm đối tượng chính, tương ứng với ba nhóm kênh trọng tâm:
+Nhà thầu nội thất, kiến trúc sư, kho vật liệu xây dựng (B2B)
+Vai trò: quyết định vật liệu sử dụng trong công trình, ảnh hưởng trực tiếp đến khối lượng đơn hàng panel.
+Kênh tiếp cận:
+Gặp trực tiếp, giới thiệu datasheet kỹ thuật, mẫu panel, bảng báo giá và case study công trình demo.
+Kênh số: website, tài liệu kỹ thuật dạng PDF gửi qua email/Zalo, sự kiện giới thiệu sản phẩm trong cộng đồng kiến trúc – nội thất do các đơn vị như Startup Hai Phong, trường đại học hoặc hội nghề nghiệp tổ chức.
+Chủ quán café, homestay, studio, coworking (B2B trực tiếp)
+Vai trò: khách hàng sử dụng sản phẩm và là “showroom” thực tế cho Seamphony.
+Kênh tiếp cận:
+Trực tiếp tại quán/điểm kinh doanh thông qua công trình demo, giới thiệu từ đối tác thi công nội thất và các chương trình của Trung tâm Hỗ trợ Khởi nghiệp Đổi mới sáng tạo Hải Phòng.
+Kênh số: TikTok, Facebook, Instagram với nội dung kể câu chuyện “từ vải vụn đến không gian êm”, trước–sau xử lý tiếng ồn, đánh giá của khách.
+Khách hàng lẻ quan tâm không gian sống, DIY, cộng đồng yêu môi trường (B2C/cộng đồng)
+Vai trò: tạo nhận diện thương hiệu, lan tỏa câu chuyện tuần hoàn, là tệp tiềm năng cho sản phẩm panel DIY ở giai đoạn sau.
+Kênh tiếp cận:
+Online: mạng xã hội, website dự án, sàn thương mại điện tử.
+Offline: workshop, talkshow, trải nghiệm trực tiếp tại trường đại học, không gian cộng đồng hoặc sự kiện do Startup Hai Phong và các tổ chức hỗ trợ khởi nghiệp tổ chức.
+8.3. Hệ thống kênh truyền thông
+Dựa trên phân khúc khách hàng và nguồn lực hiện có, Seamphony lựa chọn các kênh chính sau:
+Kênh trực tiếp B2B (offline)
+Tiếp cận nhà thầu nội thất, kho vật liệu xây dựng, kiến trúc sư tại Hải Phòng – Quảng Ninh.
+Công cụ: bộ tài liệu kỹ thuật (datasheet, hình ảnh minh họa, bảng so sánh với panel PET, rockwool, foam), mô hình mẫu, panel demo trưng bày tại văn phòng hoặc sự kiện.
+Kênh trực tiếp B2B2C (công trình demo)
+Lựa chọn 2–3 quán café, homestay, studio tại địa phương làm công trình mẫu.
+Tại mỗi công trình demo, gắn nhãn/QR code dẫn đến trang giới thiệu “hành trình vải vụn” của chính công trình đó (xưởng may cung cấp vải, khối lượng vải tái chế, mức giảm ồn đo được).
+Kênh này vừa chứng minh hiệu quả kỹ thuật, vừa tạo hiệu ứng truyền miệng tự nhiên.
+Website và tài liệu số
+Website giới thiệu dự án, mô tả sản phẩm, quy trình, thông tin kỹ thuật và câu chuyện ESG; tích hợp form liên hệ, đăng ký tư vấn và tải tài liệu kỹ thuật cho đối tác B2B.
+Là điểm đến chung cho các kênh mạng xã hội, QR code tại công trình và các link giới thiệu từ Startup Hai Phong, trường đại học, báo chí địa phương.
+Mạng xã hội (TikTok, Facebook, Instagram)
+TikTok/Instagram: tập trung vào video ngắn về hành trình biến vải vụn thành panel (cắt, đánh tơi, ép, lắp đặt), cảnh “trước–sau” xử lý tiếng ồn, chia sẻ trải nghiệm khách hàng.
+Facebook: chia sẻ bài viết dài hơn về nghiên cứu, case study công trình, hoạt động với xưởng may, các sự kiện khởi nghiệp và kinh tế tuần hoàn.
+Mục tiêu: xây dựng hình ảnh Seamphony là dự án “thật”, có sản xuất, có công trình, có số liệu, không chỉ là ý tưởng.
+Sàn thương mại điện tử và sản phẩm DIY (giai đoạn sau)
+Khi sản phẩm ổn định, Seamphony dự kiến đưa bộ panel DIY (5–10 tấm) lên các sàn TMĐT, kèm hướng dẫn lắp đặt cho khách hàng lẻ.
+Kênh này chỉ mở rộng sau khi đã có nhận diện và đánh giá tích cực từ nhóm khách hàng B2B và cộng đồng.
+8.4. Thông điệp sáng tạo và khác biệt
+Trên từng kênh, Seamphony nhất quán sử dụng các nhóm thông điệp sau:
+Về vật liệu: “Panel tiêu âm từ vải vụn tiền tiêu dùng – giải pháp vừa đáp ứng yêu cầu âm học, vừa góp phần giảm chất thải dệt may tại địa phương.”
+Về ESG và tuần hoàn: “Mỗi m² panel Seamphony gắn với một lượng vải cụ thể được tái chế và một công trình cụ thể được cải thiện không gian – có số liệu để xưởng may, chủ quán và doanh nghiệp đưa vào báo cáo ESG.”
+Về địa phương: “Sản phẩm được thiết kế và sản xuất tại Hải Phòng – Quảng Ninh, sử dụng nguồn vải vụn của chính các xưởng may trong khu vực và phục vụ cho chính các không gian dịch vụ của thành phố.”
+Về trải nghiệm khách hàng: “Không chỉ là tấm panel trên tường, Seamphony hướng đến việc cải thiện trải nghiệm âm thanh trong không gian, tạo môi trường dễ chịu hơn cho khách tại café, homestay, văn phòng và studio.”
+Bằng việc kết hợp tiếp cận trực tiếp B2B, công trình demo, kênh số và câu chuyện ESG cụ thể, chiến lược truyền thông của Seamphony định vị dự án như một giải pháp vừa mang tính kỹ thuật, vừa mang ý nghĩa xã hội – chạm đúng nhu cầu xử lý tiếng ồn và nhu cầu kể câu chuyện bền vững của các bên liên quan.
+
+

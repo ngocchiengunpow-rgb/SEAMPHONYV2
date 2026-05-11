@@ -32,7 +32,7 @@ export default function TheTeam() {
                                     <div>
                                         <h4 className="text-2xl font-heading font-bold text-white mb-1">Nguyễn Ngọc Chiến</h4>
                                         <p className="text-accent font-black text-sm uppercase tracking-widest mb-1">Founder</p>
-                                        <p className="text-white/60 font-body text-xs">Khoa Kinh tế, Đại học Hàng Hải VN</p>
+                                        <p className="text-white/60 font-body text-xs">KT Truyền thông & Mạng máy tính</p>
                                     </div>
                                 </div>
                             </motion.div>
@@ -49,7 +49,7 @@ export default function TheTeam() {
                                         <div className="flex-1">
                                             <h4 className="text-xl font-heading font-bold text-white mb-1">Trương Ngọc Khánh Duy</h4>
                                             <p className="text-accent font-black text-xs uppercase tracking-widest leading-none mb-1">Co-Founder</p>
-                                            <p className="text-white/60 font-body text-xs line-clamp-1">Viện ĐT Quốc tế, ĐH Hàng Hải VN</p>
+                                            <p className="text-white/60 font-body text-xs line-clamp-1">Quản trị kinh doanh</p>
                                         </div>
                                     </div>
                                     <div className="w-full h-px bg-white/10 my-1"></div>
@@ -60,7 +60,7 @@ export default function TheTeam() {
                                         <div className="flex-1">
                                             <h4 className="text-xl font-heading font-bold text-white mb-1">Bùi Thanh Thủy</h4>
                                             <p className="text-accent font-black text-xs uppercase tracking-widest leading-none mb-1">Co-Founder</p>
-                                            <p className="text-white/60 font-body text-xs line-clamp-1">Viện ĐT Quốc tế, ĐH Hàng Hải VN</p>
+                                            <p className="text-white/60 font-body text-xs line-clamp-1">Kinh doanh quốc tế & Logistics</p>
                                         </div>
                                     </div>
                                 </div>

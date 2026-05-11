@@ -152,7 +152,7 @@ export default function Hero() {
                                 className="relative w-full aspect-[4/3] max-w-lg mx-auto bg-white rounded-3xl border border-border/50 shadow-xl overflow-hidden group/img transform hover:scale-[1.02] transition-all duration-500 cursor-pointer"
                             >
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 pointer-events-none"></div>
-                                <img src="/panel_sample.png" alt="Seamphony Product Sample" className="w-full h-full object-cover transform group-hover/img:scale-105 transition-transform duration-700" />
+                                <img src="/hero_panel_cafe.png" alt="Seamphony Product Sample" className="w-full h-full object-cover transform group-hover/img:scale-105 transition-transform duration-700" />
                                 
                                 {/* Refined Badge - Rotated Corner Ribbon Style */}
                                 <div className="absolute top-6 -right-8 bg-primary-cta text-white font-black px-12 py-2 shadow-xl z-30 transform rotate-12 border-y border-white/20 text-[10px] md:text-xs tracking-tight">

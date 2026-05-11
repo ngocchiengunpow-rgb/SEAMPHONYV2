@@ -6,13 +6,13 @@ import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, BarChart, Bar, XAxis
 const capexData = [
     { name: 'Máy móc & Thiết bị', value: 360, color: '#EA580C' }, // primary-cta
     { name: 'Cải tạo xưởng & Setup', value: 120, color: '#10B981' }, // green-500
-    { name: 'Pháp lý & Dự phòng', value: 120, color: '#3B82F6' }, // blue-500
+    { name: 'Pháp lý & Dự phòng', value: 100, color: '#3B82F6' }, // blue-500
 ];
 
 const cashflowData = [
-    { name: 'Năm 1', DoanhThu: 800, ChiPhi: 1000, LoiNhuan: -200 },
-    { name: 'Năm 2', DoanhThu: 2400, ChiPhi: 1900, LoiNhuan: 500 },
-    { name: 'Năm 3', DoanhThu: 4500, ChiPhi: 3200, LoiNhuan: 1300 },
+    { name: 'Năm 1', DoanhThu: 1000, ChiPhi: 800, LoiNhuan: 60 },
+    { name: 'Năm 2', DoanhThu: 1410, ChiPhi: 1088, LoiNhuan: 130 },
+    { name: 'Năm 3', DoanhThu: 1764, ChiPhi: 1296, LoiNhuan: 220 },
 ];
 
 export default function FinancialDashboard() {
@@ -52,15 +52,15 @@ export default function FinancialDashboard() {
                         <div className="flex gap-4 mb-8 mt-2 flex-wrap md:flex-nowrap">
                             <div className="flex-1 min-w-[100px] bg-secondary-bg p-4 rounded-xl border border-border/50 text-center">
                                 <span className="block text-xs font-bold text-text-muted uppercase mb-1">CapEx</span>
-                                <span className="text-xl font-black text-text-main">505-660<span className="text-sm font-normal">tr</span></span>
+                                <span className="text-xl font-black text-text-main">580<span className="text-sm font-normal">tr</span></span>
                             </div>
                             <div className="flex-1 min-w-[100px] bg-secondary-bg p-4 rounded-xl border border-border/50 text-center">
                                 <span className="block text-xs font-bold text-text-muted uppercase mb-1">OpEx / tháng</span>
-                                <span className="text-xl font-black text-text-main">90-122<span className="text-sm font-normal">tr</span></span>
+                                <span className="text-xl font-black text-text-main">105<span className="text-sm font-normal">tr</span></span>
                             </div>
                             <div className="flex-1 min-w-[100px] bg-secondary-bg p-4 rounded-xl border border-border/50 text-center">
                                 <span className="block text-xs font-bold text-text-muted uppercase mb-1">Giá vốn</span>
-                                <span className="text-xl font-black text-text-main">~350k<span className="text-sm font-normal">/m²</span></span>
+                                <span className="text-xl font-black text-text-main">~336k<span className="text-sm font-normal">/m²</span></span>
                             </div>
                         </div>
 
@@ -112,7 +112,7 @@ export default function FinancialDashboard() {
                             </div>
                             <div className="flex-1 min-w-[100px] bg-secondary-bg p-4 rounded-xl border border-border/50 text-center">
                                 <span className="block text-xs font-bold text-text-muted uppercase mb-1">Hoàn vốn</span>
-                                <span className="text-xl font-black text-text-main">~3 năm</span>
+                                <span className="text-xl font-black text-text-main">2.5-3 năm</span>
                             </div>
                         </div>
 

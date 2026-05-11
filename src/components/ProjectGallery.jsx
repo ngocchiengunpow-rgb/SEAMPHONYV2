@@ -4,9 +4,9 @@ import { Camera, Maximize2 } from 'lucide-react';
 
 export default function ProjectGallery() {
     const images = [
-        { src: "/gallery-1.jpg", alt: "Ứng dụng Seamphony trong phòng họp" },
-        { src: "/gallery-2.jpg", alt: "Ứng dụng Seamphony trong lớp học" },
-        { src: "/gallery-3.jpg", alt: "Ứng dụng Seamphony trong văn phòng mở" },
+        { src: "/hero_panel_cafe.png", alt: "Ứng dụng Seamphony trong quán Cafe" },
+        { src: "/gallery_office.png", alt: "Ứng dụng Seamphony trong văn phòng mở" },
+        { src: "/gallery_studio.png", alt: "Ứng dụng Seamphony trong Studio" },
     ];
 
     return (

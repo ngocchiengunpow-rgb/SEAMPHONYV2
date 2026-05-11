@@ -19,7 +19,7 @@ const steps = [
     {
         icon: Droplet,
         title: "3. Phối trộn Phụ gia",
-        desc: "Trộn 60-70% xơ vải với 20-25% sợi low-melt kết dính và 8-12% phụ gia khoáng chống cháy, chống ẩm.",
+        desc: "Trộn 55% xơ vải vụn, 20% sợi PLA sinh học, 18% khoáng chống cháy APP, 4% chất tạo bọt Pentaerythritol và 3% hợp chất chống ẩm.",
         color: "bg-text-muted/10 text-text-muted border-text-muted/20"
     },
     {
@@ -31,13 +31,13 @@ const steps = [
     {
         icon: Zap,
         title: "5. Hoàn thiện Cá nhân hóa",
-        desc: "Cắt chuẩn kích thước 600x600 hoặc 600x1200mm. Bọc vải nỉ/polyester xuyên âm, in thêu logo theo yêu cầu.",
+        desc: "Cắt chuẩn kích thước 600x600 hoặc 600x1200mm. Bọc vải tiêu âm tái chế, hỗ trợ in thêu logo/họa tiết cá nhân hóa (Bespoke Design).",
         color: "bg-primary-cta/10 text-primary-cta border-primary-cta/20"
     },
     {
         icon: Zap,
         title: "6. Kiểm định & Demo",
-        desc: "Đo hệ số hấp thụ âm bằng ống trở kháng. Mục tiêu: đo hệ số hấp thụ âm theo chuẩn ISO 10534-2 tại phòng thí nghiệm độc lập. Lắp đặt công trình demo thực tế để đo mức ồn trước-sau.",
+        desc: "Đo 3 chỉ số: Hệ số hấp thụ âm, chống cháy lan, kháng ẩm tại phòng Lab. Lắp đặt công trình demo thực tế để đo mức ồn trước-sau.",
         color: "bg-text-muted/10 text-text-muted border-text-muted/20"
     }
 ];
@@ -55,7 +55,7 @@ export default function SolutionProcess() {
         <section id="solution" className="py-32 bg-primary-bg text-text-main relative scroll-mt-32">
             <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
-                <div className="text-center mb-24 max-w-4xl mx-auto">
+                <div className="text-center mb-16 max-w-4xl mx-auto">
                     <motion.h2
                         initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ type: "spring", bounce: 0, duration: 0.9 }}
                         className="text-4xl md:text-6xl font-heading font-extrabold mb-8 tracking-tight"
@@ -69,6 +69,17 @@ export default function SolutionProcess() {
                         Ứng dụng chuỗi công nghệ <strong className="text-text-main">vải không dệt - ép nhiệt (nonwoven thermal bonding)</strong>, chuyển hóa vải vụn thành vật liệu nội thất xanh đạt chuẩn âm học.
                     </motion.p>
                 </div>
+
+                <motion.div
+                    initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}
+                    className="max-w-5xl mx-auto mb-24 rounded-3xl overflow-hidden shadow-2xl relative"
+                >
+                    <img src="/manufacturing_process.png" alt="Quy trình sản xuất Panel Seamphony" className="w-full h-[400px] object-cover" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                    <div className="absolute bottom-6 left-8">
+                        <span className="bg-primary-cta/90 text-white px-4 py-2 rounded-full text-sm font-bold uppercase tracking-wider">Xưởng Pilot Seamphony</span>
+                    </div>
+                </motion.div>
 
                 {/* Scroll-driven Timeline */}
                 <div ref={containerRef} className="relative max-w-5xl mx-auto pl-4 md:pl-0">

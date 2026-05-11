@@ -19,19 +19,22 @@ export default function TheAsk() {
                     
                     <div className="grid md:grid-cols-3 gap-10 relative z-10">
                         <div className="space-y-6">
-                            <div className="w-14 h-14 bg-secondary-bg rounded-2xl flex items-center justify-center text-primary-cta font-black text-2xl shadow-sm border border-border/50">1</div>
-                            <h4 className="font-heading font-bold text-xl text-text-main">Kết Nối Đầu Tư & Tài Trợ</h4>
-                            <p className="font-body text-text-muted text-base leading-relaxed">Tìm kiếm nguồn vốn khởi điểm để chi trả <strong>chứng nhận đo lường âm học và chống cháy</strong> nhằm tạo tiền đề pháp lý vững chắc cho thương mại hóa.</p>
+                            <div className="w-14 h-14 bg-secondary-bg rounded-2xl flex items-center justify-center text-primary-cta font-black text-xl shadow-sm border border-border/50">1</div>
+                            <h4 className="font-heading font-bold text-xl text-text-main">Vốn tự có & Giải thưởng</h4>
+                            <div className="text-primary-cta font-black text-2xl">100 - 150tr</div>
+                            <p className="font-body text-text-muted text-base leading-relaxed"><strong>Giai đoạn 0-12 tháng:</strong> Hoàn thiện MVP, xưởng quy mô nhỏ, khảo sát thị trường và thực hiện 3-5 công trình demo.</p>
                         </div>
                         <div className="space-y-6">
-                            <div className="w-14 h-14 bg-secondary-bg rounded-2xl flex items-center justify-center text-primary-cta font-black text-2xl shadow-sm border border-border/50">2</div>
-                            <h4 className="font-heading font-bold text-xl text-text-main">Cố Vấn Chuyên Môn</h4>
-                            <p className="font-body text-text-muted text-base leading-relaxed">Mong muốn kết nối với các <strong>chuyên gia kỹ thuật vật liệu</strong> để tư vấn tối ưu máy móc và hoạch định chiến lược với khách hàng doanh nghiệp B2B.</p>
+                            <div className="w-14 h-14 bg-secondary-bg rounded-2xl flex items-center justify-center text-primary-cta font-black text-xl shadow-sm border border-border/50">2</div>
+                            <h4 className="font-heading font-bold text-xl text-text-main">Vốn Pre-seed (Vườn ươm)</h4>
+                            <div className="text-primary-cta font-black text-2xl">200 - 400tr</div>
+                            <p className="font-body text-text-muted text-base leading-relaxed"><strong>Giai đoạn 6-24 tháng:</strong> Hoàn thiện dây chuyền pilot (300 m²/tháng), ổn định chất lượng, xây dựng kênh B2B tại Hải Phòng - Quảng Ninh.</p>
                         </div>
                         <div className="space-y-6">
-                            <div className="w-14 h-14 bg-secondary-bg rounded-2xl flex items-center justify-center text-primary-cta font-black text-2xl shadow-sm border border-border/50">3</div>
-                            <h4 className="font-heading font-bold text-xl text-text-main">Mở Rộng Mạng Lưới</h4>
-                            <p className="font-body text-text-muted text-base leading-relaxed">Cơ hội cọ xát thực chiến trước các Quỹ và <strong>tìm kiếm các đối tác thi công</strong> sẵn sàng hỗ trợ đưa sản phẩm panel Seamphony tiếp cận thị trường thử nghiệm.</p>
+                            <div className="w-14 h-14 bg-secondary-bg rounded-2xl flex items-center justify-center text-primary-cta font-black text-xl shadow-sm border border-border/50">3</div>
+                            <h4 className="font-heading font-bold text-xl text-text-main">Vốn Seed / Thiên thần</h4>
+                            <div className="text-primary-cta font-black text-2xl">500 - 1.000tr</div>
+                            <p className="font-body text-text-muted text-base leading-relaxed"><strong>Sau 18-24 tháng:</strong> Mở rộng công suất, nhân rộng mô hình "microhub" tại các cụm công nghiệp - dịch vụ khác trên toàn quốc.</p>
                         </div>
                     </div>
                 </motion.div>

@@ -35,40 +35,40 @@ export default function ESGImpact() {
                 <div className="grid md:grid-cols-3 gap-8 mb-12">
                     <motion.div
                         initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
-                        className="bg-white p-8 rounded-3xl border border-border/50 shadow-sm text-center hover:shadow-xl transition-shadow duration-300"
+                        className="bg-white p-8 rounded-3xl border border-border/50 shadow-sm text-center hover:shadow-xl transition-shadow duration-300 flex flex-col h-full"
                     >
-                        <div className="w-16 h-16 bg-blue-50 text-blue-500 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <div className="w-16 h-16 bg-blue-50 text-blue-500 rounded-2xl flex items-center justify-center mx-auto mb-6 shrink-0">
                             <Recycle size={32} />
                         </div>
-                        <h3 className="text-2xl font-heading font-black text-text-main mb-4">0,6 kg vải vụn / 1 m² panel</h3>
-                        <p className="text-text-muted font-body leading-relaxed">
-                            Trung bình mỗi 1 m² panel Seamphony sử dụng khoảng 0,6 kg vải vụn tiền tiêu dùng từ xưởng may – thay vì để vải đi thẳng vào lò đốt hoặc bãi rác.
+                        <h3 className="text-2xl font-heading font-black text-text-main mb-4">Vòng 1 - Thu gom & Sản xuất</h3>
+                        <p className="text-text-muted font-body leading-relaxed grow">
+                            Ký "Thoả thuận đối tác tuần hoàn" với xưởng may. Seamphony hỗ trợ phân loại tại nguồn, đặt container thu gom. Nhà máy được miễn/giảm chi phí xử lý và nhận báo cáo ESG ghi nhận lượng vải được tái sinh.
                         </p>
                     </motion.div>
 
                     <motion.div
                         initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.1 }}
-                        className="bg-white p-8 rounded-3xl border border-border/50 shadow-sm text-center hover:shadow-xl transition-shadow duration-300"
+                        className="bg-white p-8 rounded-3xl border border-border/50 shadow-sm text-center hover:shadow-xl transition-shadow duration-300 flex flex-col h-full"
                     >
-                        <div className="w-16 h-16 bg-green-50 text-green-500 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <div className="w-16 h-16 bg-green-50 text-green-500 rounded-2xl flex items-center justify-center mx-auto mb-6 shrink-0">
                             <Leaf size={32} />
                         </div>
-                        <h3 className="text-2xl font-heading font-black text-text-main mb-4">≈ 2,16 tấn vải vụn/năm ở quy mô pilot</h3>
-                        <p className="text-text-muted font-body leading-relaxed">
-                            Ở mức 300 m² panel/tháng, xưởng pilot của Seamphony có thể tái chế khoảng 2,16 tấn vải vụn mỗi năm, đồng thời tạo ra hàng trăm mét vuông bề mặt tiêu âm cho café, homestay, văn phòng, studio.
+                        <h3 className="text-2xl font-heading font-black text-text-main mb-4">Vòng 2 - Sản xuất & Thị trường</h3>
+                        <p className="text-text-muted font-body leading-relaxed grow">
+                            Từ vải vụn tiền tiêu dùng, tạo ra panel tiêu âm thiết kế đẹp, cá nhân hóa theo không gian. Phân phối linh hoạt: bán dưới dạng tấm chuẩn (B2B/B2C) hoặc gói "khảo sát âm học + thiết kế + thi công" trọn gói.
                         </p>
                     </motion.div>
 
                     <motion.div
                         initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ delay: 0.2 }}
-                        className="bg-white p-8 rounded-3xl border border-border/50 shadow-sm text-center hover:shadow-xl transition-shadow duration-300"
+                        className="bg-white p-8 rounded-3xl border border-border/50 shadow-sm text-center hover:shadow-xl transition-shadow duration-300 flex flex-col h-full"
                     >
-                        <div className="w-16 h-16 bg-orange-50 text-orange-500 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <div className="w-16 h-16 bg-orange-50 text-orange-500 rounded-2xl flex items-center justify-center mx-auto mb-6 shrink-0">
                             <Globe size={32} />
                         </div>
-                        <h3 className="text-2xl font-heading font-black text-text-main mb-4">Hàng chục tấn/năm khi mở rộng micro-hub</h3>
-                        <p className="text-text-muted font-body leading-relaxed">
-                            Khi nhân rộng mô hình thành 2–3 "micro-hub tuần hoàn" tại các cụm dệt may – dịch vụ khác, tổng khối lượng vải vụn được tái chế mỗi năm có thể đạt tới hàng chục tấn.
+                        <h3 className="text-2xl font-heading font-black text-text-main mb-4">Vòng 3 - Khách hàng & ESG</h3>
+                        <p className="text-text-muted font-body leading-relaxed grow">
+                            Mỗi công trình nhận "Chứng nhận không gian tuần hoàn" ghi rõ: m² panel, kg vải vụn được cứu khỏi lò đốt, kg CO₂ tránh phát thải. Tài sản truyền thông ESG thực sự, biến khách hàng thành đại sứ tuần hoàn.
                         </p>
                     </motion.div>
                 </div>
