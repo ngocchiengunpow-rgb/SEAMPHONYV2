@@ -80,11 +80,11 @@ export default function Hero() {
                             Cho Nhà Thầu / Chủ Quán
                         </a>
                         <a 
-                            href="/Ho_so_du_an_Seamphony.pdf" 
-                            download
-                            className="px-6 py-4 bg-white/50 backdrop-blur-md border border-primary-cta/30 text-primary-cta font-heading font-bold text-base md:text-lg rounded-full hover:bg-primary-cta/5 transition-all duration-300 shadow-sm hover:shadow hover:-translate-y-0.5"
+                            href="#" 
+                            onClick={(e) => e.preventDefault()}
+                            className="px-6 py-4 bg-white/30 backdrop-blur-md border border-border text-text-muted font-heading font-bold text-base md:text-lg rounded-full cursor-not-allowed opacity-60 transition-all duration-300 shadow-sm"
                         >
-                            Cho Ban Giám Khảo (Hồ Sơ)
+                            Hồ Sơ Dự Án (Đang cập nhật)
                         </a>
                         <a 
                             href="#" 
@@ -117,7 +117,8 @@ export default function Hero() {
                                 <div className="relative aspect-video w-full bg-black rounded-3xl border border-white/20 shadow-2xl overflow-hidden transform transition-all duration-700 hover:scale-[1.02] z-10 group/vid">
                                     {!isPlaying ? (
                                         <div 
-                                            className="absolute inset-0 flex items-center justify-center bg-neutral-900/40 backdrop-blur-[2px] z-20 group/play cursor-not-allowed"
+                                            onClick={() => setIsPlaying(true)}
+                                            className="absolute inset-0 flex items-center justify-center bg-neutral-900/40 backdrop-blur-[2px] z-20 group/play cursor-pointer"
                                         >
                                             {/* Play CTA Button */}
                                             <div className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center rounded-full bg-white/10 text-white backdrop-blur-md shadow-2xl border border-white/20 group-hover/play:bg-primary-cta transition-colors duration-300">
@@ -125,13 +126,13 @@ export default function Hero() {
                                             </div>
                                             {/* Click to Play Hint */}
                                             <div className="absolute bottom-10 left-0 right-0 text-center text-white font-heading font-bold text-sm tracking-widest uppercase opacity-0 group-hover/play:opacity-100 transition-opacity duration-500">
-                                                Video Đang Cập Nhật
+                                                Xem Video Giới Thiệu
                                             </div>
                                         </div>
                                     ) : (
                                         <iframe
                                             className="w-full h-full"
-                                            src="https://www.youtube.com/embed/NjwceX8d06U?autoplay=1&controls=1&rel=0&modestbranding=1"
+                                            src="https://www.youtube.com/embed/AqSJK6cD5RQ?autoplay=1&controls=1&rel=0&modestbranding=1"
                                             title="SEAMPHONY Introduction Video"
                                             frameBorder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

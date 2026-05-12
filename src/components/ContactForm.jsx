@@ -6,7 +6,7 @@ export default function ContactForm() {
     return (
         <section id="contact" className="py-16 lg:py-24 bg-white relative">
             <div className="max-w-6xl mx-auto px-6 lg:px-12 flex flex-col lg:flex-row gap-16 items-center">
-                
+
                 <div className="lg:w-5/12 w-full text-left">
                     <motion.h2
                         initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.6 }}
@@ -31,7 +31,7 @@ export default function ContactForm() {
                                 <a href="mailto:chien103391@st.vimaru.edu.vn" className="text-base md:text-lg font-heading font-bold text-text-main hover:text-primary-cta transition-colors break-all">chien103391@st.vimaru.edu.vn</a>
                             </div>
                         </motion.div>
-                        
+
                         <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, margin: "-50px" }} transition={{ delay: 0.3 }} className="flex items-center gap-4">
                             <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center text-accent shrink-0">
                                 <Phone size={20} />
@@ -48,7 +48,7 @@ export default function ContactForm() {
                             </div>
                             <div>
                                 <p className="text-sm text-text-muted font-bold uppercase tracking-wider">Hồ sơ dự án</p>
-                                <a href="/Ho_so_du_an_Seamphony.pdf" download className="text-base md:text-lg font-heading font-bold text-text-main hover:text-green-600 transition-colors">Tải xuống file PDF</a>
+                                <span className="text-base md:text-lg font-heading font-bold text-text-muted/50 cursor-not-allowed">Đang cập nhật...</span>
                             </div>
                         </motion.div>
                     </div>
@@ -84,7 +84,7 @@ export default function ContactForm() {
                                 </select>
                                 <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-text-muted">
                                     <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                                        <path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
                                 </div>
                             </div>
